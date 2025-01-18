@@ -1,0 +1,1082 @@
+{
+    "general": { 
+        "categories": {
+            "consumables": "Расходуемые",
+            "attributes": "Атрибуты",
+            "armaments": "Вооружение",
+            "arcane": "Мистика",
+            "common": "Общее",
+            "support": "Поддержка",
+            "caster": "Магия",
+            "weapons": "Оружие",
+            "armor": "Броня",
+            "artifact": "Артефакты",
+            "secret": "Потайная лавка"
+        },
+        "filter": {
+            "no_results": "По текущему запросу ничего не найдено.",
+            "hightlight_rel": "Подсветка родственников",
+            "search_placeholder": "Поиск предметов...",
+            "reset_button_title": "Сбросить все фильтры"
+    },
+        "itemtree": {
+            "name": "Древо сборки",
+            "no_recipe": "Не используется в рецептах"
+        },
+        "item": {
+            "description": "Описание",
+            "shareable": {
+                "full": "Полностью передаваемые",
+                "partial": "Частично передаваемые"
+            },
+            "abilities": {
+                "active": "Активная",
+                "passive": "Пассивная",
+                "use": "Применение",
+                "cooldown": "Перезарядка",
+                "mana": "Мана"
+            },
+            "stats": {
+                "damage": "Урона"
+            },
+            "shops": {
+                "main_shop": "Домашняя лавка",
+                "side_shop": "Боковая лавка",
+                "side_shop_opt": "Боковая лавка (опционально)",
+                "secret_shop": "Потайная лавка",
+                "roshan": "Рошан",
+                "requiring_components": "Собирается из предметов, приобретаемых в",
+                "purchasable_at": "Приобретается в",
+                "aegis": "Нельзя приобрести. Выпадает из Рошана после первой и каждой последующей смерти.",
+                "cheese": "Нельзя приобрести. Выпадает из Рошана после третьей и каждой последующей смерти."
+            }
+        }
+    },
+    "items": {
+        "1": {
+            "lore": "The fabled dagger used by the fastest assassin ever to walk the lands.",
+            "description": "Применение на себя переместит вас в сторону фонтана вашей команды.\nесли использовать blink для скачка на дистанцию больше максимальной, его дальность сократится до 80% от максимальной.",
+            "abilities": {
+                "Blink": {
+                    "description": "Телепортирует к указанной точке на расстоянии до 1200 единиц. Если вы получите урон, то не сможете использовать blink dagger в течение 3 сек."
+                }
+            }
+        },
+        "2": {
+            "lore": "The damage of these small, concealable blades should not be underestimated.",
+            "description": ""
+        },
+        "3": {
+            "lore": "The classic weapon of choice for knights, this blade is sturdy and reliable for slaying enemies.",
+            "description": ""
+        },
+        "4": {
+            "lore": "A medium weave of metal chains.",
+            "description": ""
+        },
+        "5": {
+            "lore": "A sword that can cut through armor, it's a commonly chosen first weapon for budding swordsmen.",
+            "description": ""
+        },
+        "6": {
+            "lore": "The helmet of a legendary warrior who fell in battle.",
+            "description": ""
+        },
+        "7": {
+            "lore": "A rather typical spear that can sometimes pierce through an enemy's armor when used to attack.",
+            "description": "",
+            "abilities": {
+                "Pierce": {
+                    "description": "Дает шанс нанести дополнительный урон при каждой атаке."
+                }
+            }
+        },
+        "8": {
+            "lore": "A hammer forged of pure mithril.",
+            "description": ""
+        },
+        "9": {
+            "lore": "Thick metal plates that protect the entire upper body. Avoid dropping on feet.",
+            "description": ""
+        },
+        "10": {
+            "lore": "A basic staff that allows you to strike quickly.",
+            "description": ""
+        },
+        "11": {
+            "lore": "The axe of a fallen gnome, it allows you to effectively maneuver the forest.",
+            "description": "Можно носить только один экземпляр.",
+            "abilities": {
+                "Chop Tree/Ward": {
+                    "description": "Уничтожает выбранное дерево или вард. Дальность использования больше, если цель способности — вард."
+                },
+                "Quell": {
+                    "description": "Увеличивает урон от атак по юнитам, не являющимися героями, в зависимости от типа атаки владельца. Не увеличивает урон по рошану."
+                }
+            }
+        },
+        "12": {
+            "lore": "A glimmering ring that defends its bearer.",
+            "description": ""
+        },
+        "182": {
+            "lore": "One man's wine barrel bottom is another man's shield.",
+            "description": "Блокировка урона от нескольких источников не сочетается.",
+            "abilities": {
+                "Damage Block": {
+                    "description": "Дает шанс заблокировать урон в зависимости от типа атаки вашего героя."
+                }
+            }
+        },
+        "247": {
+            "lore": "Said to be a tear from the lunar goddess Selemene.",
+            "description": "Использование: поглощает moon shard и навсегда увеличивает скорость атаки на 60. Повторное использование невозможно.",
+            "abilities": {
+                "Shade Sight - увеличивает радиус обзора ночью на 250.": {
+                    "description": null
+                }
+            }
+        },
+        "13": {
+            "lore": "Studded leather gloves that add brute strength.",
+            "description": ""
+        },
+        "14": {
+            "lore": "Light boots made from spider skin that tingles your senses.",
+            "description": ""
+        },
+        "15": {
+            "lore": "A beautiful sapphire mantle worn by generations of queens.",
+            "description": ""
+        },
+        "16": {
+            "lore": "A seemingly ordinary branch, its ironlike qualities are bestowed upon the bearer.",
+            "description": ""
+        },
+        "17": {
+            "lore": "A valued accessory for improving vitality.",
+            "description": ""
+        },
+        "18": {
+            "lore": "A tensile fabric often used for its light weight and ease of movement.",
+            "description": ""
+        },
+        "19": {
+            "lore": "This robe corrupts the soul of the user, but provides wisdom in return.",
+            "description": ""
+        },
+        "20": {
+            "lore": "An elegant circlet designed for human princesses.",
+            "description": ""
+        },
+        "21": {
+            "lore": "You grow stronger just by holding it.",
+            "description": ""
+        },
+        "22": {
+            "lore": "A long blade imbued with time magic.",
+            "description": ""
+        },
+        "23": {
+            "lore": "A staff of magical powers passed down from the eldest mages.",
+            "description": ""
+        },
+        "24": {
+            "lore": "A mystical orb containing the essence of life.",
+            "description": ""
+        },
+        "25": {
+            "lore": "A pair of magical gloves that seems to render weapons weightless.",
+            "description": ""
+        },
+        "26": {
+            "lore": "A mask that drains the energy of those caught in its gaze.",
+            "description": "Morbid mask — уникальный модификатор атаки, он не будет сочетаться с другими уникальными модификаторами атаки.",
+            "abilities": {
+                "Lifesteal": {
+                    "description": "Дает владельцу вампиризм, который с каждой атакой восстанавливает его здоровье на часть нанесенного урона."
+                }
+            }
+        },
+        "27": {
+            "lore": "This ring is considered a good luck charm among the Gnomes.",
+            "description": "Можно передавать союзникам."
+        },
+        "28": {
+            "lore": "A mask commonly used by mages and warlocks for various rituals.",
+            "description": "Можно передавать союзникам."
+        },
+        "29": {
+            "lore": "Fleet footwear, increasing movement.",
+            "description": "Основные бонусы к скорости передвижения от нескольких пар ботинок не складываются."
+        },
+        "30": {
+            "lore": "Not one thrall creature of the depths,\nNor spirit bound in drowning's keep,\nNor Maelrawn the Tentacular,\nShall rest till seas, gem comes to sleep.",
+            "description": "Выпадает при смерти и не может быть уничтожен.\nне действует, пока находится у курьера.",
+            "abilities": {
+                "True Sight": {
+                    "description": "Дает носителю и его союзникам возможность видеть невидимых юнитов и варды в определенном радиусе."
+                }
+            }
+        },
+        "31": {
+            "lore": "A cloak made of a magical material that works to dispel any magic cast on it.",
+            "description": "Сочетается по закону убывающей полезности с другими источниками сопротивления магии."
+        },
+        "32": {
+            "lore": "A necklace that allows you to anticipate enemy attacks.",
+            "description": "Сочетается по закону убывающей полезности с другими источниками уклонения."
+        },
+        "33": {
+            "lore": "Made from the milk of a long lost Furbolg vendor, it restores the vitality of those who taste it.",
+            "description": "Использование: исчезает и мгновенно восстанавливает здоровье и ману.\nможно передавать союзникам."
+        },
+        "34": {
+            "lore": "A simple wand used to channel magic energies, it is favored by apprentice wizards and great warlocks alike.",
+            "description": "Дает заряды за использование заклинаний видимыми врагами в радиусе 1200 единиц.\nнекоторые способности и предметы не добавляют зарядов.",
+            "abilities": {
+                "Energy Charge": {
+                    "description": "Восстанавливает здоровье и ману в зависимости от количества имеющихся зарядов (максимум: 10). За каждое использование способности врагом, который видим и находится неподалеку, добавляется один заряд."
+                }
+            }
+        },
+        "36": {
+            "lore": "A simple wand used to channel magic energies, it is favored by apprentice wizards and great warlocks alike.",
+            "description": "Дает заряды за использование заклинаний видимыми врагами в радиусе 1200 единиц.\nнекоторые способности и предметы не добавляют зарядов.",
+            "abilities": {
+                "Energy Charge": {
+                    "description": "Восстанавливает здоровье и ману в зависимости от количества имеющихся зарядов (максимум: 17). За каждое использование способности врагом, который видим и находится неподалеку, добавляется один заряд."
+                }
+            }
+        },
+        "37": {
+            "lore": "Imbues the wielder with a ghostly presence, allowing them to evade physical damage.",
+            "description": "Использование town portal scroll или boots of travel не развеивает бесплотную форму.\nокончится, если вы станете невосприимчивы к заклинаниям, а также не подействует, если вы уже невосприимчивы к ним.\nобъединенное время перезарядки с ethereal blade.",
+            "abilities": {
+                "Ghost Form": {
+                    "description": "Придает бесплотную форму, в которой герой полностью защищен от физического урона, но получает на 40%% больше урона от заклинаний и теряет возможность атаковать."
+                }
+            }
+        },
+        "38": {
+            "lore": "Clear water that enhances the ability to meditate.",
+            "description": ""
+        },
+        "216": {
+            "lore": "The bittersweet flavors of Jidi Isle are irresistible to amphibians.",
+            "description": ""
+        },
+        "39": {
+            "lore": "A magical salve that can quickly mend even the deepest of wounds.",
+            "description": ""
+        },
+        "40": {
+            "lore": "",
+            "description": "Использование: делает всех невидимых героев поблизости видимыми и замедляет их.\nосыпает врагов пылью, которая предотвращает их уход в невидимость."
+        },
+        "41": {
+            "lore": "An old bottle that survived the ages, the contents placed inside become enchanted.",
+            "description": "Использование: теряет один заряд и постепенно восстанавливает цели здоровье и ману. Восстановление прекращается при получении урона. Пустую бутыль можно пополнить возле союзного фонтана. В ней также можете хранить руны для последующего использования. Спустя 2 минуты помещенная в бутыль руна задействуется сама. Если бутыль не полна, то несущий ее курьер передвигается на 30%% медленнее.\n\nчтобы использовать бутыль на союзном герое, удерживайте клавишу ctrl. Руны не передаются другим героям.\nможно передавать союзникам."
+        },
+        "42": {
+            "lore": "A form of half-sentient plant, often cultivated by apprentice wizards.",
+            "description": "Использование: устанавливает observer ward, невидимого стража, который дает обзор близлежащей местности. Действует 7 мин.\n\nчтобы передать один observer ward союзному герою, удерживайте клавишу ctrl."
+        },
+        "43": {
+            "lore": "A form of plant originally grown in the garden of a fearful king.",
+            "description": "Использование: устанавливает sentry ward, невидимого стража, который имеет способность true sight, раскрывающую невидимых юнитов в близлежащей местности. Действует 4 мин.\n\nчтобы передать один sentry ward союзному герою, удерживайте клавишу ctrl."
+        },
+        "44": {
+            "lore": "Forage to survive on the battlefield.",
+            "description": "Использование: съедает дерево или вард, постепенно восстанавливая здоровье.\n\nможно использовать 4 раза. Используйте на союзном герое, чтобы дать ему один tango."
+        },
+        "45": {
+            "lore": "Losing the courier is punishable by death.",
+            "description": "",
+            "abilities": {
+                "Deploy Courier": {
+                    "description": "Создает существо, которое переносит вещи на вашу базу и обратно."
+                }
+            }
+        },
+        "46": {
+            "lore": "",
+            "description": "Использование: телепортирует вас к выбранной союзной постройке. Двойное нажатие телепортирует вас к фонтану вашей команды.\nесли несколько героев будут телепортироваться в одно место, то длительность телепортации будет возрастать для каждого следующего героя."
+        },
+        "48": {
+            "lore": "Winged boots that grant omnipresence.",
+            "description": "Основные бонусы к скорости передвижения от нескольких пар ботинок не складываются.\nобъединенное время перезарядки с town portal scroll.",
+            "abilities": {
+                "Teleport": {
+                    "description": "Телепортирует вас к дружественному сооружению или юниту, включая героев. Двойное нажатие телепортирует вас к фонтану вашей команды."
+                }
+            }
+        },
+        "50": {
+            "lore": "Boots that allow the wearer to travel between the ether.",
+            "description": "Основные бонусы к скорости передвижения от нескольких пар ботинок не складываются.",
+            "abilities": {
+                "Phase": {
+                    "description": "Увеличивает скорость передвижения и позволяет проходить сквозь юнитов. Сила эффекта зависит от типа атаки владельца. Эффект снимается преждевременно, если будет использован другой предмет или способность."
+                }
+            }
+        },
+        "51": {
+            "lore": "One of the oldest weapons forged by the Demon-Smith Abzidian, it killed its maker when he tested its edge.",
+            "description": ""
+        },
+        "52": {
+            "lore": "Capturing the majestic call of an eagle, this mystical horn brings limitless dexterity to those who hear it.",
+            "description": ""
+        },
+        "53": {
+            "lore": "A massive axe capable of tearing whole mountains down.",
+            "description": ""
+        },
+        "54": {
+            "lore": "An ancient weapon that often turns the tides of war.",
+            "description": ""
+        },
+        "55": {
+            "lore": "A mystical, carved stone that boosts the fervor of the holder.",
+            "description": ""
+        },
+        "56": {
+            "lore": "A shiny ring found beneath a fat halfling's corpse.",
+            "description": "Можно передавать союзникам."
+        },
+        "57": {
+            "lore": "Jewelry that was once used to channel nether realm magic, this ring pulses with energy.",
+            "description": "Можно передавать союзникам."
+        },
+        "58": {
+            "lore": "Enigmatic staff made of only the most expensive crystals.",
+            "description": ""
+        },
+        "59": {
+            "lore": "This lapis gemstone is commonly added to the collection of wizards seeking to improve their presence in combat.",
+            "description": ""
+        },
+        "60": {
+            "lore": "A perfectly formed amethyst that nourishes body and mind when held.",
+            "description": ""
+        },
+        "61": {
+            "lore": "A ruby gemstone that has been passed down through generations of warrior kin.",
+            "description": ""
+        },
+        "63": {
+            "lore": "A pair of tough-skinned boots that change to meet the demands of the wearer.",
+            "description": "Power treads могут быть собраны с помощью belt of strength, band of elvenskin или robe of the magi. Основные бонусы к скорости передвижения от нескольких пар ботинок не складываются. Бонусы к скорости атаки от нескольких power treads не складываются.",
+            "abilities": {
+                "Switch Attribute": {
+                    "description": "Меняет значение выбранного параметра между силой, ловкостью и интеллектом."
+                }
+            }
+        },
+        "65": {
+            "lore": "Preserved through unknown magical means, the Hand of Midas is a weapon of greed, sacrificing animals to line the owner's pockets.",
+            "description": "Получаемое золото идет в надежный запас (при этом за убийство крипа стандартная награда не дается).\nопыт от превращения не делится с другими героями.",
+            "abilities": {
+                "Transmute": {
+                    "description": "Мгновенно убивает цель (не героя), давая 190 золота и в 2.5 раза больше опыта. Невозможно использовать на древних крипах."
+                }
+            }
+        },
+        "67": {
+            "lore": "Deceptively hidden as an ordinary quarterstaff, it is actually very powerful, much like the Eldritch who originally possessed it.",
+            "description": ""
+        },
+        "69": {
+            "lore": "A gem that grants heart to the bearer.",
+            "description": "Можно передавать союзникам."
+        },
+        "71": {
+            "lore": "A busted old shield that seems to block more than it should.",
+            "description": "Блокировка урона от нескольких источников не сочетается.",
+            "abilities": {
+                "Damage Block": {
+                    "description": "Блокирует некоторое количество урона, наносимого физической атакой, в зависимости от типа атаки вашего героя. Poor man's shield всегда будет блокировать урон, наносимый вражескими героями, но урон от крипов блокируется с вероятностью в 53%%."
+                }
+            }
+        },
+        "73": {
+            "lore": "The bracer is a common choice to toughen up defenses and increase longevity.",
+            "description": ""
+        },
+        "75": {
+            "lore": "A circlet with faint whispers echoing about it.",
+            "description": ""
+        },
+        "77": {
+            "lore": "A small gemstone attached to several chains.",
+            "description": ""
+        },
+        "79": {
+            "lore": "A glowing jewel formed out of assorted parts that somehow fit together perfectly.",
+            "description": "Эффекты от нескольких mekansm aura не складываются.\nэффект не распространяется на союзников, которые уже получали его в течение последних 25 секунд.",
+            "abilities": {
+                "Restore": {
+                    "description": "Восстанавливает 250 здоровья и дает +2 брони в радиусе 900 вокруг владельца."
+                },
+                "Mekansm Aura": {
+                    "description": "Увеличивает скорость восстановления здоровья на 4 у союзников в радиусе 900 вокруг владельца."
+                }
+            }
+        },
+        "81": {
+            "lore": "An eerie mask that is haunted with the malice of a fallen vampire.",
+            "description": "Эффекты от нескольких vladmir's aura не складываются.\nне сочетается с аурами ring of basilius, ring of aquila или vladmir's offering.",
+            "abilities": {
+                "Vladmir's Aura": {
+                    "description": "Дает эффект вампиризма, дополнительный урон и броню, а также усиливает восстановление здоровья и маны у всех союзников в радиусе 900. Эффект вампиризма vladmir's aura зависит от типа атаки героя."
+                }
+            }
+        },
+        "84": {
+            "lore": "",
+            "description": "Улучшает вашего обычного курьера до летающего, позволяя ему пролетать над препятствиями и ускоряться, чтобы быстрее переносить ваши предметы.\n\nтребуется обычный курьер."
+        },
+        "86": {
+            "lore": "A powerful shield that imbues the bearer with the strength of heroes past, it is capable of protecting entire armies in battle.",
+            "description": "",
+            "abilities": {
+                "Armor Bonus": {
+                    "description": "Дает +2 к броне всем союзникам в радиусе 900. Действует 25 секунд на героях, 30 секунд на юнитах."
+                }
+            }
+        },
+        "88": {
+            "lore": "Ring given as a reward to the greatest mages.",
+            "description": "Эффекты от нескольких basilius aura не складываются.\nне сочетается с аурами ring of basilius, ring of aquila или vladmir's offering.",
+            "abilities": {
+                "Basilius Aura": {
+                    "description": "Увеличивает скорость регенерации маны и броню в радиусе 900."
+                },
+                "переключает действие ауры на юнитов, не являющихся героями.": {
+                    "description": null
+                }
+            }
+        },
+        "90": {
+            "lore": "A powerful artifact of mysterious origin, it creates barriers against magical forces.",
+            "description": "Эффект не распространяется на союзников, которые уже получали его в течение последних 50 секунд.\nсочетается по закону убывающей полезности с другими источниками сопротивления магии.",
+            "abilities": {
+                "Barrier": {
+                    "description": "Создает на себе и союзниках, находящихся в радиусе 900, магический барьер, блокирующий 400 магического урона."
+                },
+                "Insight Aura": {
+                    "description": "Увеличивает скорость восстановления здоровья на 4 у союзников в радиусе 900 вокруг владельца и увеличивает их сопротивление магии на 10%%."
+                }
+            }
+        },
+        "92": {
+            "lore": "Contains the ashes of powerful demons.",
+            "description": "Получает заряды каждый раз, когда вражеский герой умирает в радиусе 1400. Заряд получит только артефакт, ближайший к умирающему герою.\nпустая урна получает 2 заряда.\nиспользование этой способности на противнике, который уже находится под ее действием, обновит длительность ее действия.",
+            "abilities": {
+                "Soul Release": {
+                    "description": "Постепенно восстанавливает здоровье дружественным юнитам, либо наносит постепенный урон вражеским юнитам. Лечебный эффект утрачивается при получении юнитом урона от вражеского героя или башни."
+                }
+            }
+        },
+        "94": {
+            "lore": "Creates a soothing aura that restores allies in battle.",
+            "description": "Эффект нескольких одинаковых аур не складывается.",
+            "abilities": {
+                "Regeneration Aura": {
+                    "description": "Постепенно восстанавливает здоровье всем союзникам в радиусе 900."
+                }
+            }
+        },
+        "96": {
+            "lore": "The most guarded relic among the cult of Vyse, it is the most coveted weapon among magi.",
+            "description": "Основная скорость перемещения цели упадет до 140, но увеличивающие ее бонусы не пропадут.",
+            "abilities": {
+                "Hex": {
+                    "description": "Превращает цель в безобидную зверушку на 3.5 сек. Мгновенно уничтожает иллюзии."
+                }
+            }
+        },
+        "98": {
+            "lore": "A garnet rod constructed from the essence of a fire demon.",
+            "description": "Усиленный урон будет нанесен в конце действия способности в виде магического урона.",
+            "abilities": {
+                "Soul Burn": {
+                    "description": "Запрещает выбранной цели колдовать на 5 секунд и увеличивает наносимый ей урон на 30%%."
+                }
+            }
+        },
+        "100": {
+            "lore": "A mysterious scepter passed down through the ages, its disruptive winds can be used for good or evil.",
+            "description": "Вы не можете поднимать союзников в воздух.\nиспользование предмета на себя проходит сквозь невосприимчивость к заклинаниям.\ncyclone может снимать некоторые положительные и отрицательные эффекты.",
+            "abilities": {
+                "Cyclone": {
+                    "description": "Подбрасывает выбранную цель ураганом в небо, делая ее неуязвимой на 2.5 сек. Можно использовать на себя. Если цель — враг, то по приземлении он получит 50 магического урона."
+                }
+            }
+        },
+        "102": {
+            "lore": "Allows you to manipulate others, for good or evil.",
+            "description": "Применение на себя толкнет вас в направлении вашего взгляда.\nforce staff не прерывает действия цели.\nне действует на юнитов под воздействием способности chronosphere, duel или black hole.",
+            "abilities": {
+                "Force": {
+                    "description": "Толкает любой выбранный юнит на расстояние в 600 в направлении его взгляда. При двойном нажатии мгновенно применяется на самого себя."
+                }
+            }
+        },
+        "204": {
+            "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
+            "description": "",
+            "abilities": {
+                "Energy Burst": {
+                    "description": "Выпускает мощный всплеск энергии, наносящий урон выбранному вражескому юниту."
+                }
+            }
+        },
+        "194": {
+            "lore": "Considered the ultimate in necromancy and demonology, a powerful malefic force is locked within its pages.",
+            "description": "",
+            "abilities": {
+                "Demonic Summoning": {
+                    "description": "Призывает на 40 сек. Воина и лучника, сила и ловкость которых увеличиваются вместе с уровнем necronomicon. Воин третьего уровня способен раскрывать невидимых юнитов."
+                }
+            }
+        },
+        "108": {
+            "lore": "The scepter of a wizard with demigod-like powers.",
+            "description": "",
+            "abilities": {
+                "Ultimate Upgrade": {
+                    "description": "Улучшает ульт, а также некоторые способности части героев."
+                }
+            }
+        },
+        "110": {
+            "lore": "A powerful artifact created for wizards.",
+            "description": "",
+            "abilities": {
+                "Reset Cooldowns": {
+                    "description": "Сбрасывает время перезарядки всех ваших предметов и способностей."
+                }
+            }
+        },
+        "112": {
+            "lore": "Forged in the depths of the nether reaches, this hellish mail provides an army with increased armor and attack speed.",
+            "description": "Эффект от нескольких assault of aura не складывается.",
+            "abilities": {
+                "Assault Aura": {
+                    "description": "Увеличивает скорость атаки и броню союзникам, при этом снижая броню вражеским юнитам поблизости."
+                }
+            }
+        },
+        "114": {
+            "lore": "Preserved heart of an extinct monster, it bolsters the bearer's fortitude.",
+            "description": "",
+            "abilities": {
+                "Health Regeneration": {
+                    "description": "Восстанавливает определенный процент максимального здоровья в секунду. Если владелец получит урон от вражеского героя или рошана, способность отключается на 5 сек. Для героев ближнего боя, или на 7 сек. Для героев дальнего боя."
+                }
+            }
+        },
+        "116": {
+            "lore": "A powerful staff imbued with the strength of giants.",
+            "description": "Покупка другого black king bar не обновит время его действия.\nиспользование артефакта black king bar снимает некоторые положительные эффекты.",
+            "abilities": {
+                "Avatar": {
+                    "description": "Дает невосприимчивость к заклинаниям и полное сопротивление магическому урону. Продолжительность и время перезарядки уменьшаются с каждым использованием. Некоторые способности могут проходить сквозь невосприимчивость к заклинаниям."
+                }
+            }
+        },
+        "117": {
+            "lore": "The Immortal was said to own a shield that protected him from death itself.",
+            "description": "",
+            "abilities": {
+                "Reincarnation": {
+                    "description": "Возвращает вас к жизни с полными здоровьем и маной через 5 секунд после вашей смерти на том же месте, где вы погибли. Должно быть использовано в течение 5 минут, иначе aegis of the immortal исчезнет. Если это случилось, то оно полностью излечит вас в течение 5 секунд (эффект спадает при получении урона)."
+                }
+            }
+        },
+        "119": {
+            "lore": "Said to have belonged to a goddess, today it retains much of its former power.",
+            "description": "Эффекты от нескольких freezing aura не складываются.\nволна распространяется со скоростью в 350 единиц в секунду до максимального размера в 900 единиц.\nзамораживающая волна следует за владельцем артефакта.",
+            "abilities": {
+                "Arctic Blast": {
+                    "description": "Выпускает замораживающую волну, которая наносит 200 урона противникам и снижает их скорость передвижения на -40%% на 4 сек."
+                },
+                "Freezing Aura": {
+                    "description": "Снижает скорость атаки противников в радиусе 900."
+                }
+            }
+        },
+        "121": {
+            "lore": "The Bloodstone's bright ruby color is unmistakable on the battlefield, as the owner seems to have infinite vitality and spirit.",
+            "description": "Только первый bloodstone будет получать заряды.",
+            "abilities": {
+                "Pocket Deny": {
+                    "description": "Мгновенно убивает вас."
+                },
+                "Bloodpact": {
+                    "description": "Изначально имеет 8 зарядов и получает 1 дополнительный заряд каждый раз, когда в радиусе 1675 умирает вражеский герой. Каждый заряд увеличивает регенерацию маны на 1 и уменьшает время возрождения на 3 сек. Если владелец bloodstone умирает, предмет потеряет треть зарядов и восстановит 500 здоровья + 30 здоровья за каждый заряд всем союзникам в радиусе 1675."
+                }
+            }
+        },
+        "123": {
+            "lore": "This magical sphere once protected one of the most famous heroes in history.",
+            "description": "",
+            "abilities": {
+                "Spellblock": {
+                    "description": "Блокирует большинство направленных заклинаний каждые 16 сек."
+                },
+                "Transfer Spellblock": {
+                    "description": "Временно снимает пассивный эффект с носителя и передает его выбранному союзнику."
+                }
+            }
+        },
+        "226": {
+            "lore": "The jewel at its center still reflects a pale image of its creator.",
+            "description": "",
+            "abilities": {
+                "Echo Shell - создает вокруг цели щит, отражающий большинство направленных заклинаний обратно во врага. Вражеские заклинания всё равно будут наносить урон. При применении рассеивает все негативные эффекты.": {
+                    "description": null
+                }
+            }
+        },
+        "125": {
+            "lore": "A powerful shield that defends its wielder from even the most vicious of attacks.",
+            "description": "Блокировка урона от нескольких источников не сочетается.",
+            "abilities": {
+                "Damage Block": {
+                    "description": "Дает владельцу шанс отразить часть урона от каждой атаки в зависимости от типа атаки вашего героя."
+                }
+            }
+        },
+        "242": {
+            "lore": "A cuirass originally built to protect against the dreaded Year Beast.",
+            "description": "Блокировка урона от нескольких источников не сочетается.\nэффект не распространяется на союзников, которые уже получали его в течение последних 70 секунд.",
+            "abilities": {
+                "Guard": {
+                    "description": "Дает героям поблизости 2 брони и 100%% шанс заблокировать 55 урона от каждой атаки. Длится 10 секунд."
+                },
+                "Damage Block": {
+                    "description": "Дает носителю шанс заблокировать урон от каждой атаки, зависящий от типа атаки владельца."
+                }
+            }
+        },
+        "127": {
+            "lore": "A razor-sharp coat of mail, it is the choice of selfless martyrs in combat.",
+            "description": "Наносит уже просчитанный урон.\nне отражает урон от других blademail и схожих способностей.\nурон возвращается в чистом виде, но не проходит сквозь защиту от заклинаний.",
+            "abilities": {
+                "Damage Return": {
+                    "description": "Отражает любой получаемый урон наносящему его врагу в течение 4.5 сек."
+                }
+            }
+        },
+        "129": {
+            "lore": "Regain lost courage.",
+            "description": ""
+        },
+        "131": {
+            "lore": "A furred, magic resistant headpiece that is feared by wizards.",
+            "description": "Сочетается по закону убывающей полезности с другими источниками сопротивления магии."
+        },
+        "133": {
+            "lore": "So powerful, it cannot have a single owner.",
+            "description": "Выпадает при смерти. Если союзник подобрал этот артефакт, то он теряет свои свойства, пока его не вернут бывшему владельцу. Если его подберет враг, это правило отменяется, позволяя кому угодно получить бонусы от подобранной divine rapier. Курьер не может подобрать этот артефакт, если он выпал при смерти.\nесли divine rapier поднимет враг ее предыдущего владельца, то она выпадет только в случае смерти этого врага."
+        },
+        "135": {
+            "lore": "A powerful staff used by a master warrior.",
+            "description": "",
+            "abilities": {
+                "Mini-Bash": {
+                    "description": "Дает шанс нанести дополнительный урон и кратковременно оглушить цель при каждой атаке."
+                },
+                "True Strike": {
+                    "description": "Исключает шанс промаха при атаке, если только целью не является вражеская постройка."
+                }
+            }
+        },
+        "137": {
+            "lore": "A divine weapon that causes damage and a bright burning effect that lays waste to nearby enemies.",
+            "description": "",
+            "abilities": {
+                "Toggle Burn": {
+                    "description": "Когда включено, каждую секунду наносит 50 урона противникам и ослепляет их, вынуждая промахиваться в 17%% случаев."
+                }
+            }
+        },
+        "139": {
+            "lore": "Only the mightiest and most experienced of warriors can wield the Butterfly, but it provides incredible dexterity in combat.",
+            "description": "Сочетается по закону убывающей полезности с другими источниками уклонения.",
+            "abilities": {
+                "Flutter": {
+                    "description": "Обменивает шанс уклонения на 25%% дополнительной скорости в течение 6 секунд."
+                }
+            }
+        },
+        "141": {
+            "lore": "A weapon of incredible power that is difficult for even the strongest of warriors to control.",
+            "description": "",
+            "abilities": {
+                "Critical Strike": {
+                    "description": "Дает шанс нанести дополнительный урон при каждой атаке. Строениям дополнительный урон не наносится."
+                }
+            }
+        },
+        "143": {
+            "lore": "A feared weapon in the right hands, this maul's ability to shatter the defenses of its opponents should not be underestimated.",
+            "description": "Не сочетается с другими источниками оглушения, кроме мини-оглушения (например, от monkey king bar).\nу spirit breaker, faceless void, slardar и troll warlord не будет срабатывать bash.",
+            "abilities": {
+                "Bash": {
+                    "description": "Дает каждой атаке шанс оглушить цель на 1.4 сек. И нанести 60 дополнительного урона; шанс зависит от типа атаки владельца."
+                }
+            }
+        },
+        "145": {
+            "lore": "The bearer of this mighty axe gains the ability to cut down swaths of enemies at once.",
+            "description": "Урон неосновным целям снижается типом брони, но не ее значением.\nурон неосновным целям проходит через иммунитет к заклинаниям.\nкаждый предмет или способность, дарующий прорубающую атаку, наносит урон отдельно друг от друга.",
+            "abilities": {
+                "Chop Tree/Ward": {
+                    "description": "Уничтожает выбранное дерево или вард. Дальность использования больше, если цель способности — вард."
+                },
+                "Quell": {
+                    "description": "Увеличивает урон от атак по юнитам, не являющимися героями, в зависимости от типа атаки владельца. Не увеличивает урон по рошану."
+                },
+                "Cleave": {
+                    "description": "Наносит процент от урона всем врагам в радиусе 280 единиц вокруг цели атаки. Не работает на героях с дальней атакой."
+                }
+            }
+        },
+        "147": {
+            "lore": "An axe made of reflective materials that causes confusion amongst enemy ranks.",
+            "description": "Иллюзии героев ближнего боя наносят 33%% урона и получают 350%% урона, а иллюзии героев дальнего боя наносят 28%% урона и получают 400%% урона.\n\nбонусы к скорости передвижения от нескольких предметов на основе yasha не складываются.\nтратит 0,1 секунды на произношение заклинания, во время которого вы неуязвимы.\nиспользование снимает многие эффекты.",
+            "abilities": {
+                "Mirror Image": {
+                    "description": "Создает 2 зеркальные копии вашего героя, которые существуют 20 сек. Время перезарядки способности зависит от типа атаки владельца: 30 сек. Для героев ближнего боя и 45 сек. Для героев дальнего боя."
+                }
+            }
+        },
+        "149": {
+            "lore": "A blade forged from rare crystals, it seeks weak points in enemy armor.",
+            "description": "",
+            "abilities": {
+                "Critical Strike": {
+                    "description": "Дает шанс нанести дополнительный урон при каждой атаке. Строениям дополнительный урон не наносится."
+                }
+            }
+        },
+        "151": {
+            "lore": "Weapon of choice among brutes, the bearer sacrifices his life energy to gain immense strength and power.",
+            "description": "Изменение силы действует и на текущий, и на максимальный уровень здоровья, но от него нельзя умереть.\nизменение силы происходит спустя 0,6 секунды.\nвключение и выключение unholy strength не прерывает чтение заклинаний.",
+            "abilities": {
+                "Unholy Strength": {
+                    "description": "На время действия увеличивает урон на 31 и силу на 25, но отнимает 40 здоровья в секунду. Вы не можете умереть ни от потери здоровья во время действия способности, ни от спада бонуса к силе после ее отключения."
+                }
+            }
+        },
+        "152": {
+            "lore": "The blade of a fallen king, it allows you to move unseen and strike from the shadows.",
+            "description": "Уход в невидимость занимает 0,3 секунды.\nесли невидимость кончится без атаки, дополнительный урон будет потерян.",
+            "abilities": {
+                "Shadow Walk": {
+                    "description": "Делает вас невидимым на время действия или до момента вашей атаки или использования заклинания. Пока shadow walk активна, вы движетесь на 20%% быстрее и можете проходить сквозь юнитов. Атака, раскрывающая невидимость, нанесет 175 дополнительного урона. Длится 14 секунд."
+                }
+            }
+        },
+        "249": {
+            "lore": "Once used to slay an unjust king, only to have the kingdom erupt into civil war in the aftermath.",
+            "description": "",
+            "abilities": {
+                "Shadow Walk": {
+                    "description": "Делает вас невидимым на время действия или до момента вашей атаки или использования заклинания. Пока shadow walk активна, вы движетесь на 20%% быстрее и можете проходить сквозь юнитов. Атака, раскрывающая невидимость, нанесет 225 дополнительного урона, отключит пассивные способности цели и уменьшит весь наносимый ею урон."
+                },
+                "Lesser Maim": {
+                    "description": "Каждая атака получает шанс нанести травму, уменьшающую скорость передвижения и атаки врага на 4 сек."
+                }
+            }
+        },
+        "154": {
+            "lore": "Sange and Yasha, when attuned by the moonlight and used together, become a very powerful combination.",
+            "description": "Процентная прибавка к скорости передвижения от нескольких предметов на основе yasha не суммируется.",
+            "abilities": {
+                "Greater Maim": {
+                    "description": "Каждая атака получает шанс нанести травму, уменьшающую скорость передвижения и атаки врага на 5 сек."
+                }
+            }
+        },
+        "156": {
+            "lore": "Immense power at the cost of your soul.",
+            "description": "Satanic — уникальный модификатор атаки, он не будет сочетаться с другими уникальными модификаторами атаки.",
+            "abilities": {
+                "Unholy Rage": {
+                    "description": "Увеличивает эффект lifesteal до 200%% на 4 сек."
+                },
+                "Lifesteal": {
+                    "description": "Дает владельцу вампиризм, который с каждой атакой восстанавливает его здоровье на часть нанесенного урона."
+                }
+            }
+        },
+        "158": {
+            "lore": "Thor's magical hammer, made for him by the dwarves Brok and Eitri.",
+            "description": "Mjollnir — уникальный модификатор атаки, который сочетается с другими уникальными модификаторами атаки, но будет перекрывать их в момент срабатывания молнии.\nсрабатывает не чаще, чем раз в секунду.\nмолния от способности static charge наносит магический урон целям вокруг героя, на котором находится щит. Расстояние до целей не может превышать 900 единиц.\nмолнии static charge не будут срабатывать на невидимых или скрытых в тумане войны героев.",
+            "abilities": {
+                "Static Charge": {
+                    "description": "Устанавливает на выбранном юните заряженный щит, который имеет шанс в 20%% ударить разрядом атакующего врага и 4 других."
+                },
+                "Chain Lightning": {
+                    "description": "Дает шанс при атаке создать разряд цепной молнии, которая скакнет по 12 целям и нанесет каждой по 150 магического урона."
+                }
+            }
+        },
+        "160": {
+            "lore": "Extremely rare artifact, guarded by the azure dragons.",
+            "description": "Eye of skadi — уникальный модификатор атаки, он не будет сочетаться с другими уникальными модификаторами атаки. Eye of skadi сочетается с модификаторами атаки, дарующими вампиризм.\nдля героев ближнего боя длится 5 секунд, для героев дальнего боя — 3 секунды.",
+            "abilities": {
+                "Cold Attack": {
+                    "description": "Каждая атака замедляет скорость передвижения и атаки цели. Длительность эффекта зависит от типа атаки владельца."
+                }
+            }
+        },
+        "162": {
+            "lore": "Sange is an unusually accurate weapon, seeking weak points automatically.",
+            "description": "",
+            "abilities": {
+                "Lesser Maim": {
+                    "description": "Каждая атака получает шанс нанести травму, уменьшающую скорость передвижения и атаки врага на 4 сек."
+                }
+            }
+        },
+        "164": {
+            "lore": "The powerful headpiece of a dead necromancer.",
+            "description": "Helm of the dominator — уникальный модификатор атаки, он не будет сочетаться с другими уникальными модификаторами атаки.\nможно иметь только одно прирученное существо. Если будет приручено новое существо, старое умрет.\nпродажа или улучшение helm of the dominator убьет прирученных юнитов.",
+            "abilities": {
+                "Dominate": {
+                    "description": "Дает контроль над выбранным существом, не являющимся ни героем, ни древним крипом. Запас здоровья прирученного существа увеличивается до указанного минимума."
+                },
+                "Lifesteal": {
+                    "description": "Дает владельцу вампиризм, который с каждой атакой восстанавливает его здоровье на часть нанесенного урона."
+                }
+            }
+        },
+        "166": {
+            "lore": "A hammer forged for the gods themselves, Maelstrom allows its user to harness the power of lightning.",
+            "description": "Maelstrom — уникальный модификатор атаки, который сочетается с другими уникальными модификаторами атаки, но будет перекрывать их в момент срабатывания молнии.",
+            "abilities": {
+                "Chain Lightning": {
+                    "description": "Дает шанс при атаке создать разряд цепной молнии, которая скакнет по 4 целям и нанесет каждой по 120 магического урона."
+                }
+            }
+        },
+        "168": {
+            "lore": "A wicked weapon, used in torturing political criminals.",
+            "description": "Desolator — уникальный модификатор атаки, он не будет сочетаться с другими уникальными модификаторами атаки.\nснижение брони действует на здания.",
+            "abilities": {
+                "Corruption": {
+                    "description": "Ваши атаки уменьшают броню цели на 15 секунд."
+                }
+            }
+        },
+        "170": {
+            "lore": "Yasha is regarded as the swiftest weapon ever created.",
+            "description": "Процентные бонусы к скорости от нескольких предметов на основе yasha не складываются."
+        },
+        "172": {
+            "lore": "Once this mask is worn, its bearer becomes an uncontrollable aggressive force.",
+            "description": "Mask of madness — уникальный модификатор атаки, он не будет сочетаться с другими уникальными модификаторами атаки.",
+            "abilities": {
+                "Berserk": {
+                    "description": "Дает 100 к скорости атаки и 17%% к скорости передвижения, но заставляет получать на 30%% больше урона. Длится 12 сек."
+                },
+                "Lifesteal": {
+                    "description": "Дает владельцу вампиризм, который с каждой атакой восстанавливает его здоровье на часть нанесенного урона."
+                }
+            }
+        },
+        "196": {
+            "lore": "An enchanted blade that allows the user to cut straight into the enemy's soul.",
+            "description": "",
+            "abilities": {
+                "Purge": {
+                    "description": "Снимает положительные эффекты и замедляет противника на 4 сек. Или снимает отрицательные эффекты с союзника."
+                },
+                "Manabreak": {
+                    "description": "Каждая ваша атака сжигает 25 маны врага и наносит ему такое же количество физического урона. Иллюзии героев дальнего боя сжигают по 12 маны за атаку. Не складывается с другими способностями, сжигающими ману."
+                }
+            }
+        },
+        "176": {
+            "lore": "A flickering blade of a ghastly nature, it is capable of dealing damage in both magical and physical planes.",
+            "description": "Использование town portal scroll или boots of travel не развеивает бесплотную форму.\nобъединенное время перезарядки с ghost scepter.\nпризрачные юниты получают на 40% больше магического урона.\nдлится на секунду больше на союзниках и на себе.",
+            "abilities": {
+                "Ether Blast": {
+                    "description": "Выпускает снаряд, который придает вашей цели бесплотную форму. В этой форме цель не может атаковать, получает повышенный магический урон, но полностью защищена от физического урона. При применении на противника тот будет замедлен и получит магический урон в размере 2х вашего основного атрибута +75 ед."
+                }
+            }
+        },
+        "178": {
+            "lore": "A ring that feeds on the souls of those who wear it.",
+            "description": "Если полученная мана превышает порог ее максимального количества, создается запас маны, не зависящий от основного. Если полученную ману не использовать за время действия артефакта, она исчезнет.",
+            "abilities": {
+                "Sacrifice": {
+                    "description": "Переводит 150 ед. Вашего здоровья в 150 ед. Маны. Действует 10 секунд."
+                }
+            }
+        },
+        "180": {
+            "lore": "Magi equipped with these boots are valued in battle.",
+            "description": "Основные бонусы к скорости передвижения от нескольких пар ботинок не складываются.\nне работает на клонах meepo.",
+            "abilities": {
+                "Replenish Mana": {
+                    "description": "Восстанавливает ману всем союзникам в радиусе 900 вокруг героя."
+                }
+            }
+        },
+        "235": {
+            "lore": "At the core of spellcraft are spectrums only the very gifted can sense.",
+            "description": "",
+            "abilities": {
+                "Cooldown Reduction - уменьшает время перезарядки всех способностей и предметов на 25%%.": {
+                    "description": null
+                },
+                "Spell Lifesteal - дает магический вампиризм, который восстанавливает здоровье в размере доли от нанесенного способностями урона.": {
+                    "description": null
+                }
+            }
+        },
+        "181": {
+            "lore": "Envenoms your veapon with the venom of a venomous viper.",
+            "description": "Orb of venom — уникальный модификатор атаки, он не будет сочетаться с другими уникальными модификаторами атаки. Orb of venom сочетается с модификаторами атаки, дарующими вампиризм.",
+            "abilities": {
+                "Poison Attack": {
+                    "description": "Отравляет цель, нанося периодический урон и снижая скорость передвижения в зависимости от типа атаки вашего героя."
+                }
+            }
+        },
+        "185": {
+            "lore": "A relic that enchants the bodies of those around it for swifter movement in times of crisis.",
+            "description": "Эффекты нескольких swiftness aura не складываются.\nпокупка рецепта drum of endurance восстановит его заряды.",
+            "abilities": {
+                "Endurance": {
+                    "description": "Дает +25 к скорости атаки и +10%% к скорости передвижения союзников в радиусе 900."
+                },
+                "Swiftness Aura": {
+                    "description": "Увеличивает скорость атаки и передвижения союзников в радиусе 900."
+                }
+            }
+        },
+        "187": {
+            "lore": "The bearer has no fear of combat.",
+            "description": "",
+            "abilities": {
+                "Valor": {
+                    "description": "При использовании на союзника увеличивает его броню и снижает вашу. При использовании на противника снижает броню и у вас, и у цели. Не действует на невосприимчивых к магии. Действует на roshan вполсилы."
+                }
+            }
+        },
+        "229": {
+            "lore": "A talisman forged to honor the daytime sky.",
+            "description": "",
+            "abilities": {
+                "Shine - временно убирает у владельца дополнительную броню и шанс уклонения, даруемые этим предметом. При использовании на союзнике увеличивает ему броню на 10 и дает шанс уклонения в 25%%. При использовании на противнике уменьшает его броню на 10 и ослепляет, заставляя его промахиваться атаками в 25%% случаев. Не действует на невосприимчивых к магии. Действует на Roshan вполсилы.": {
+                    "description": null
+                }
+            }
+        },
+        "188": {
+            "lore": "",
+            "description": "Использование: после активации ваш герой и все союзники, которые находятся поблизости, становятся невидимыми и получают дополнительную скорость передвижения на короткое время. Также ваши иконки не будут отображаться на мини-карте. При атаке или приближении к вражеским героям или башням в радиусе 1025 невидимость теряется."
+        },
+        "190": {
+            "lore": "The headwear of corrupt magi.",
+            "description": "",
+            "abilities": {
+                "Magic Weakness": {
+                    "description": "Ослабляет врагов, увеличивая магический урон, наносимый им, в течение 16 секунд."
+                }
+            }
+        },
+        "231": {
+            "lore": "One of many holy instruments constructed to honor the Omniscience.",
+            "description": "Аура усиливается только на героях.",
+            "abilities": {
+                "Mend - восстанавливает 250 здоровья и 160 маны всем окружающим союзникам, а также рассеивает большинство отрицательных эффектов на владельце.": {
+                    "description": null
+                },
+                "Guardian Aura - дарует окружающим союзникам +4 к восстановлению здоровья и +2 к броне. Если в радиусе действия есть союзный герой, уровень здоровья которого ниже 20%%, то для него восстановление здоровья увеличивается до 15, а броня": {
+                    "description": "До 15."
+                }
+            }
+        },
+        "206": {
+            "lore": "Atos, the Lord of Blight, has his essence stored in this deceptively simple wand.",
+            "description": "",
+            "abilities": {
+                "Cripple": {
+                    "description": "Снижает скорость передвижения цели."
+                }
+            }
+        },
+        "208": {
+            "lore": "The lost blade of the Commander of the Abyss, this edge cuts into an enemy's soul.",
+            "description": "Оглушение наносится на дистанции ближнего боя.\nне сочетается с другими оглушениями от ударов.\nу spirit breaker, faceless void, slardar и troll warlord не будет срабатывать bash.",
+            "abilities": {
+                "Overwhelm": {
+                    "description": "Оглушает выбранного противника на 2 сек. Проходит сквозь невосприимчивость к заклинаниям."
+                },
+                "Bash": {
+                    "description": "Дает каждой атаке шанс оглушить противника на 1.4 сек. И нанести 60 дополнительного урона; шанс зависит от типа атаки владельца."
+                }
+            }
+        },
+        "210": {
+            "lore": "This halberd moves with the speed of a smaller weapon, allowing the bearer to win duels that a heavy edge would not.",
+            "description": "Сочетается по закону убывающей полезности с другими источниками уклонения.\nразоружение снимается только невосприимчивостью к заклинаниям.",
+            "abilities": {
+                "Disarm": {
+                    "description": "Запрещает цели атаковать. Длится 3 сек. При использовании на героях ближнего боя и 4.5 на героях дальнего боя."
+                },
+                "Lesser Maim": {
+                    "description": "Каждая атака получает шанс нанести травму, уменьшающую скорость передвижения и атаки врага на  4 сек."
+                }
+            }
+        },
+        "212": {
+            "lore": "The ring of the fallen Warlord Aquila continues to support armies in battle.",
+            "description": "Эффекты от нескольких aquila aura не складываются.\nне сочетается с аурами ring of basilius, ring of aquila или vladmir's offering.",
+            "abilities": {
+                "Aquila Aura": {
+                    "description": "Увеличивает броню и скорость регенерации маны в радиусе 900."
+                },
+                "переключает действие ауры на юнитов, не являющихся героями.": {
+                    "description": null
+                }
+            }
+        },
+        "214": {
+            "lore": "While they increase the longevity of the wearer, this boot is not particularly reliable.",
+            "description": "",
+            "abilities": {
+                "Break": {
+                    "description": "Tranquil boots теряют регенерацию здоровья и 30 скорости передвижения на 13 секунд, если владелец атаковал или атакован."
+                }
+            }
+        },
+        "215": {
+            "lore": "",
+            "description": "",
+            "abilities": {
+                "Fade": {
+                    "description": "Делает вас или союзника невидимым спустя 1.5 сек. Передвижение снимает невидимость. Применение на себя не включает перезарядку."
+                }
+            }
+        },
+        "254": {
+            "lore": "The stolen cape of a master illusionist.",
+            "description": "",
+            "abilities": {
+                "Glimmer - делает вас или союзника невидимым спустя 0.6 сек., а также дает цели 45%% к сопротивлению магии. Можно использовать во время произнесения заклинаний.": {
+                    "description": null
+                }
+            }
+        }
+    }
+}

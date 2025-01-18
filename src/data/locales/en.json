@@ -1,0 +1,1609 @@
+{
+    "general": {
+        "categories": {
+            "consumables": "Consumables",
+            "attributes": "Attributes",
+            "armaments": "Armaments",
+            "arcane": "Arcane",
+            "common": "Common",
+            "support": "Support",
+            "caster": "Caster",
+            "weapons": "Weapons",
+            "armor": "Armor",
+            "artifact": "Artifact",
+            "secret": "Secret"
+        },
+        "filter": {
+            "no_results": "Items matching the specified criteria were not found.",
+            "hightlight_rel": "Highlight relatives",
+            "search_placeholder": "Search for items...",
+            "reset_button_title": "Reset all filters",
+            "category": {
+
+            }
+        },
+        "itemtree": {
+            "name": "Item tree",
+            "no_recipe": "Not used in any recipe"
+        },
+        "item": {
+            "description": "Description",
+            "shareable": {
+                "full": "Fully shareable",
+                "partial": "Partially shareable"
+            },
+            "abilities": {
+                "active": "Active",
+                "passive": "Passive",
+                "use": "Use",
+                "cooldown": "Cooldown",
+                "mana": "Mana"
+            },
+            "stats": {
+                "arcane_ring_bonus_armor": "Armor",
+                "arcane_ring_bonus_mana": "Mana",
+                "armlet_bonus_damage": "Damage",
+                "armlet_bonus_attack_speed": "Attack Speed",
+                "armlet_bonus_armor": "Armor",
+                "armlet_bonus_health_regen": "HP Regeneration",
+                "assault_aura_attack_speed": "AURA ATTACK SPEED:",
+                "assault_aura_positive_armor": "AURA ALLY BONUS ARMOR:",
+                "assault_aura_negative_armor": "AURA ENEMY ARMOR REDUCTION:",
+                "assault_bonus_attack_speed": "Attack Speed",
+                "assault_bonus_armor": "Armor",
+                "basher_bash_chance_melee": "BASH MELEE CHANCE:",
+                "basher_bash_chance_ranged": "BASH RANGED CHANCE:",
+                "basher_bonus_damage": "Damage",
+                "basher_bonus_strength": "Strength",
+                "belt_of_strength_bonus_strength": "Strength",
+                "bfury_cleave_damage_percent": "CLEAVE DAMAGE:",
+                "bfury_bonus_damage": "Damage",
+                "bfury_bonus_health_regen": "HP Regeneration",
+                "bfury_bonus_mana_regen": "Mana Regeneration",
+                "black_king_bar_bonus_strength": "Strength",
+                "black_king_bar_bonus_damage": "Damage",
+                "black_king_bar_duration": "AVATAR DURATION:",
+                "black_king_bar_cooldown": "AVATAR COOLDOWN:",
+                "blade_mail_bonus_damage": "Damage",
+                "blade_mail_bonus_armor": "Armor",
+                "blade_mail_bonus_intellect": "Intelligence",
+                "blades_of_attack_bonus_damage": "Damage",
+                "blade_of_alacrity_bonus_agility": "Agility",
+                "bloodstone_bonus_health": "Health",
+                "bloodstone_bonus_mana": "Mana",
+                "bloodstone_bonus_health_regen": "HP Regeneration",
+                "bloodstone_bonus_mana_regen": "Mana Regeneration",
+                "boots_bonus_movement_speed": "Movement Speed",
+                "boots_of_elves_bonus_agility": "Agility",
+                "bottle_health_restore": "HEALTH RESTORED:",
+                "bottle_mana_restore": "MANA RESTORED:",
+                "bottle_restore_time": "DURATION:",
+                "bracer_bonus_strength": "Strength",
+                "bracer_bonus_agility": "Agility",
+                "bracer_bonus_intellect": "Intelligence",
+                "bracer_bonus_damage": "Damage",
+                "branches_bonus_all_stats": "All Attributes",
+                "broadsword_bonus_damage": "Damage",
+                "buckler_bonus_armor": "Armor",
+                "buckler_bonus_all_stats": "All Attributes",
+                "butterfly_bonus_agility": "Agility",
+                "butterfly_bonus_damage": "Damage",
+                "butterfly_bonus_evasion": "Evasion",
+                "butterfly_bonus_attack_speed": "Attack Speed",
+                "chainmail_bonus_armor": "Armor",
+                "cheese_health_restore": "HEALTH RESTORED:",
+                "cheese_mana_restore": "MANA RESTORED:",
+                "circlet_bonus_all_stats": "All Attributes",
+                "clarity_total_mana": "TOTAL MANA RESTORED:",
+                "clarity_buff_duration": "DURATION:",
+                "claymore_bonus_damage": "Damage",
+                "cloak_tooltip_resist": "Spell Resistance",
+                "cyclone_bonus_intellect": "Intelligence",
+                "cyclone_bonus_mana_regen": "Mana Regeneration",
+                "cyclone_bonus_movement_speed": "Movement Speed",
+                "dagon_damage": "BURST DAMAGE:",
+                "dagon_bonus_intellect": "Intelligence",
+                "dagon_bonus_all_stats": "All Attributes",
+                "dagon_bonus_damage": "Damage",
+                "dagon_2_damage": "BURST DAMAGE:",
+                "dagon_2_bonus_intellect": "Intelligence",
+                "dagon_2_bonus_all_stats": "All Attributes",
+                "dagon_2_bonus_damage": "Damage",
+                "dagon_3_damage": "BURST DAMAGE:",
+                "dagon_3_bonus_intellect": "Intelligence",
+                "dagon_3_bonus_all_stats": "All Attributes",
+                "dagon_3_bonus_damage": "Damage",
+                "dagon_4_damage": "BURST DAMAGE:",
+                "dagon_4_bonus_intellect": "Intelligence",
+                "dagon_4_bonus_all_stats": "All Attributes",
+                "dagon_4_bonus_damage": "Damage",
+                "dagon_5_damage": "BURST DAMAGE:",
+                "dagon_5_bonus_intellect": "Intelligence",
+                "dagon_5_bonus_all_stats": "All Attributes",
+                "dagon_5_bonus_damage": "Damage",
+                "demon_edge_bonus_damage": "Damage",
+                "desolator_corruption_armor": "ARMOR REDUCTION:",
+                "desolator_bonus_damage": "Damage",
+                "diffusal_blade_bonus_agility": "Agility",
+                "diffusal_blade_bonus_intellect": "Intelligence",
+                "diffusal_blade_2_bonus_agility": "Agility",
+                "diffusal_blade_2_bonus_intellect": "Intelligence",
+                "dust_duration": "DURATION:",
+                "dust_radius": "RADIUS:",
+                "eagle_bonus_agility": "Agility",
+                "energy_booster_bonus_mana": "Mana",
+                "ethereal_blade_duration": "BLAST ENEMY DURATION:",
+                "ethereal_blade_bonus_agility": "Agility",
+                "ethereal_blade_bonus_strength": "Strength",
+                "ethereal_blade_bonus_intellect": "Intelligence",
+                "flask_total_health": "HEALTH RESTORED:",
+                "flask_buff_duration": "DURATION:",
+                "force_staff_bonus_intellect": "Intelligence",
+                "gauntlets_bonus_strength": "Strength",
+                "ghost_duration": "GHOST DURATION:",
+                "ghost_bonus_all_stats": "All Attributes",
+                "gloves_bonus_attack_speed": "Attack Speed",
+                "greater_crit_crit_chance": "CRITICAL CHANCE:",
+                "greater_crit_crit_multiplier": "CRITICAL DAMAGE:",
+                "greater_crit_bonus_damage": "Damage",
+                "hand_of_midas_bonus_attack_speed": "Attack Speed",
+                "headdress_aura_health_regen": "AURA HEALTH REGEN:",
+                "headdress_bonus_all_stats": "All Attributes",
+                "heart_health_regen_rate": "HEALTH RESTORED PER SECOND:",
+                "heart_bonus_strength": "Strength",
+                "heart_bonus_health": "Health",
+                "helm_of_iron_will_bonus_armor": "Armor",
+                "helm_of_iron_will_bonus_regen": "HP Regeneration",
+                "helm_of_the_dominator_bonus_damage": "Damage",
+                "helm_of_the_dominator_bonus_armor": "Armor",
+                "helm_of_the_dominator_lifesteal_percent": "LIFESTEAL:",
+                "hood_of_defiance_tooltip_resist": "Spell Resistance",
+                "hood_of_defiance_bonus_health_regen": "HP Regeneration",
+                "hyperstone_bonus_attack_speed": "Attack Speed",
+                "invis_sword_bonus_damage": "Damage",
+                "invis_sword_bonus_attack_speed": "Attack Speed",
+                "javelin_bonus_damage": "Damage",
+                "javelin_bonus_chance": "CHANCE TO PIERCE:",
+                "javelin_bonus_chance_damage": "PIERCE DAMAGE:",
+                "lesser_crit_crit_chance": "CRITICAL CHANCE:",
+                "lesser_crit_crit_multiplier": "CRITICAL DAMAGE:",
+                "lesser_crit_bonus_damage": "Damage",
+                "lifesteal_lifesteal_percent": "LIFESTEAL:",
+                "sphere_bonus_all_stats": "All Attributes",
+                "sphere_bonus_health_regen": "HP Regeneration",
+                "sphere_bonus_mana_regen": "Mana Regeneration",
+                "maelstrom_chain_chance": "CHAIN CHANCE:",
+                "maelstrom_chain_damage": "CHAIN DAMAGE:",
+                "maelstrom_bonus_damage": "Damage",
+                "maelstrom_bonus_attack_speed": "Attack Speed",
+                "magic_stick_restore_per_charge": "HEALTH/MANA PER CHARGE:",
+                "magic_wand_bonus_all_stats": "All Attributes",
+                "magic_wand_restore_per_charge": "HEALTH/MANA PER CHARGE:",
+                "manta_bonus_agility": "Agility",
+                "manta_bonus_strength": "Strength",
+                "manta_bonus_intellect": "Intelligence",
+                "manta_bonus_attack_speed": "Attack Speed",
+                "manta_bonus_movement_speed": "Movement Speed",
+                "mantle_bonus_intellect": "Intelligence",
+                "mask_of_madness_lifesteal_percent": "LIFESTEAL:",
+                "mekansm_aura_health_regen": "AURA HEALTH REGEN:",
+                "mekansm_bonus_all_stats": "All Attributes",
+                "mekansm_bonus_armor": "Armor",
+                "mithril_hammer_bonus_damage": "Damage",
+                "mjollnir_chain_chance": "CHAIN CHANCE:",
+                "mjollnir_chain_damage": "CHAIN DAMAGE:",
+                "mjollnir_bonus_damage": "Damage",
+                "mjollnir_bonus_attack_speed": "Attack Speed",
+                "monkey_king_bar_bash_chance": "MINI-BASH CHANCE:",
+                "monkey_king_bar_bash_damage": "MINI-BASH DAMAGE:",
+                "monkey_king_bar_bonus_damage": "Damage",
+                "monkey_king_bar_bonus_attack_speed": "Attack Speed",
+                "mystic_staff_bonus_intellect": "Intelligence",
+                "necronomicon_bonus_intellect": "Intelligence",
+                "necronomicon_bonus_strength": "Strength",
+                "necronomicon_2_bonus_intellect": "Intelligence",
+                "necronomicon_2_bonus_strength": "Strength",
+                "necronomicon_3_bonus_intellect": "Intelligence",
+                "necronomicon_3_bonus_strength": "Strength",
+                "null_talisman_bonus_strength": "Strength",
+                "null_talisman_bonus_agility": "Agility",
+                "null_talisman_bonus_intellect": "Intelligence",
+                "null_talisman_bonus_damage": "Damage",
+                "oblivion_staff_bonus_intellect": "Intelligence",
+                "oblivion_staff_bonus_attack_speed": "Attack Speed",
+                "oblivion_staff_bonus_damage": "Damage",
+                "oblivion_staff_bonus_mana_regen": "Mana Regeneration",
+                "ogre_axe_bonus_strength": "Strength",
+                "orchid_bonus_intellect": "Intelligence",
+                "orchid_bonus_attack_speed": "Attack Speed",
+                "orchid_bonus_damage": "Damage",
+                "orchid_bonus_mana_regen": "Mana Regeneration",
+                "pers_bonus_damage": "Damage",
+                "pers_bonus_health_regen": "HP Regeneration",
+                "pers_bonus_mana_regen": "Mana Regeneration",
+                "phase_boots_phase_movement_speed": "PHASE MOVE BOOST:",
+                "phase_boots_phase_duration": "PHASE DURATION:",
+                "phase_boots_bonus_damage": "Damage",
+                "phase_boots_bonus_movement_speed": "Movement Speed",
+                "pipe_health_regen": "HP Regeneration",
+                "platemail_bonus_armor": "Armor",
+                "point_booster_bonus_mana": "Mana",
+                "point_booster_bonus_health": "Health",
+                "poor_mans_shield_block_chance": "CREEP BLOCK CHANCE:",
+                "poor_mans_shield_damage_block_melee": "MELEE DAMAGE BLOCK:",
+                "poor_mans_shield_damage_block_ranged": "RANGED DAMAGE BLOCK:",
+                "poor_mans_shield_bonus_agility": "Agility",
+                "power_treads_bonus_movement_speed": "Movement Speed",
+                "power_treads_bonus_stat": "Selected Attribute",
+                "power_treads_bonus_attack_speed": "Attack Speed",
+                "quarterstaff_bonus_damage": "Damage",
+                "quarterstaff_bonus_speed": "Attack Speed",
+                "quelling_blade_damage_bonus": "QUELL MELEE DAMAGE:",
+                "quelling_blade_damage_bonus_ranged": "QUELL RANGED DAMAGE:",
+                "radiance_aura_damage": "BURN DAMAGE PER SECOND:",
+                "radiance_bonus_damage": "Damage",
+                "rapier_bonus_damage": "Damage",
+                "reaver_bonus_strength": "Strength",
+                "refresher_bonus_health_regen": "HP Regeneration",
+                "refresher_bonus_mana_regen": "Mana Regeneration",
+                "refresher_bonus_damage": "Damage",
+                "relic_bonus_damage": "Damage",
+                "ring_of_basilius_bonus_damage": "Damage",
+                "ring_of_basilius_bonus_armor": "Armor",
+                "ring_of_basilius_aura_mana_regen": "AURA MANA REGEN:",
+                "ring_of_basilius_aura_bonus_armor": "AURA BONUS ARMOR:",
+                "ring_of_health_bonus_health_regen": "HP Regeneration",
+                "ring_of_protection_bonus_armor": "Armor",
+                "ring_of_regen_bonus_health_regen": "HP Regeneration",
+                "robe_bonus_intellect": "Intelligence",
+                "sange_maim_chance": "MAIM CHANCE:",
+                "sange_maim_movement_speed": "MAIM MOVEMENT SLOW:",
+                "sange_bonus_damage": "Damage",
+                "sange_bonus_strength": "Strength",
+                "sange_and_yasha_maim_slow_movement": "MAIM MOVEMENT SLOW:",
+                "sange_and_yasha_bonus_damage": "Damage",
+                "sange_and_yasha_bonus_strength": "Strength",
+                "sange_and_yasha_bonus_agility": "Agility",
+                "sange_and_yasha_bonus_attack_speed": "Attack Speed",
+                "sange_and_yasha_movement_speed_percent_bonus": "Movement Speed",
+                "satanic_bonus_damage": "Damage",
+                "satanic_bonus_strength": "Strength",
+                "satanic_bonus_armor": "Armor",
+                "satanic_lifesteal_percent": "LIFESTEAL:",
+                "sheepstick_bonus_strength": "Strength",
+                "sheepstick_bonus_agility": "Agility",
+                "sheepstick_bonus_intellect": "Intelligence",
+                "sheepstick_bonus_mana_regen": "Mana Regeneration",
+                "shivas_guard_aura_attack_speed": "AURA ATTACK SLOW:",
+                "shivas_guard_bonus_intellect": "Intelligence",
+                "shivas_guard_bonus_armor": "Armor",
+                "skadi_cold_movement_speed": "COLD MOVE SLOW:",
+                "skadi_cold_attack_speed": "COLD ATTACK SLOW:",
+                "skadi_bonus_all_stats": "All Attributes",
+                "skadi_bonus_health": "Health",
+                "skadi_bonus_mana": "Mana",
+                "slippers_bonus_agility": "Agility",
+                "sobi_mask_bonus_mana_regen": "Mana Regeneration",
+                "soul_booster_bonus_health": "Health",
+                "soul_booster_bonus_mana": "Mana",
+                "soul_booster_bonus_health_regen": "HP Regeneration",
+                "soul_booster_bonus_mana_regen": "Mana Regeneration",
+                "soul_ring_health_regen": "HP Regeneration",
+                "soul_ring_mana_regen": "Mana Regeneration",
+                "staff_of_wizardry_bonus_intellect": "Intelligence",
+                "stout_shield_block_chance": "BLOCK CHANCE:",
+                "stout_shield_damage_block_melee": "MELEE DAMAGE BLOCK:",
+                "stout_shield_damage_block_ranged": "RANGED DAMAGE BLOCK:",
+                "talisman_of_evasion_bonus_evasion": "Evasion",
+                "tango_total_heal": "EAT TREE HEALTH RESTORED:",
+                "tango_buff_duration": "HEAL DURATION:",
+                "travel_boots_bonus_movement_speed": "Movement Speed",
+                "ultimate_orb_bonus_all_stats": "All Attributes",
+                "ultimate_scepter_bonus_all_stats": "All Attributes",
+                "ultimate_scepter_bonus_health": "Health",
+                "ultimate_scepter_bonus_mana": "Mana",
+                "urn_of_shadows_mana_regen": "Mana Regeneration",
+                "urn_of_shadows_bonus_strength": "Strength",
+                "vanguard_bonus_health": "Health",
+                "vanguard_bonus_health_regen": "HP Regeneration",
+                "vitality_booster_bonus_health": "Health",
+                "vladmir_hp_regen": "AURA HEALTH REGEN:",
+                "vladmir_vampiric_aura": "AURA MELEE LIFESTEAL:",
+                "vladmir_mana_regen_aura": "AURA MANA REGEN:",
+                "vladmir_damage_aura": "AURA BONUS ATTACK DAMAGE:",
+                "vladmir_armor_aura": "AURA BONUS ARMOR:",
+                "void_stone_bonus_mana_regen": "Mana Regeneration",
+                "wraith_band_bonus_strength": "Strength",
+                "wraith_band_bonus_agility": "Agility",
+                "wraith_band_bonus_intellect": "Intelligence",
+                "wraith_band_bonus_damage": "Damage",
+                "yasha_bonus_agility": "Agility",
+                "yasha_bonus_attack_speed": "Attack Speed",
+                "yasha_movement_speed_percent_bonus": "Movement Speed",
+                "arcane_boots_replenish_amount": "REPLENISH MANA RESTORE:",
+                "arcane_boots_bonus_movement": "Movement Speed",
+                "arcane_boots_bonus_mana": "Mana",
+                "orb_of_venom_poison_damage": "POISON DAMAGE PER SECOND:",
+                "orb_of_venom_poison_movement_speed_melee": "POISON MELEE SLOW:",
+                "orb_of_venom_poison_duration": "POISON DURATION:",
+                "ancient_janggo_bonus_aura_attack_speed_pct": "AURA ATTACK SPEED:",
+                "ancient_janggo_bonus_aura_movement_speed_pct": "AURA MOVE SPEED:",
+                "ancient_janggo_bonus_stats": "All Attributes",
+                "ancient_janggo_bonus_damage": "Damage",
+                "medallion_of_courage_bonus_armor": "Armor",
+                "medallion_of_courage_bonus_mana_regen_pct": "Mana Regeneration",
+                "smoke_of_deceit_bonus_movement_speed": "BONUS SPEED:",
+                "smoke_of_deceit_duration": "DURATION:",
+                "veil_of_discord_bonus_health_regen": "HP Regeneration",
+                "veil_of_discord_bonus_armor": "Armor",
+                "sange_and_yasha_maim_chance": "MAIM CHANCE:",
+                "orb_of_venom_poison_movement_speed_range": "POISON RANGED SLOW:",
+                "abyssal_blade_bash_chance_melee": "BASH MELEE CHANCE:",
+                "abyssal_blade_bash_chance_ranged": "BASH RANGED CHANCE:",
+                "abyssal_blade_bonus_damage": "Damage",
+                "abyssal_blade_bonus_strength": "Strength",
+                "rod_of_atos_bonus_health": "Health",
+                "rod_of_atos_bonus_intellect": "Intelligence",
+                "heavens_halberd_bonus_evasion": "Evasion",
+                "heavens_halberd_maim_chance": "MAIM CHANCE:",
+                "heavens_halberd_maim_movement_speed": "MAIM MOVEMENT SLOW:",
+                "heavens_halberd_bonus_damage": "Damage",
+                "heavens_halberd_bonus_strength": "Strength",
+                "tranquil_boots_bonus_movement_speed": "Movement Speed",
+                "tranquil_boots_bonus_armor": "Armor",
+                "tranquil_boots_bonus_health_regen": "HP Regeneration",
+                "ring_of_aquila_bonus_agility": "Agility",
+                "ring_of_aquila_bonus_damage": "Damage",
+                "ring_of_aquila_bonus_armor": "Armor",
+                "ring_of_aquila_aura_mana_regen": "AURA MANA REGEN:",
+                "ring_of_aquila_aura_bonus_armor": "AURA BONUS ARMOR:",
+                "sphere_bonus_damage": "Damage",
+                "medallion_of_courage_armor_reduction": "VALOR ARMOR REDUCTION:",
+                "veil_of_discord_debuff_radius": "MAGIC WEAKNESS RADIUS:",
+                "veil_of_discord_resist_debuff": "INCREASED MAGIC DAMAGE:",
+                "rod_of_atos_slow": "CRIPPLE MOVE SLOW:",
+                "rod_of_atos_duration": "CRIPPLE DURATION:",
+                "shadow_amulet_bonus_attack_speed": "Attack Speed",
+                "force_staff_bonus_health_regen": "HP Regeneration",
+                "greevil_whistle": "Greevil Whistle",
+                "greevil_whistle_toggle": "Greevil Whistle",
+                "winter_stocking": "Xmas Stocking",
+                "winter_cake": "Fruit-bit Cake",
+                "winter_cookie": "Wizard Cookie",
+                "winter_coco": "Cocoa with Marshmallows",
+                "winter_kringle": "Kringle",
+                "winter_ham": "Clove Studded Ham",
+                "winter_skates": "Speed Skates",
+                "winter_greevil_treat": "Greevil Treat",
+                "winter_greevil_garbage": "Greevil Chow",
+                "winter_mushroom": "Snow Mushroom",
+                "winter_greevil_chewy": "Greevil Blink Bone",
+                "dust_movespeed": "SLOW:",
+                "ethereal_blade_duration_ally": "BLAST ALLY/SELF DURATION:",
+                "sange_maim_attack_speed": "MAIM ATTACK SLOW:",
+                "heavens_halberd_maim_attack_speed": "MAIM ATTACK SLOW:",
+                "sange_and_yasha_maim_slow_attack": "MAIM ATTACK SLOW:",
+                "shivas_guard_blast_damage": "BLAST DAMAGE:",
+                "shivas_guard_blast_movement_speed": "BLAST MOVEMENT SLOW:",
+                "shivas_guard_blast_debuff_duration": "BLAST SLOW DURATION:",
+                "dagon_range_tooltip": "CAST RANGE:",
+                "dagon_2_range_tooltip": "CAST RANGE:",
+                "dagon_3_range_tooltip": "CAST RANGE:",
+                "dagon_4_range_tooltip": "CAST RANGE:",
+                "dagon_5_range_tooltip": "CAST RANGE:",
+                "mjollnir_static_chance": "STATIC CHANCE:",
+                "mjollnir_static_duration": "STATIC DURATION:",
+                "mjollnir_static_damage": "STATIC DAMAGE:",
+                "pipe_aura_health_regen": "AURA HEALTH REGEN:",
+                "ethereal_blade_ethereal_damage_bonus": "INCREASED MAGIC DAMAGE:",
+                "ghost_extra_spell_damage_percent": "GHOST ADDED MAGIC DAMAGE:",
+                "veil_of_discord_resist_debuff_duration": "MAGIC WEAKNESS DURATION:",
+                "veil_of_discord_bonus_stats": "All Attributes",
+                "ring_of_aquila_bonus_strength": "Strength",
+                "ring_of_aquila_bonus_intellect": "Intelligence",
+                "butterfly_bonus_move_speed": "FLUTTER BONUS MOVE SPEED:",
+                "butterfly_duration": "FLUTTER DURATION:",
+                "cyclone_2_bonus_intellect": "Intelligence",
+                "cyclone_2_bonus_mana_regen": "Mana Regeneration",
+                "cyclone_2_bonus_movement_speed": "Movement Speed",
+                "helm_of_the_dominator_bonus_regen": "HP Regeneration",
+                "invis_sword_windwalk_duration": "SHADOW WALK DURATION:",
+                "invis_sword_windwalk_bonus_damage": "SHADOW WALK DAMAGE:",
+                "vanguard_block_chance": "BLOCK CHANCE:",
+                "vanguard_block_damage_melee": "BLOCK DAMAGE MELEE:",
+                "vanguard_block_damage_ranged": "BLOCK DAMAGE RANGED:",
+                "crimson_guard_bonus_health": "Health",
+                "crimson_guard_bonus_health_regen": "HP Regeneration",
+                "crimson_guard_bonus_all_stats": "All Attributes",
+                "crimson_guard_bonus_armor": "Armor",
+                "crimson_guard_block_chance": "BLOCK CHANCE:",
+                "crimson_guard_block_damage_melee": "BLOCK DAMAGE MELEE:",
+                "crimson_guard_block_damage_ranged": "BLOCK DAMAGE RANGED:",
+                "crimson_guard_bonus_aoe_armor": "GUARD ARMOR:",
+                "crimson_guard_block_damage_melee_active": "GUARD DAMAGE BLOCK :",
+                "crimson_guard_duration": "GUARD DURATION:",
+                "crimson_guard_bonus_aoe_radius": "GUARD RADIUS:",
+                "manta_images_count": "NUMBER OF IMAGES:",
+                "manta_tooltip_damage_incoming_melee_total_pct": "MELEE IMAGE DAMAGE TAKEN:",
+                "manta_tooltip_damage_outgoing_melee": "MELEE IMAGE DAMAGE:",
+                "manta_tooltip_damage_incoming_ranged_total_pct": "RANGED IMAGE DAMAGE TAKEN:",
+                "manta_tooltip_damage_outgoing_ranged": "RANGED IMAGE DAMAGE:",
+                "manta_tooltip_illusion_duration": "IMAGE DURATION:",
+                "urn_of_shadows_soul_heal_amount": "RELEASE ALLY TOTAL HEAL:",
+                "urn_of_shadows_soul_damage_amount": "RELEASE ENEMY TOTAL DAMAGE:",
+                "urn_of_shadows_soul_heal_duration": "SOUL RELEASE DURATION:",
+                "tango_single_total_heal": "EAT TREE HEALTH RESTORED:",
+                "tango_single_buff_duration": "HEAL DURATION:",
+                "diffusal_blade_purge_slow_duration": "PURGE SLOW DURATION:",
+                "diffusal_blade_2_purge_slow_duration": "PURGE SLOW DURATION:",
+                "pipe_magic_resistance": "Spell Resistance",
+                "pipe_barrier_block": "BARRIER SPELL BLOCK:",
+                "pipe_barrier_duration": "BARRIER DURATION:",
+                "cny2015_beast_travel_boots": "Boots of Travel",
+                "cny2015_beast_travel_boots_bonus_movement_speed": "Movement Speed",
+                "abyssal_blade_bash_duration": "BASH STUN DURATION:",
+                "abyssal_blade_stun_duration": "OVERWHELM STUN DURATION:",
+                "blade_mail_duration": "DAMAGE RETURN DURATION:",
+                "buckler_bonus_aoe_radius": "ARMOR CAST RADIUS:",
+                "cyclone_cyclone_duration": "CYCLONE DURATION:",
+                "diffusal_blade_cast_range_tooltip": "PURGE CAST RANGE:",
+                "diffusal_blade_2_cast_range_tooltip": "PURGE CAST RANGE:",
+                "ethereal_blade_blast_movement_slow": "BLAST ENEMY MOVE SLOW:",
+                "gem_radius": "TRUE SIGHT RADIUS:",
+                "hand_of_midas_transmute_cast_range_tooltip": "TRANSMUTE CAST RANGE:",
+                "headdress_aura_radius": "AURA REGEN RADIUS:",
+                "maelstrom_chain_strikes": "CHAIN TARGETS:",
+                "maelstrom_chain_radius": "CHAIN LEAP RADIUS:",
+                "mask_of_madness_berserk_bonus_attack_speed": "BERSERK ATTACK SPEED:",
+                "mask_of_madness_berserk_bonus_movement_speed": "BERSERK MOVE SPEED:",
+                "mask_of_madness_berserk_extra_damage": "BERSERK ADDED DAMAGE TAKEN:",
+                "mask_of_madness_berserk_duration": "BERSERK DURATION:",
+                "mekansm_heal_amount": "RESTORE HEAL:",
+                "mekansm_heal_bonus_armor": "RESTORE ARMOR:",
+                "mekansm_heal_armor_duration": "RESTORE ARMOR DURATION:",
+                "mekansm_heal_radius": "AURA/RESTORE RADIUS:",
+                "mjollnir_static_radius": "STATIC RELEASE RADIUS:",
+                "mjollnir_chain_strikes": "CHAIN TARGETS:",
+                "mjollnir_chain_radius": "CHAIN LEAP RADIUS:",
+                "necronomicon_warrior_health_tooltip": "WARRIOR HEALTH:",
+                "necronomicon_warrior_damage_tooltip": "WARRIOR DAMAGE:",
+                "necronomicon_warrior_mana_break_tooltip": "WARRIOR MANA BREAK:",
+                "necronomicon_explosion": "WARRIOR LAST WILL DMG:",
+                "necronomicon_archer_health_tooltip": "ARCHER HEALTH:",
+                "necronomicon_archer_damage_tooltip": "ARCHER DAMAGE:",
+                "necronomicon_archer_mana_burn": "ARCHER MANA BURN:",
+                "necronomicon_archer_attack_speed": "ARCHER AURA SPEED:",
+                "necronomicon_2_warrior_health_tooltip": "WARRIOR HEALTH:",
+                "necronomicon_2_warrior_damage_tooltip": "WARRIOR DAMAGE:",
+                "necronomicon_2_warrior_mana_break_tooltip": "WARRIOR MANA BREAK:",
+                "necronomicon_2_explosion": "WARRIOR LAST WILL DMG:",
+                "necronomicon_2_archer_health_tooltip": "ARCHER HEALTH:",
+                "necronomicon_2_archer_damage_tooltip": "ARCHER DAMAGE:",
+                "necronomicon_2_archer_mana_burn": "ARCHER MANA BURN:",
+                "necronomicon_2_archer_attack_speed": "ARCHER AURA SPEED:",
+                "necronomicon_3_warrior_health_tooltip": "WARRIOR HEALTH:",
+                "necronomicon_3_warrior_damage_tooltip": "WARRIOR DAMAGE:",
+                "necronomicon_3_warrior_mana_break_tooltip": "WARRIOR MANA BREAK:",
+                "necronomicon_3_explosion": "WARRIOR LAST WILL DMG:",
+                "necronomicon_3_archer_health_tooltip": "ARCHER HEALTH:",
+                "necronomicon_3_archer_damage_tooltip": "ARCHER DAMAGE:",
+                "necronomicon_3_archer_mana_burn": "ARCHER MANA BURN:",
+                "necronomicon_3_archer_attack_speed": "ARCHER AURA SPEED:",
+                "orchid_silence_damage_percent": "SOUL BURN INCREASED DAMAGE:",
+                "orchid_silence_duration": "SOUL BURN DURATION:",
+                "pipe_aura_radius": "AURA RADIUS:",
+                "pipe_barrier_radius": "BARRIER CAST RADIUS:",
+                "quelling_blade_quelling_range_tooltip": "CHOP TREE CAST RANGE:",
+                "sange_maim_duration": "MAIM DURATION:",
+                "heavens_halberd_maim_duration": "MAIM DURATION:",
+                "heavens_halberd_disarm_range": "DISARM RANGED DURATION:",
+                "heavens_halberd_disarm_melee": "DISARM MELEE DURATION:",
+                "heavens_halberd_disarm_cast_range_tooltip": "DISARM CAST RANGE:",
+                "sange_and_yasha_maim_duration": "MAIM DURATION:",
+                "satanic_unholy_lifesteal_total_tooltip": "UNHOLY RAGE LIFESTEAL:",
+                "satanic_unholy_duration": "UNHOLY RAGE DURATION:",
+                "sheepstick_sheep_duration": "HEX DURATION:",
+                "shivas_guard_blast_radius": "BLAST RADIUS:",
+                "skadi_cold_duration_melee": "COLD MELEE DURATION:",
+                "skadi_cold_duration_ranged": "COLD RANGED DURATION:",
+                "soul_ring_duration": "SACRIFICE DURATION:",
+                "urn_of_shadows_soul_release_range_tooltip": "SOUL RELEASE CAST RANGE:",
+                "vladmir_aura_radius": "AURA RADIUS:",
+                "ward_observer_vision_range": "VISION RANGE:",
+                "ward_observer_duration_minutes_tooltip": "DURATION (MINUTES):",
+                "ward_sentry_true_sight_range": "TRUE SIGHT RANGE:",
+                "ward_sentry_duration_minutes_tooltip": "DURATION (MINUTES):",
+                "arcane_boots_replenish_radius": "REPLENISH CAST RADIUS:",
+                "ancient_janggo_bonus_attack_speed_pct": "ENDURANCE ATTACK SPEED:",
+                "ancient_janggo_bonus_movement_speed_pct": "ENDURANCE MOVE SPEED:",
+                "ancient_janggo_duration": "ENDURANCE DURATION:",
+                "ancient_janggo_radius": "AURA/ENDURANCE RADIUS:",
+                "medallion_of_courage_duration": "VALOR DURATION:",
+                "medallion_of_courage_valor_cast_range_tooltip": "VALOR CAST RANGE:",
+                "shadow_amulet_fade_time": "FADE TIME:",
+                "abyssal_blade_bonus_chance_damage": "BASH BONUS DAMAGE:",
+                "basher_bonus_chance_damage": "BASH BONUS DAMAGE:",
+                "basher_bash_duration": "BASH STUN DURATION:",
+                "bfury_quelling_bonus": "QUELL MELEE DAMAGE:",
+                "bfury_quelling_bonus_ranged": "QUELL RANGED DAMAGE:",
+                "bfury_cast_range_tooltip": "CHOP TREE CAST RANGE:",
+                "bfury_cast_range_ward": "CHOP WARD CAST RANGE:",
+                "moon_shard_bonus_attack_speed": "Attack Speed",
+                "moon_shard_bonus_night_vision": "SHADE BONUS NIGHT VISION:",
+                "moon_shard_consumed_bonus": "CONSUME ATTACK SPEED:",
+                "silver_edge_bonus_damage": "Damage",
+                "silver_edge_bonus_attack_speed": "Attack Speed",
+                "silver_edge_bonus_strength": "Strength",
+                "silver_edge_maim_chance": "MAIM CHANCE:",
+                "silver_edge_maim_movement_speed": "MAIM MOVE SLOW:",
+                "silver_edge_maim_attack_speed": "MAIM ATTACK SLOW:",
+                "silver_edge_maim_duration": "MAIM DURATION:",
+                "silver_edge_windwalk_duration": "SHADOW WALK DURATION:",
+                "silver_edge_windwalk_bonus_damage": "BONUS ATTACK DAMAGE:",
+                "silver_edge_backstab_reduction": "ENEMY DAMAGE REDUCTION:",
+                "silver_edge_backstab_duration": "REDUCTION DURATION:",
+                "glimmer_cape_bonus_attack_speed": "Attack Speed",
+                "glimmer_cape_bonus_magical_armor": "Spell Resistance",
+                "glimmer_cape_fade_delay": "GLIMMER FADE TIME:",
+                "glimmer_cape_active_magical_armor": "GLIMMER MAGIC RESISTANCE:",
+                "glimmer_cape_duration": "GLIMMER DURATION:",
+                "octarine_core_bonus_intelligence": "Intelligence",
+                "octarine_core_bonus_health": "Health",
+                "octarine_core_bonus_mana": "Mana",
+                "octarine_core_bonus_health_regen": "HP Regeneration",
+                "octarine_core_bonus_mana_regen": "Mana Regeneration",
+                "octarine_core_bonus_cooldown": "COOLDOWN REDUCTION:",
+                "octarine_core_hero_lifesteal": "HERO SPELL LIFESTEAL:",
+                "octarine_core_creep_lifesteal": "CREEP SPELL LIFESTEAL:",
+                "enchanted_mango_hp_regen": "HP Regeneration",
+                "enchanted_mango_replenish_amount": "MANA RESTORED:",
+                "lotus_orb_bonus_damage": "Damage",
+                "lotus_orb_bonus_armor": "Armor",
+                "lotus_orb_bonus_health_regen": "HP Regeneration",
+                "lotus_orb_bonus_mana_regen": "Mana Regeneration",
+                "lotus_orb_active_duration": "ECHO DURATION:",
+                "lotus_orb_cast_range_tooltip": "ECHO CAST RANGE:",
+                "guardian_greaves_bonus_movement": "Movement Speed",
+                "guardian_greaves_bonus_all_stats": "All Attributes",
+                "guardian_greaves_bonus_mana": "Mana",
+                "guardian_greaves_bonus_armor": "Armor",
+                "guardian_greaves_aura_health_regen": "AURA HEALTH REGEN:",
+                "guardian_greaves_aura_armor": "AURA ARMOR:",
+                "guardian_greaves_aura_bonus_threshold": "AURA BOOST THRESHOLD:",
+                "guardian_greaves_aura_health_regen_bonus": "AURA BOOST HEALTH REGEN:",
+                "guardian_greaves_aura_armor_bonus": "AURA BOOST ARMOR:",
+                "guardian_greaves_replenish_health": "MEND HEAL:",
+                "guardian_greaves_replenish_mana": "MEND MANA RESTORE:",
+                "guardian_greaves_replenish_radius": "AURA/MEND RADIUS:",
+                "solar_crest_bonus_armor": "Armor",
+                "solar_crest_bonus_mana_regen_pct": "Mana Regeneration",
+                "solar_crest_bonus_evasion": "Evasion",
+                "solar_crest_allied_armor": "SHINE ALLY BONUS ARMOR:",
+                "solar_crest_allied_evasion": "SHINE ALLY EVASION:",
+                "solar_crest_armor_reduction": "SHINE ENEMY ARMOR LOSS:",
+                "solar_crest_miss_chance": "SHINE ENEMY MISS CHANCE:",
+                "solar_crest_duration": "SHINE DURATION:",
+                "solar_crest_valor_cast_range_tooltip": "SHINE CAST RANGE:",
+                "telescope_bonus_strength": "Strength",
+                "telescope_bonus_agility": "Agility",
+                "telescope_bonus_intellect": "Intelligence",
+                "telescope_bonus_damage": "Damage",
+                "whip_bonus_damage": "Damage",
+                "pipe_magic_resistance_aura": "AURA MAGIC RESISTANCE:",
+                "quelling_blade_cast_range_ward": "CHOP WARD CAST RANGE:",
+                "radiance_blind_pct": "BURN MISS CHANCE:",
+                "radiance_aura_radius": "BURN RADIUS:",
+                "tango_total_heal_ward_tooltip": "EAT WARD HEALTH RESTORED:",
+                "tango_cast_range_ward": "EAT WARD CAST RANGE:",
+                "tango_single_total_heal_ward_tooltip": "EAT WARD HEALTH RESTORED:",
+                "tango_single_cast_range_ward": "EAT WARD CAST RANGE:",
+                "travel_boots_2_bonus_movement_speed": "Movement Speed",
+                "vladmir_vampiric_aura_ranged": "AURA RANGED LIFESTEAL:",
+                "ward_dispenser_observer_vision_range_tooltip": "OBSERVER VISION RANGE:",
+                "ward_dispenser_observer_duration_minutes_tooltip": "OBSERVER DURATION (MINUTES):",
+                "ward_dispenser_true_sight_range": "SENTRY TRUE SIGHT RANGE:",
+                "ward_dispenser_sentry_duration_minutes_tooltip": "SENTRY DURATION (MINUTES):",
+                "vladmir_bonus_all_stats": "All Attributes"
+            },
+            "shops": {
+                "main_shop": "Main shop",
+                "side_shop": "Side shop",
+                "side_shop_opt": "Side shop (optional)",
+                "secret_shop": "Secret shop",
+                "roshan": "Roshan",
+                "requiring_components": "Requiring components from",
+                "purchasable_at": "Purchasable at the",
+                "aegis": "Can't be bought. Dropped by Roshan on his first death and onwards.",
+                "cheese": "Can't be bought. Dropped by Roshan on his third death and onwards."
+            }
+        }
+    },
+    "items": {
+        "1": {
+            "lore": "The fabled dagger used by the fastest assassin ever to walk the lands.",
+            "description": "Self-casting will cause you to teleport in the direction of your team's fountain. If you used Blink to teleport to a distance over the maximum range, you'll be teleported 4/5 of the maximum range instead.",
+            "abilities": {
+                "0": "Teleport to a target point up to 1200 units away.  If damage is taken, Blink Dagger cannot be used for 3.0 seconds."
+            }
+        },
+        "2": {
+            "lore": "The damage of these small, concealable blades should not be underestimated."
+        },
+        "3": {
+            "lore": "The classic weapon of choice for knights, this blade is sturdy and reliable for slaying enemies."
+        },
+        "4": {
+            "lore": "A medium weave of metal chains."
+        },
+        "5": {
+            "lore": "A sword that can cut through armor, it's a commonly chosen first weapon for budding swordsmen."
+        },
+        "6": {
+            "lore": "The helmet of a legendary warrior who fell in battle."
+        },
+        "7": {
+            "lore": "A rather typical spear that can sometimes pierce through an enemy's armor when used to attack.",
+            "abilities": {
+                "0": "Grants each attack a chance to deal bonus damage."
+            }
+        },
+        "8": {
+            "lore": "A hammer forged of pure mithril."
+        },
+        "9": {
+            "lore": "Thick metal plates that protect the entire upper body. Avoid dropping on feet."
+        },
+        "10": {
+            "lore": "A basic staff that allows you to strike quickly."
+        },
+        "11": {
+            "lore": "The axe of a fallen gnome, it allows you to effectively maneuver the forest.",
+            "description": "Cannot carry more than one.",
+            "abilities": {
+                "0": "Destroy a target tree or ward. Chop cast range is increased when targetting wards.",
+                "1": "Increases attack damage against non-hero units, based on whether the equipped hero is ranged or melee. Does not provide bonus damage against Roshan."
+            }
+        },
+        "12": {
+            "lore": "A glimmering ring that defends its bearer."
+        },
+        "182": {
+            "lore": "One man's wine barrel bottom is another man's shield.",
+            "description": "Multiple sources of damage block don't stack.",
+            "abilities": {
+                "0": "Gives a chance to block damage based on whether the equipped hero is melee or ranged."
+            }
+        },
+        "246": {},
+        "247": {
+            "lore": "Said to be a tear from the lunar goddess Selemene.",
+            "abilities": {
+                "0": "Consume the Moon Shard to permanently gain 60 attack speed. Does not stack.",
+                "1": "Grants 250 bonus night vision."
+            }
+        },
+        "13": {
+            "lore": "Studded leather gloves that add brute strength."
+        },
+        "14": {
+            "lore": "Light boots made from spider skin that tingles your senses."
+        },
+        "15": {
+            "lore": "A beautiful sapphire mantle worn by generations of queens."
+        },
+        "16": {
+            "lore": "A seemingly ordinary branch, its ironlike qualities are bestowed upon the bearer."
+        },
+        "17": {
+            "lore": "A valued accessory for improving vitality."
+        },
+        "18": {
+            "lore": "A tensile fabric often used for its light weight and ease of movement."
+        },
+        "19": {
+            "lore": "This robe corrupts the soul of the user, but provides wisdom in return."
+        },
+        "20": {
+            "lore": "An elegant circlet designed for human princesses."
+        },
+        "21": {
+            "lore": "You grow stronger just by holding it."
+        },
+        "22": {
+            "lore": "A long blade imbued with time magic."
+        },
+        "23": {
+            "lore": "A staff of magical powers passed down from the eldest mages."
+        },
+        "24": {
+            "lore": "A mystical orb containing the essence of life."
+        },
+        "25": {
+            "lore": "A pair of magical gloves that seems to render weapons weightless."
+        },
+        "26": {
+            "lore": "A mask that drains the energy of those caught in its gaze.",
+            "description": "Morbid Mask is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
+            "abilities": {
+                "0": "Heals the attacker for a percentage of attack damage dealt."
+            }
+        },
+        "27": {
+            "lore": "This ring is considered a good luck charm among the Gnomes.",
+            "description": "Ring of Regen is shareable.\n"
+        },
+        "28": {
+            "lore": "A mask commonly used by mages and warlocks for various rituals.",
+            "description": "Sage's Mask is shareable.\n"
+        },
+        "29": {
+            "lore": "Fleet footwear, increasing movement.",
+            "description": "Flat movement speed bonuses from multiple pairs of boots do not stack."
+        },
+        "30": {
+            "lore": "Not one thrall creature of the depths,\nNor spirit bound in drowning's keep,\nNor Maelrawn the Tentacular,\nShall rest till seas, gem comes to sleep.",
+            "description": "Disabled while on a courier.\nDropped on death, and cannot be destroyed.",
+            "abilities": {
+                "0": "Adds the ability to see invisible units and wards to any allied vision within its carrier's range."
+            }
+        },
+        "31": {
+            "lore": "A cloak made of a magical material that works to dispel any magic cast on it.",
+            "description": "Stacks multiplicatively with other sources of spell resistance.\n"
+        },
+        "32": {
+            "lore": "A necklace that allows you to anticipate enemy attacks.",
+            "description": "Stacks diminishingly with other sources of Evasion."
+        },
+        "33": {
+            "lore": "Made from the milk of a long lost Furbolg vendor, it restores the vitality of those who taste it.",
+            "description": "Cheese is shareable.",
+            "abilities": {
+                "0": "Consume to instantly restore health and mana."
+            }
+        },
+        "34": {
+            "lore": "A simple wand used to channel magic energies, it is favored by apprentice wizards and great warlocks alike.",
+            "description": "Gains charges for spells cast by visible enemies in 1200 range. Certain abilities and item abilities will not add charges.",
+            "abilities": {
+                "0": "Instantly restores health and mana based on the number of charges stored. Gains a charge (max 10) whenever a nearby visible enemy uses an ability."
+            }
+        },
+        "35": {},
+        "36": {
+            "lore": "A simple wand used to channel magic energies, it is favored by apprentice wizards and great warlocks alike.",
+            "description": "Gains charges for spells cast by visible enemies in 1200 range. Certain abilities and item abilities will not add charges.",
+            "abilities": {
+                "0": "Instantly restores health and mana based on the number of charges stored. Gains a charge (max 17) whenever a nearby visible enemy uses an ability."
+            }
+        },
+        "37": {
+            "lore": "Imbues the wielder with a ghostly presence, allowing them to evade physical damage.",
+            "description": "Ends if you become Spell Immune, and will have no effect if you are already Spell Immune. Shares cooldown with Ethereal Blade.\nUsing a Town Portal Scroll or Boots of Travel  will not dispel Ghost Form.",
+            "abilities": {
+                "0": "Enter ghost form, becoming immune to physical damage, yet unable to attack and taking 40% extra magic damage."
+            }
+        },
+        "38": {
+            "lore": "Clear water that enhances the ability to meditate.",
+            "abilities": {
+                "0": "Restores mana to the target unit over time.  If the unit is attacked, the effect is lost."
+            }
+        },
+        "216": {
+            "lore": "The bittersweet flavors of Jidi Isle are irresistible to amphibians.",
+            "abilities": {
+                "0": "Consume the mango to instantly restore 150 mana. Can be fed to an ally."
+            }
+        },
+        "39": {
+            "lore": "A magical salve that can quickly mend even the deepest of wounds.",
+            "abilities": {
+                "0": "Restores health to the target unit over time.  If the unit is attacked, the effect is lost."
+            }
+        },
+        "40": {
+            "description": "Places a buff on enemy units in the area that prevents them from becoming invisible.",
+            "abilities": {
+                "0": "Reveals and slows invisible Heroes in a nearby area."
+            }
+        },
+        "41": {
+            "lore": "An old bottle that survived the ages, the contents placed inside become enchanted.",
+            "description": "Bottle is shareable.\n\nHold Control to use Regenerate on an allied hero.  Stored runes cannot be shared.",
+            "abilities": {
+                "0": "Consumes a charge to restore Health and Mana over time. Healing stops if attacked.  Bottle can be refilled at your team's fountain.  Runes can be stored in the Bottle for later use, and are activated automatically after 2 minutes.  If Bottle does not have full charges and is placed on a courier, the courier will move 30% slower."
+            }
+        },
+        "42": {
+            "lore": "A form of half-sentient plant, often cultivated by apprentice wizards.",
+            "description": "Hold Control to give one Observer Ward to an allied hero.",
+            "abilities": {
+                "0": "Plants an Observer Ward, an invisible watcher that gives vision of its surrounding area to your team. Lasts 7 minutes."
+            }
+        },
+        "43": {
+            "lore": "A form of plant originally grown in the garden of a fearful king.",
+            "description": "Hold Control to give one Sentry Ward to an allied hero.",
+            "abilities": {
+                "0": "Plants a Sentry Ward, an invisible watcher that grants True Sight, the ability to see invisible enemy units and wards, to any existing allied vision within its range. Lasts 4 minutes."
+            }
+        },
+        "217": {},
+        "218": {
+            "lore": "Advancements in stacking efficiency have made wards easier to carry than ever.",
+            "description": "Double-Click to switch the currently active ward.\n",
+            "abilities": {
+                "2": "Plant the currently active ward to keep watch over an area. Observer Wards reveal their surrounding area to your team. Sentry Wards grant True Sight, the ability to see invisible enemy units and wards, to any existing allied vision within its range."
+            }
+        },
+        "44": {
+            "lore": "Forage to survive on the battlefield.",
+            "description": "Comes with 4 charges.  Can be used on an allied hero to give them one Tango.",
+            "abilities": {
+                "0": "Consume a target tree or ward to gradually restore health."
+            }
+        },
+        "241": {
+            "lore": "Om nom nom.",
+            "abilities": {
+                "0": "Consume a target tree or ward to gradually restore health."
+            }
+        },
+        "45": {
+            "lore": "Losing the courier is punishable by death.",
+            "abilities": {
+                "0": "Deploys a creature to carry items to and from your team's base."
+            }
+        },
+        "46": {
+            "description": "If multiple heroes teleport to the same location in succession, the channeling time will be increased for each successive hero.",
+            "abilities": {
+                "0": "Teleports you to a target friendly building. Double-click to teleport to your team's base fountain."
+            }
+        },
+        "47": {},
+        "219": {},
+        "48": {
+            "lore": "Winged boots that grant omnipresence.",
+            "description": "Shares cooldown with Town Portal Scrolls.\n\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
+            "abilities": {
+                "0": "Teleports you to an allied non-hero unit or structure. Double-click to teleport to your team's base fountain. Upgradable to allow you to teleport to allied heroes."
+            }
+        },
+        "220": {
+            "description": "Shares cooldown with Town Portal Scrolls.\n\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
+            "abilities": {
+                "0": "Teleports you to any allied structure or unit, including heroes. Double-click to teleport to your team's base fountain."
+            }
+        },
+        "49": {},
+        "50": {
+            "lore": "Boots that allow the wearer to travel between the ether.",
+            "description": "Flat movement speed bonuses from multiple pairs of boots do not stack.",
+            "abilities": {
+                "0": "Gives increased movement speed and lets you move through units.  Phase is cancelled upon using another item or ability."
+            }
+        },
+        "51": {
+            "lore": "One of the oldest weapons forged by the Demon-Smith Abzidian, it killed its maker when he tested its edge."
+        },
+        "52": {
+            "lore": "Capturing the majestic call of an eagle, this mystical horn brings limitless dexterity to those who hear it."
+        },
+        "53": {
+            "lore": "A massive axe capable of tearing whole mountains down."
+        },
+        "54": {
+            "lore": "An ancient weapon that often turns the tides of war."
+        },
+        "55": {
+            "lore": "A mystical, carved stone that boosts the fervor of the holder."
+        },
+        "56": {
+            "lore": "A shiny ring found beneath a fat halfling's corpse.",
+            "description": "Ring of Health is shareable.\n"
+        },
+        "57": {
+            "lore": "Jewelry that was once used to channel nether realm magic, this ring pulses with energy.",
+            "description": "Void Stone is shareable.\n"
+        },
+        "58": {
+            "lore": "Enigmatic staff made of only the most expensive crystals."
+        },
+        "59": {
+            "lore": "This lapis gemstone is commonly added to the collection of wizards seeking to improve their presence in combat."
+        },
+        "60": {
+            "lore": "A perfectly formed amethyst that nourishes body and mind when held."
+        },
+        "61": {
+            "lore": "A ruby gemstone that has been passed down through generations of warrior kin."
+        },
+        "62": {},
+        "63": {
+            "lore": "A pair of tough-skinned boots that change to meet the demands of the wearer.",
+            "description": "Power Treads can be built using a Belt of Strength, Band of Elvenskin, or a Robe of the Magi.  Flat movement speed bonuses from multiple pairs of boots do not stack, nor does the attack speed bonus from multiple Power Treads.",
+            "abilities": {
+                "0": "Changes selected attribute between Strength, Agility and Intelligence."
+            }
+        },
+        "64": {},
+        "65": {
+            "lore": "Preserved through unknown magical means, the Hand of Midas is a weapon of greed, sacrificing animals to line the owner's pockets.",
+            "description": "The gold given is reliable gold (you do not get the normal creep bounty). Experience gained by using Transmute is not shared.",
+            "abilities": {
+                "0": "Kills a non-hero target for 190 gold and 2.5x experience.  Cannot be used on Ancient Creeps."
+            }
+        },
+        "66": {},
+        "67": {
+            "lore": "Deceptively hidden as an ordinary quarterstaff, it is actually very powerful, much like the Eldritch who originally possessed it."
+        },
+        "68": {},
+        "69": {
+            "lore": "A gem that grants heart to the bearer.",
+            "description": "Perseverance is shareable.\n"
+        },
+        "70": {},
+        "71": {
+            "lore": "A busted old shield that seems to block more than it should.",
+            "description": "Multiple sources of damage block don't stack.",
+            "abilities": {
+                "0": "Blocks physical attack damage based on whether the equipped hero is ranged or melee.  Poor Man's Shield will always block attacks from enemy Heroes, but has a 53% chance to block damage from creeps."
+            }
+        },
+        "72": {},
+        "73": {
+            "lore": "The bracer is a common choice to toughen up defenses and increase longevity."
+        },
+        "74": {},
+        "75": {
+            "lore": "A circlet with faint whispers echoing about it."
+        },
+        "76": {},
+        "77": {
+            "lore": "A small gemstone attached to several chains."
+        },
+        "78": {},
+        "79": {
+            "lore": "A glowing jewel formed out of assorted parts that somehow fit together perfectly.",
+            "description": "Restore does not affect units that have been affected by Restore in the last 25 seconds.\n\nMultiple instances of Mekansm Aura do not stack.",
+            "abilities": {
+                "0": "Heals 250 health and gives +2 armor to allied units in a 900 radius.",
+                "1": "Grants 4 health regeneration to allied units in a 900 radius."
+            }
+        },
+        "80": {},
+        "81": {
+            "lore": "An eerie mask that is haunted with the malice of a fallen vampire.",
+            "description": "Does not stack with armor auras from Ring of Basilius, Ring of Aquila, or Vladmir's Offering.\n\nMultiple instances of Vladmir's Aura do not stack.",
+            "abilities": {
+                "0": "Grants lifesteal, health regeneration, mana regeneration, bonus attack damage, and armor to allies in a 900 radius.  The lifesteal percentage is based on whether the equipped hero is melee or ranged."
+            }
+        },
+        "84": {
+            "description": "Upgrades your team's Animal Courier to a Flying Courier, granting it swift, unobstructed movement to carry items to and from your team's base.\n\nRequires a deployed Animal Courier."
+        },
+        "85": {},
+        "86": {
+            "lore": "A powerful shield that imbues the bearer with the strength of heroes past, it is capable of protecting entire armies in battle.",
+            "abilities": {
+                "0": "Gives +2 armor to all allied units in a 900 radius.  Lasts 25 seconds on heroes, 30 seconds on units."
+            }
+        },
+        "87": {},
+        "88": {
+            "lore": "Ring given as a reward to the greatest mages.",
+            "description": "Does not stack with armor auras from Ring of Basilius, Ring of Aquila, or Vladmir's Offering.\n\nMultiple instances of Basilius Aura do not stack.",
+            "abilities": {
+                "0": "Grants mana regeneration and armor in a 900 area of effect.",
+                "1": "Toggle whether the aura affects other non-hero units."
+            }
+        },
+        "89": {},
+        "90": {
+            "lore": "A powerful artifact of mysterious origin, it creates barriers against magical forces.",
+            "description": "Barrier does not affect units that have been affected by Barrier in the last 50 seconds. Stacks multiplicatively with other sources of spell resistance.",
+            "abilities": {
+                "0": "Gives a shield that blocks 400 spell damage to all allies in a 900 radius.",
+                "1": "Gives allied units 4 health regeneration and 10% magic resistance in a 900 radius. The aura's bonus magic resistance is not applied to the equipped hero."
+            }
+        },
+        "91": {},
+        "92": {
+            "lore": "Contains the ashes of powerful demons.",
+            "description": "Empty urns gain 2 charges. If used on a hero with Soul Release already active on them, it will refresh its duration.\nGains charges every time an enemy hero dies within 1400 units.  Only the closest Urn to the dying hero will gain a charge.",
+            "abilities": {
+                "0": "Heals health over time to friendly units, but deals pure damage over time to enemy units.  The healing effect is lost if the affected ally takes damage from an enemy hero or tower."
+            }
+        },
+        "93": {},
+        "94": {
+            "lore": "Creates a soothing aura that restores allies in battle.",
+            "description": "Multiple instances of Regeneration Aura do not stack.",
+            "abilities": {
+                "0": "Restores health to allies in a 900 unit radius."
+            }
+        },
+        "95": {},
+        "96": {
+            "lore": "The most guarded relic among the cult of Vyse, it is the most coveted weapon among magi.",
+            "description": "The target will have a base movement speed of 140, but buffs granting maximum movement speed won't be disabled.",
+            "abilities": {
+                "0": "Turns a target unit into a harmless critter for 3.5 seconds. Instantly destroys illusions."
+            }
+        },
+        "97": {},
+        "98": {
+            "lore": "A garnet rod constructed from the essence of a fire demon.",
+            "description": "Amplified damage is dealt at the end of the duration as magical damage.",
+            "abilities": {
+                "0": "Silences the target unit for 5 seconds and amplifies the damage it takes by 30%."
+            }
+        },
+        "99": {},
+        "100": {
+            "lore": "A mysterious scepter passed down through the ages, its disruptive winds can be used for good or evil.",
+            "description": "You cannot cyclone allies. Cyclones cast on yourself go through spell immunity. Cyclone can purge some buffs and debuffs.",
+            "abilities": {
+                "0": "Sweeps a target unit up into cyclone, making them invulnerable for 2.5 seconds. Cyclone can be cast on yourself. Enemy units take 50 magical damage upon landing."
+            }
+        },
+        "101": {},
+        "102": {
+            "lore": "Allows you to manipulate others, for good or evil.",
+            "description": "Self-cast will cause you to use Force on yourself. Force Staff doesn't interrupt the target's actions. Will not work on a unit inside Chronosphere, Duel, or Black Hole.",
+            "abilities": {
+                "0": "Pushes any target unit 600 units in the direction it is facing.  Double click to instantly cast Force on yourself."
+            }
+        },
+        "103": {},
+        "197": {},
+        "198": {},
+        "199": {},
+        "200": {},
+        "104": {
+            "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
+            "abilities": {
+                "0": "Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable."
+            }
+        },
+        "201": {
+            "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
+            "abilities": {
+                "0": "Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable."
+            }
+        },
+        "202": {
+            "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
+            "abilities": {
+                "0": "Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable."
+            }
+        },
+        "203": {
+            "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
+            "abilities": {
+                "0": "Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable."
+            }
+        },
+        "204": {
+            "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
+            "abilities": {
+                "0": "Emits a powerful burst of magical damage upon a targeted enemy unit."
+            }
+        },
+        "105": {},
+        "191": {},
+        "192": {},
+        "106": {
+            "lore": "Considered the ultimate in necromancy and demonology, a powerful malefic force is locked within its pages.",
+            "abilities": {
+                "0": "Summons a Warrior and an Archer to fight for you for 40 seconds, whose strength and abilities increase as Necronomicon is upgraded. Warrior gains True Sight at level 3. Upgradable."
+            }
+        },
+        "193": {
+            "lore": "Considered the ultimate in necromancy and demonology, a powerful malefic force is locked within its pages.",
+            "abilities": {
+                "0": "Summons a Warrior and an Archer to fight for you for 40 seconds, whose strength and abilities increase as Necronomicon is upgraded. Warrior gains True Sight at level 3. Upgradable."
+            }
+        },
+        "194": {
+            "lore": "Considered the ultimate in necromancy and demonology, a powerful malefic force is locked within its pages.",
+            "abilities": {
+                "0": "Summons a Warrior and an Archer to fight for you for 40 seconds, whose strength and abilities increase as Necronomicon is upgraded. Warrior gains True Sight at level 3. Upgradable."
+            }
+        },
+        "107": {},
+        "108": {
+            "lore": "The scepter of a wizard with demigod-like powers.",
+            "abilities": {
+                "0": "Upgrades the ultimate, and some abilities, of certain heroes."
+            }
+        },
+        "109": {},
+        "110": {
+            "lore": "A powerful artifact created for wizards.",
+            "abilities": {
+                "0": "Resets the cooldowns of all your items and abilities."
+            }
+        },
+        "111": {},
+        "112": {
+            "lore": "Forged in the depths of the nether reaches, this hellish mail provides an army with increased armor and attack speed.",
+            "description": "Multiple instances of Assault Aura do not stack.",
+            "abilities": {
+                "0": "Grants attack speed and armor to nearby allied units, and decreases the armor of nearby enemies."
+            }
+        },
+        "113": {},
+        "114": {
+            "lore": "Preserved heart of an extinct monster, it bolsters the bearer's fortitude.",
+            "abilities": {
+                "0": "Restores a percentage of max health per second. If damage is taken from an enemy hero or Roshan, this ability is disabled for 5 seconds for melee heroes, or 7 seconds for ranged heroes."
+            }
+        },
+        "115": {},
+        "116": {
+            "lore": "A powerful staff imbued with the strength of giants.",
+            "description": "Purchasing another Black King Bar will not reset its immunity duration. Using Black King Bar may remove some positive buffs.",
+            "abilities": {
+                "0": "Grants Spell Immunity and 100% Magic Damage Resistance.  Duration and cooldown decrease with each use.  Some abilities are able to disable through Avatar."
+            }
+        },
+        "117": {
+            "lore": "The Immortal was said to own a shield that protected him from death itself.",
+            "abilities": {
+                "0": "Brings you to life with full health and mana 5.0 seconds after you die, at the location where you died. Reincarnation must be used within 5 minutes or Aegis of the Immortal disappears. If it expires, it will heal you over 5 seconds (dispels on damage)."
+            }
+        },
+        "118": {},
+        "119": {
+            "lore": "Said to have belonged to a goddess, today it retains much of its former power.",
+            "description": "The wave extends at a speed of 350 to a max size of 900. The Arctic Blast follows its caster.\n\nMultiple instances of Freezing Aura do not stack.",
+            "abilities": {
+                "0": "Emits a freezing wave that deals 200 magical damage to enemies and slows their movement by -40% for 4.0 seconds.",
+                "1": "Reduces the attack speed of all enemies in a 900 radius."
+            }
+        },
+        "120": {},
+        "121": {
+            "lore": "The Bloodstone's bright ruby color is unmistakable on the battlefield, as the owner seems to have infinite vitality and spirit.",
+            "description": "Only the first Bloodstone will gain charges.\n",
+            "abilities": {
+                "0": "Instantly causes you to die.",
+                "2": "Begins with 8 charges, and gains a charge each time an enemy hero dies within 1675 range. Each charge grants 1 mana regeneration per second, reduces the gold lost from death by 25, and reduces respawn time by 4 seconds. If the bearer dies, 500 + 30 health per charge is restored to all allies within a 1675 radius, while the Bloodstone loses a third of its charges. A bloodmark is then placed where the bearer died, granting vision over a 1800 radius and allowing the bearer to gain nearby experience while dead."
+            }
+        },
+        "122": {},
+        "123": {
+            "lore": "This magical sphere once protected one of the most famous heroes in history.",
+            "abilities": {
+                "0": "Blocks most targeted spells once every 16.0 seconds.",
+                "1": "Temporarily removes Spellblock from the item's owner and transfers it to an allied unit."
+            }
+        },
+        "221": {},
+        "226": {
+            "lore": "The jewel at its center still reflects a pale image of its creator.",
+            "abilities": {
+                "0": "Applies a shield to the target unit which re-casts most targeted spells back to their caster. The shielded unit will still take damage from the spell. Dispels negative buffs when applied."
+            }
+        },
+        "124": {},
+        "125": {
+            "lore": "A powerful shield that defends its wielder from even the most vicious of attacks.",
+            "description": "Multiple sources of damage block don't stack.",
+            "abilities": {
+                "0": "Gives the wielder a chance to block damage from each incoming attack based on whether the equipped hero is melee or ranged."
+            }
+        },
+        "243": {},
+        "242": {
+            "lore": "A cuirass originally built to protect against the dreaded Year Beast.",
+            "description": "Multiple sources of damage block don't stack. Guard does not affect units that have been affected by Guard in the last 70 seconds.",
+            "abilities": {
+                "0": "Grant nearby allied heroes a 100% chance to block 55 damage from each incoming attack, along with 2 armor. Lasts 10 seconds.",
+                "1": "Gives the wearer a chance to block damage from each incoming attack based on whether the equipped hero is melee or ranged."
+            }
+        },
+        "126": {},
+        "127": {
+            "lore": "A razor-sharp coat of mail, it is the choice of selfless martyrs in combat.",
+            "description": "Damage Return is calculated after reductions. Damage Return doesn't reflect damage from other forms of Blademail. Returned damage is pure, and does not pierce spell immunity.",
+            "abilities": {
+                "0": "Reflects any damage taken back to the unit that dealt the damage.  Lasts 4.5 seconds."
+            }
+        },
+        "128": {},
+        "129": {
+            "lore": "Regain lost courage."
+        },
+        "130": {},
+        "131": {
+            "lore": "A furred, magic resistant headpiece that is feared by wizards.",
+            "description": "Stacks multiplicatively with other sources of spell resistance.\n"
+        },
+        "132": {},
+        "133": {
+            "lore": "So powerful, it cannot have a single owner.",
+            "description": "If Divine Rapier is dropped and picked up by an enemy of its original owner, it cannot be dropped again except by death.\nDrops on death.  Becomes unusable if picked up by an ally of its owner until it is returned to its owner. It is immediately usable by anybody if an enemy of the owner picks it up. A dropped Rapier cannot be picked up by a courier."
+        },
+        "134": {},
+        "135": {
+            "lore": "A powerful staff used by a master warrior.",
+            "abilities": {
+                "0": "Grants each attack a chance to deal bonus damage and deal a mini-stun.",
+                "1": "Prevents your attacks from missing. True Strike does not work when attacking enemy structures."
+            }
+        },
+        "136": {},
+        "137": {
+            "lore": "A divine weapon that causes damage and a bright burning effect that lays waste to nearby enemies.",
+            "abilities": {
+                "0": "When active, scorches nearby enemies for 50 damage per second and blinds them, causing them to miss 17% of their attacks."
+            }
+        },
+        "138": {},
+        "139": {
+            "lore": "Only the mightiest and most experienced of warriors can wield the Butterfly, but it provides incredible dexterity in combat.",
+            "description": "Stacks diminishingly with other sources of Evasion.",
+            "abilities": {
+                "0": "Trade evasion for 25% additional movement speed for 6 seconds."
+            }
+        },
+        "140": {},
+        "141": {
+            "lore": "A weapon of incredible power that is difficult for even the strongest of warriors to control.",
+            "abilities": {
+                "0": "Grants each attack a chance to deal additional damage. Critical Strike does not work against buildings."
+            }
+        },
+        "142": {},
+        "143": {
+            "lore": "A feared weapon in the right hands, this maul's ability to shatter the defenses of its opponents should not be underestimated.",
+            "description": "Does not stack with other sources of Bash, however it will stack with Mini-Bash (e.g. Monkey King Bar). The following heroes cannot trigger Bash on this item: Spirit Breaker, Faceless Void, Slardar, and Troll Warlord.",
+            "abilities": {
+                "0": "Grants each attack a chance to stun the target for 1.4 seconds and deal 60 bonus damage, based on whether the equipped hero is ranged or melee."
+            }
+        },
+        "144": {},
+        "145": {
+            "lore": "The bearer of this mighty axe gains the ability to cut down swaths of enemies at once.",
+            "description": "Cleave damage is reduced by armor type but not by armor value. Cleave damage goes through spell immunity. If multiple sources of Cleave are present, each Cleave's damage is applied separately.",
+            "abilities": {
+                "0": "Destroy a target tree or ward. Chop cast range is increased when targetting wards.",
+                "1": "Increases attack damage against non-hero units, based on whether the equipped hero is ranged or melee. Does not provide bonus damage against Roshan.",
+                "2": "Deals a percent of attack damage in a 280 area around the target. Ranged units cannot Cleave."
+            }
+        },
+        "146": {},
+        "147": {
+            "lore": "An axe made of reflective materials that causes confusion amongst enemy ranks.",
+            "description": "Has a 0.1 second cast time during which you are invulnerable. Many effects are removed upon using Manta.\n\nMelee images deal 33%% damage and take 350%% damage, while Ranged images deal 28%% and take 400%% damage.\n\nYasha-based movement speed bonuses from multiple items do not stack.",
+            "abilities": {
+                "0": "Creates 2 images of your hero that last 20 seconds. Melee heroes have a 35.0 second cooldown on this ability, while for Ranged heroes the cooldown is 50 seconds."
+            }
+        },
+        "148": {},
+        "149": {
+            "lore": "A blade forged from rare crystals, it seeks weak points in enemy armor.",
+            "abilities": {
+                "0": "Grants each attack a chance to deal additional damage. Critical Strike does not work against buildings."
+            }
+        },
+        "150": {},
+        "151": {
+            "lore": "Weapon of choice among brutes, the bearer sacrifices his life energy to gain immense strength and power.",
+            "description": "The strength change will affect both maximum and current HP, but you cannot die from the change. The strength change occurs over 0.6 seconds. Activating or deactiving Unholy Strength does not interrupt channeling.",
+            "abilities": {
+                "0": "When active, Unholy Strength grants +31 damage and +25 strength, but drains 40 health per second.  You cannot die from the health drain when Unholy Strength is activated, nor from the strength loss when Unholy Strength is deactivated."
+            }
+        },
+        "183": {},
+        "152": {
+            "lore": "The blade of a fallen king, it allows you to move unseen and strike from the shadows.",
+            "description": "Has a 0.3 second fade time. If the invisibility ends without attacking, the bonus damage is lost.",
+            "abilities": {
+                "0": "Makes you invisible until the duration ends, or until you attack or cast a spell.  While Shadow Walk is active, you move 20% faster and can move through units.  If attacking to end the invisibility, you gain 175 bonus damage on that attack.  Lasts 14.0 seconds."
+            }
+        },
+        "248": {},
+        "249": {
+            "lore": "Once used to slay an unjust king, only to have the kingdom erupt into civil war in the aftermath.",
+            "abilities": {
+                "0": "Makes you invisible until the duration ends, or until you attack or cast a spell.  While invisible, you move 20% faster and can move through units.  Attacking to end the invisibility will deal 225 bonus damage to the target, disable their passive abilities, and reduce their damage output.",
+                "1": "Each attack has a chance to slow the enemy's movement and attack speed for 4.0 seconds."
+            }
+        },
+        "153": {},
+        "154": {
+            "lore": "Sange and Yasha, when attuned by the moonlight and used together, become a very powerful combination.",
+            "description": "Yasha-based movement speed bonuses from multiple items do not stack.",
+            "abilities": {
+                "0": "Each attack has a chance to slow the enemy's movement and attack speed for 5.0 seconds."
+            }
+        },
+        "155": {},
+        "156": {
+            "lore": "Immense power at the cost of your soul.",
+            "description": "Satanic is a Unique Attack Modifier, and does not stack with other Unique Attack Modifier.",
+            "abilities": {
+                "0": "Increases Lifesteal percentage to 200% for 4 seconds.",
+                "1": "Heals the attacker for a percentage of attack damage dealt."
+            }
+        },
+        "157": {},
+        "158": {
+            "lore": "Thor's magical hammer, made for him by the dwarves Brok and Eitri.",
+            "description": "Static Charge cannot trigger more than once per second. Static Charge's shock deals magical damage centered on hero with the Static Charge. Static Charge's targets cannot be more than 900 range away. Static Charge procs will not bounce to heroes that are invisible or hidden by Fog of War.\n\nMjollnir is a Unique Attack Modifier that stacks with other Unique Attack Modifiers, but overrides them when Chain Lightning occurs.",
+            "abilities": {
+                "0": "Places a charged shield on a target unit which has a 20% chance to release a shocking bolt at a nearby attacker and 4 additional enemies.",
+                "1": "Grants a chance on attack to release a bolt of electricity that leaps between 8 targets, dealing 150 magical damage to each."
+            }
+        },
+        "159": {},
+        "160": {
+            "lore": "Extremely rare artifact, guarded by the azure dragons.",
+            "description": "Lasts 5 seconds with melee Eye of Skadi, 3 seconds with ranged Eye of Skadi.\n\nEye of Skadi is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.  Eye of Skadi can be combined with Lifesteal Attack Modifiers.",
+            "abilities": {
+                "0": "Each attack slows the movement and attack speed of the target. The duration of the slow is based on whether the equipped hero is melee or ranged."
+            }
+        },
+        "161": {},
+        "162": {
+            "lore": "Sange is an unusually accurate weapon, seeking weak points automatically.",
+            "abilities": {
+                "0": "Each attack has a chance to slow the enemy's movement and attack speed for 4.0 seconds."
+            }
+        },
+        "163": {},
+        "164": {
+            "lore": "The powerful headpiece of a dead necromancer.",
+            "description": "Cannot dominate more than one unit at a time.  If a new unit is dominated, the old one will die. Selling or upgrading Helm of the Dominator will cause dominated units to die.\n\nHelm of the Dominator is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
+            "abilities": {
+                "0": "Take control of a non-hero, non-ancient target unit. Dominated units gain 500 bonus health.",
+                "1": "Heals the attacker for a percentage of attack damage dealt."
+            }
+        },
+        "165": {},
+        "166": {
+            "lore": "A hammer forged for the gods themselves, Maelstrom allows its user to harness the power of lightning.",
+            "description": "Maelstrom is a Unique Attack Modifier that stacks with other Unique Attack Modifiers, but overrides them when Chain Lightning occurs.",
+            "abilities": {
+                "0": "Grants a chance on attack to release a bolt of electricity that leaps between 4 targets, dealing 120 magical damage to each."
+            }
+        },
+        "167": {},
+        "168": {
+            "lore": "A wicked weapon, used in torturing political criminals.",
+            "description": "Armor reduction works on buildings.\n\nDesolator is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
+            "abilities": {
+                "0": "Your attacks reduce target's armor for 15 seconds."
+            }
+        },
+        "169": {},
+        "170": {
+            "lore": "Yasha is regarded as the swiftest weapon ever created.",
+            "description": "Yasha-based movement speed bonuses from multiple items do not stack."
+        },
+        "171": {},
+        "172": {
+            "lore": "Once this mask is worn, its bearer becomes an uncontrollable aggressive force.",
+            "description": "Mask of Madness is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
+            "abilities": {
+                "0": "Gives 100 attack speed and 17% movement speed, but causes you to take extra 30% damage.  Lasts 12.0 seconds.",
+                "1": "Heals the attacker for a percentage of attack damage dealt."
+            }
+        },
+        "173": {},
+        "195": {},
+        "174": {
+            "lore": "An enchanted blade that allows the user to cut straight into the enemy's soul.",
+            "description": "Upgradable.",
+            "abilities": {
+                "0": "If cast on an enemy, removes buffs from the target and slows it for 4.0 seconds. Instantly kills enemy summoned units and illusions. If cast on an ally, Purge removes most debuffs.",
+                "1": "Each attack burns 25 mana from the target, and deals the same amount in physical damage. Burns 12 mana per attack from ranged illusions. Does not stack with other manabreak abilities."
+            }
+        },
+        "196": {
+            "lore": "An enchanted blade that allows the user to cut straight into the enemy's soul.",
+            "description": "Upgradable.",
+            "abilities": {
+                "0": "If cast on an enemy, removes buffs from the target and slows it for 4.0 seconds. Instantly kills enemy summoned units and illusions. If cast on an ally, Purge removes most debuffs.",
+                "1": "Each attack burns 25 mana from the target, and deals the same amount in physical damage. Burns 12 mana per attack from ranged illusions. Does not stack with other manabreak abilities."
+            }
+        },
+        "175": {},
+        "176": {
+            "lore": "A flickering blade of a ghastly nature, it is capable of dealing damage in both magical and physical planes.",
+            "description": "Shares cooldown with Ghost Scepter. Ethereal units take 40% bonus magic damage. Lasts an extra second on Self or Allied cast.\nUsing a Town Portal Scroll or Boots of Travel will not dispel Ethereal Form.",
+            "abilities": {
+                "0": "Launches a projectile which converts the target to ethereal form, increasing any incoming magic damage they take, while rendering them immune to physical damage and unable to attack.  Can be cast on self.  If the target is an enemy, it is also slowed, and takes 2.0x your primary attribute + 75 as magical damage."
+            }
+        },
+        "177": {},
+        "178": {
+            "lore": "A ring that feeds on the souls of those who wear it.",
+            "description": "If the mana gain cannot fit in your mana pool, it creates a buffer of mana that will be used before your mana pool.  If this mana is not used before the duration ends, the extra mana is lost.",
+            "abilities": {
+                "0": "Consume 150 health to temporarily gain 150 mana.  Lasts 10 seconds."
+            }
+        },
+        "179": {},
+        "180": {
+            "lore": "Magi equipped with these boots are valued in battle.",
+            "description": "Does not work on Meepo clones.\n\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
+            "abilities": {
+                "0": "Restores mana to all allies in a 900 area around the hero."
+            }
+        },
+        "228": {},
+        "235": {
+            "lore": "At the core of spellcraft are spectrums only the very gifted can sense.",
+            "abilities": {
+                "0": "Reduces the cooldown time of all spells and items by 25%.",
+                "1": "A percentage of damage caused by spells is returned to the caster as health."
+            }
+        },
+        "181": {
+            "lore": "Envenoms your veapon with the venom of a venomous viper.",
+            "description": "Orb of Venom is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.  Orb of Venom can be combined with Lifesteal Attack Modifiers.",
+            "abilities": {
+                "0": "Poisons the target, dealing damage over time and slowing movement based on whether the equipped hero is melee or ranged."
+            }
+        },
+        "184": {},
+        "185": {
+            "lore": "A relic that enchants the bodies of those around it for swifter movement in times of crisis.",
+            "description": "Re-purchasing the Drum of Endurance recipe will refresh its charges.\n\nMultiple instances of Swiftness Aura do not stack.",
+            "abilities": {
+                "0": "Gives bonus +20 attack speed and +10% movement speed to allies in a 900 radius.",
+                "1": "Gives bonus attack and movement speed to allies in a 900 radius."
+            }
+        },
+        "186": {},
+        "187": {
+            "lore": "The bearer has no fear of combat.",
+            "abilities": {
+                "0": "If cast on an ally, increases their armor while reducing the caster's. If cast on an enemy, reduces the armor of both the enemy and the caster.  Lasts 7 seconds."
+            }
+        },
+        "227": {},
+        "229": {
+            "lore": "A talisman forged to honor the daytime sky.",
+            "abilities": {
+                "0": "Temporarily removes the armor and evasion from Solar Crest. When cast on an ally it grants them 10 armor and 30% evasion. When cast on an enemy it removes 10 of their armor and blinds them, causing them to miss 30% of their attacks."
+            }
+        },
+        "188": {
+            "abilities": {
+                "0": "Upon activation, the user and all nearby allied player-controlled units gain invisibility and bonus movement speed for a brief time.  Minimap icons will also be hidden.  Attacking, or moving within 1025 range of an enemy hero or tower, will break the invisibility."
+            }
+        },
+        "189": {},
+        "190": {
+            "lore": "The headwear of corrupt magi.",
+            "abilities": {
+                "0": "Emits a weakening blast that increases the magic damage enemies take. Lasts 16.0 seconds."
+            }
+        },
+        "230": {},
+        "231": {
+            "lore": "One of many holy instruments constructed to honor the Omniscience.",
+            "description": "The aura boost only applies to heroes.",
+            "abilities": {
+                "0": "Restores 250 health and 160 mana to nearby allies, and removes most negative buffs from the caster.",
+                "1": "Provides nearby allies with 4 health regeneration and 2 bonus armor. If an allied hero's health falls below 20%, they receive 15 health regeneration and 15 armor."
+            }
+        },
+        "205": {},
+        "206": {
+            "lore": "Atos, the Lord of Blight, has his essence stored in this deceptively simple wand.",
+            "abilities": {
+                "0": "Slows the target's movement speed."
+            }
+        },
+        "207": {},
+        "208": {
+            "lore": "The lost blade of the Commander of the Abyss, this edge cuts into an enemy's soul.",
+            "description": "The stun is melee range. Doesn't stack with other bashes. The following heroes cannot trigger Bash on this item: Spirit Breaker, Faceless Void, Slardar, and Troll Warlord.",
+            "abilities": {
+                "0": "Stuns a target enemy unit for 2 seconds. Pierces Spell Immunity.",
+                "1": "Grants each attack a chance to stun the target for 1.4 seconds and deal 60 bonus damage, based on whether the equipped hero is ranged or melee."
+            }
+        },
+        "209": {},
+        "210": {
+            "lore": "This halberd moves with the speed of a smaller weapon, allowing the bearer to win duels that a heavy edge would not.",
+            "description": "Disarm can only be removed with spell immunity.\n\nStacks diminishingly with other sources of Evasion.",
+            "abilities": {
+                "0": "Prevents a target from attacking. Lasts 3.0 seconds on melee targets, and 4.5 seconds on ranged targets.",
+                "1": "Each attack has a chance to slow the enemy's movement and attack speed for 4.0 seconds."
+            }
+        },
+        "211": {},
+        "212": {
+            "lore": "The ring of the fallen Warlord Aquila continues to support armies in battle.",
+            "description": "Does not stack with armor auras from Ring of Basilius, Ring of Aquila, or Vladmir's Offering.\n\nMultiple instances of Aquila Aura do not stack.",
+            "abilities": {
+                "0": "Grants mana regeneration and armor in a 900 area of effect.",
+                "1": "Toggle whether the aura affects other non-hero units."
+            }
+        },
+        "213": {},
+        "214": {
+            "lore": "While they increase the longevity of the wearer, this boot is not particularly reliable.",
+            "abilities": {
+                "0": "Whenever you attack or are attacked, the health regeneration and 30 Movement Speed are lost for 13 seconds."
+            }
+        },
+        "215": {
+            "abilities": {
+                "0": "Grants invisibility to you or a target allied hero after a 1.5 second fade time. Moving breaks the invisibility. There is no cooldown when using this item on yourself."
+            }
+        },
+        "253": {},
+        "254": {
+            "lore": "The stolen cape of a master illusionist.",
+            "abilities": {
+                "0": "After a 0.4 second delay, grants invisibility and 55% magic resistance to you or a target allied unit. Can be cast while channelling."
+            }
+        },
+        "1000": {
+            "lore": "A strange looking candy, made out of Greevil cream and gummy vitamins.",
+            "abilities": {
+                "0": "Deposit the candy in your bucket to give all heroes on the map gold and XP, or use it to satisfy a rampaging Roshan's sweet tooth. Get the highest candy in your bucket to win a prize! Carrying candy makes you less healthy, and decreases your max HP."
+            }
+        },
+        "1001": {},
+        "1002": {},
+        "1003": {},
+        "1004": {},
+        "1005": {},
+        "1006": {},
+        "1007": {
+            "description": "Use the Greevil Whistle to temporarily transform into your Greevil!"
+        },
+        "1008": {
+            "description": "Use the Greevil Whistle to toggle between Greevil and Hero!"
+        },
+        "1009": {},
+        "1010": {
+            "abilities": {
+                "0": "Open Stocking to receive your gifts!"
+            }
+        },
+        "1011": {
+            "description": "Gives a massive increase of 100 to movespeed. Increases control on the ice. Use short paths for the best result!"
+        },
+        "1012": {
+            "description": "Use the cake to heal 400 health and 50 mana over 8 seconds"
+        },
+        "1013": {
+            "description": "Use the cookie to heal 350 health and 100 mana over 11 seconds"
+        },
+        "1014": {
+            "description": "Use the cocoa to heal 300 health and 150 mana over 14 seconds"
+        },
+        "1015": {
+            "description": "Use the ham to heal 300 health and 75 mana over 2 seconds"
+        },
+        "1016": {
+            "description": "Use the kringle to heal 250 health and 200 mana over 17 seconds"
+        },
+        "1017": {
+            "description": "Refreshes all the Greevil's abilities."
+        },
+        "1018": {
+            "lore": "There is nothing faster than a greevil eating his favorite treat!",
+            "description": "Makes your greevil move at max speed for 10 seconds."
+        },
+        "1019": {
+            "description": "Use the chow to heal your greevil 400 health and 150 mana over 5 seconds."
+        },
+        "1020": {
+            "description": "After channeling for 2 seconds the greevil pops to the new location."
+        }
+    }
+}

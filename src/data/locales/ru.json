@@ -1,0 +1,1605 @@
+{
+    "general": { 
+        "categories": {
+            "consumables": "Расходуемые",
+            "attributes": "Атрибуты",
+            "armaments": "Вооружение",
+            "arcane": "Мистика",
+            "common": "Общее",
+            "support": "Поддержка",
+            "caster": "Магия",
+            "weapons": "Оружие",
+            "armor": "Броня",
+            "artifact": "Артефакты",
+            "secret": "Потайная лавка"
+        },
+        "filter": {
+            "no_results": "По текущему запросу ничего не найдено.",
+            "hightlight_rel": "Подсветка родственников",
+            "search_placeholder": "Поиск предметов...",
+            "reset_button_title": "Сбросить все фильтры"
+    },
+        "itemtree": {
+            "name": "Древо сборки",
+            "no_recipe": "Не используется в рецептах"
+        },
+        "item": {
+            "description": "Описание",
+            "shareable": {
+                "full": "Полностью передаваемые",
+                "partial": "Частично передаваемые"
+            },
+            "abilities": {
+                "active": "Активная",
+                "passive": "Пассивная",
+                "use": "Применение",
+                "cooldown": "Перезарядка",
+                "mana": "Мана"
+            },
+            "stats": {
+                "arcane_ring_bonus_armor": "к броне",
+                "arcane_ring_bonus_mana": "к мане",
+                "armlet_bonus_damage": "к урону",
+                "armlet_bonus_attack_speed": "к скорости атаки",
+                "armlet_bonus_armor": "к броне",
+                "armlet_bonus_health_regen": "к регенерации здоровья",
+                "assault_aura_attack_speed": "АУРА СКОРОСТИ АТАКИ:",
+                "assault_aura_positive_armor": "ДОП. БРОНЯ СОЮЗНИКАМ В АУРЕ:",
+                "assault_aura_negative_armor": "СНИЖЕНИЕ БРОНИ ВРАГАМ В АУРЕ:",
+                "assault_bonus_attack_speed": "к скорости атаки",
+                "assault_bonus_armor": "к броне",
+                "basher_bash_chance_melee": "ШАНС В БЛИЖНЕМ БОЮ:",
+                "basher_bash_chance_ranged": "ШАНС В ДАЛЬНЕМ БОЮ:",
+                "basher_bonus_damage": "к урону",
+                "basher_bonus_strength": "к силе",
+                "belt_of_strength_bonus_strength": "к силе",
+                "bfury_cleave_damage_percent": "УРОН СОСЕДНИМ ЦЕЛЯМ:",
+                "bfury_bonus_damage": "к урону",
+                "bfury_bonus_health_regen": "к регенерации здоровья",
+                "bfury_bonus_mana_regen": "к регенерации маны",
+                "black_king_bar_bonus_strength": "к силе",
+                "black_king_bar_bonus_damage": "к урону",
+                "black_king_bar_duration": "ДЛИТЕЛЬНОСТЬ:",
+                "black_king_bar_cooldown": "ПЕРЕЗАРЯДКА:",
+                "blade_mail_bonus_damage": "к урону",
+                "blade_mail_bonus_armor": "к броне",
+                "blade_mail_bonus_intellect": "к интеллекту",
+                "blades_of_attack_bonus_damage": "к урону",
+                "blade_of_alacrity_bonus_agility": "к ловкости",
+                "bloodstone_bonus_health": "к здоровью",
+                "bloodstone_bonus_mana": "к мане",
+                "bloodstone_bonus_health_regen": "к регенерации здоровья",
+                "bloodstone_bonus_mana_regen": "к регенерации маны",
+                "boots_bonus_movement_speed": "к скорости передвижения",
+                "boots_of_elves_bonus_agility": "к ловкости",
+                "bottle_health_restore": "ПОПОЛНЯЕТ ЗДОРОВЬЯ:",
+                "bottle_mana_restore": "ПОПОЛНЯЕТ МАНЫ:",
+                "bottle_restore_time": "ДЛИТЕЛЬНОСТЬ:",
+                "bracer_bonus_strength": "к силе",
+                "bracer_bonus_agility": "к ловкости",
+                "bracer_bonus_intellect": "к интеллекту",
+                "bracer_bonus_damage": "к урону",
+                "branches_bonus_all_stats": "ко всем атрибутам",
+                "broadsword_bonus_damage": "к урону",
+                "buckler_bonus_armor": "к броне",
+                "buckler_bonus_all_stats": "ко всем атрибутам",
+                "butterfly_bonus_agility": "к ловкости",
+                "butterfly_bonus_damage": "к урону",
+                "butterfly_bonus_evasion": "к уклонению",
+                "butterfly_bonus_attack_speed": "к скорости атаки",
+                "chainmail_bonus_armor": "к броне",
+                "cheese_health_restore": "ПОПОЛНЯЕТ ЗДОРОВЬЯ:",
+                "cheese_mana_restore": "ПОПОЛНЯЕТ МАНЫ:",
+                "circlet_bonus_all_stats": "ко всем атрибутам",
+                "clarity_total_mana": "ПОПОЛНЯЕТ МАНЫ:",
+                "clarity_buff_duration": "ДЛИТЕЛЬНОСТЬ:",
+                "claymore_bonus_damage": "к урону",
+                "cloak_tooltip_resist": "к сопротивлению магии",
+                "cyclone_bonus_intellect": "к интеллекту",
+                "cyclone_bonus_mana_regen": "к регенерации маны",
+                "cyclone_bonus_movement_speed": "к скорости передвижения",
+                "dagon_damage": "МГНОВЕННЫЙ УРОН:",
+                "dagon_bonus_intellect": "к интеллекту",
+                "dagon_bonus_all_stats": "ко всем атрибутам",
+                "dagon_bonus_damage": "к урону",
+                "dagon_2_damage": "МГНОВЕННЫЙ УРОН:",
+                "dagon_2_bonus_intellect": "к интеллекту",
+                "dagon_2_bonus_all_stats": "ко всем атрибутам",
+                "dagon_2_bonus_damage": "к урону",
+                "dagon_3_damage": "МГНОВЕННЫЙ УРОН:",
+                "dagon_3_bonus_intellect": "к интеллекту",
+                "dagon_3_bonus_all_stats": "ко всем атрибутам",
+                "dagon_3_bonus_damage": "к урону",
+                "dagon_4_damage": "МГНОВЕННЫЙ УРОН:",
+                "dagon_4_bonus_intellect": "к интеллекту",
+                "dagon_4_bonus_all_stats": "ко всем атрибутам",
+                "dagon_4_bonus_damage": "к урону",
+                "dagon_5_damage": "МГНОВЕННЫЙ УРОН:",
+                "dagon_5_bonus_intellect": "к интеллекту",
+                "dagon_5_bonus_all_stats": "ко всем атрибутам",
+                "dagon_5_bonus_damage": "к урону",
+                "demon_edge_bonus_damage": "к урону",
+                "desolator_corruption_armor": "СНИЖЕНИЕ БРОНИ:",
+                "desolator_bonus_damage": "к урону",
+                "diffusal_blade_bonus_agility": "к ловкости",
+                "diffusal_blade_bonus_intellect": "к интеллекту",
+                "diffusal_blade_2_bonus_agility": "к ловкости",
+                "diffusal_blade_2_bonus_intellect": "к интеллекту",
+                "dust_duration": "ДЛИТЕЛЬНОСТЬ:",
+                "dust_radius": "РАДИУС:",
+                "eagle_bonus_agility": "к ловкости",
+                "energy_booster_bonus_mana": "к мане",
+                "ethereal_blade_duration": "ДЛИТЕЛЬНОСТЬ НА ВРАГАХ:",
+                "ethereal_blade_bonus_agility": "к ловкости",
+                "ethereal_blade_bonus_strength": "к силе",
+                "ethereal_blade_bonus_intellect": "к интеллекту",
+                "flask_total_health": "ПОПОЛНЯЕТ ЗДОРОВЬЯ:",
+                "flask_buff_duration": "ДЛИТЕЛЬНОСТЬ:",
+                "force_staff_bonus_intellect": "к интеллекту",
+                "gauntlets_bonus_strength": "к силе",
+                "ghost_duration": "ДЛИТЕЛЬНОСТЬ:",
+                "ghost_bonus_all_stats": "ко всем атрибутам",
+                "gloves_bonus_attack_speed": "к скорости атаки",
+                "greater_crit_crit_chance": "ШАНС КРИТА:",
+                "greater_crit_crit_multiplier": "КРИТИЧЕСКИЙ УРОН:",
+                "greater_crit_bonus_damage": "к урону",
+                "hand_of_midas_bonus_attack_speed": "к скорости атаки",
+                "headdress_aura_health_regen": "ВОССТАНОВЛЕНИЕ В АУРЕ:",
+                "headdress_bonus_all_stats": "ко всем атрибутам",
+                "heart_health_regen_rate": "ВОССТ. ЗДОРОВЬЯ В СЕКУНДУ:",
+                "heart_bonus_strength": "к силе",
+                "heart_bonus_health": "к здоровью",
+                "helm_of_iron_will_bonus_armor": "к броне",
+                "helm_of_iron_will_bonus_regen": "к регенерации здоровья",
+                "helm_of_the_dominator_bonus_damage": "к урону",
+                "helm_of_the_dominator_bonus_armor": "к броне",
+                "helm_of_the_dominator_lifesteal_percent": "ВАМПИРИЗМ:",
+                "hood_of_defiance_tooltip_resist": "к сопротивлению магии",
+                "hood_of_defiance_bonus_health_regen": "к регенерации здоровья",
+                "hyperstone_bonus_attack_speed": "к скорости атаки",
+                "invis_sword_bonus_damage": "к урону",
+                "invis_sword_bonus_attack_speed": "к скорости атаки",
+                "javelin_bonus_damage": "к урону",
+                "javelin_bonus_chance": "ШАНС ПРОНЗИТЬ:",
+                "javelin_bonus_chance_damage": "ПРОНЗАЮЩИЙ УРОН:",
+                "lesser_crit_crit_chance": "ШАНС КРИТА:",
+                "lesser_crit_crit_multiplier": "КРИТИЧЕСКИЙ УРОН:",
+                "lesser_crit_bonus_damage": "к урону",
+                "lifesteal_lifesteal_percent": "ВАМПИРИЗМ:",
+                "sphere_bonus_all_stats": "ко всем атрибутам",
+                "sphere_bonus_health_regen": "к регенерации здоровья",
+                "sphere_bonus_mana_regen": "к регенерации маны",
+                "maelstrom_chain_chance": "ШАНС РАЗРЯДА:",
+                "maelstrom_chain_damage": "УРОН ОТ РАЗРЯДА:",
+                "maelstrom_bonus_damage": "к урону",
+                "maelstrom_bonus_attack_speed": "к скорости атаки",
+                "magic_stick_restore_per_charge": "ЗДОРОВЬЯ/МАНЫ ЗА ЗАРЯД:",
+                "magic_wand_bonus_all_stats": "ко всем атрибутам",
+                "magic_wand_restore_per_charge": "ЗДОРОВЬЯ/МАНЫ ЗА ЗАРЯД:",
+                "manta_bonus_agility": "к ловкости",
+                "manta_bonus_strength": "к силе",
+                "manta_bonus_intellect": "к интеллекту",
+                "manta_bonus_attack_speed": "к скорости атаки",
+                "manta_bonus_movement_speed": "к скорости передвижения",
+                "mantle_bonus_intellect": "к интеллекту",
+                "mask_of_madness_lifesteal_percent": "ВАМПИРИЗМ:",
+                "mekansm_aura_health_regen": "ВОССТАНОВЛЕНИЕ ЗДОРОВЬЯ В АУРЕ:",
+                "mekansm_bonus_all_stats": "ко всем атрибутам",
+                "mekansm_bonus_armor": "к броне",
+                "mithril_hammer_bonus_damage": "к урону",
+                "mjollnir_chain_chance": "ШАНС РАЗРЯДА:",
+                "mjollnir_chain_damage": "УРОН ОТ РАЗРЯДА:",
+                "mjollnir_bonus_damage": "к урону",
+                "mjollnir_bonus_attack_speed": "к скорости атаки",
+                "monkey_king_bar_bash_chance": "ШАНС МИНИ-ОГЛУШЕНИЯ:",
+                "monkey_king_bar_bash_damage": "УРОН МИНИ-ОГЛУШЕНИЯ:",
+                "monkey_king_bar_bonus_damage": "к урону",
+                "monkey_king_bar_bonus_attack_speed": "к скорости атаки",
+                "mystic_staff_bonus_intellect": "к интеллекту",
+                "necronomicon_bonus_intellect": "к интеллекту",
+                "necronomicon_bonus_strength": "к силе",
+                "necronomicon_2_bonus_intellect": "к интеллекту",
+                "necronomicon_2_bonus_strength": "к силе",
+                "necronomicon_3_bonus_intellect": "к интеллекту",
+                "necronomicon_3_bonus_strength": "к силе",
+                "null_talisman_bonus_strength": "к силе",
+                "null_talisman_bonus_agility": "к ловкости",
+                "null_talisman_bonus_intellect": "к интеллекту",
+                "null_talisman_bonus_damage": "к урону",
+                "oblivion_staff_bonus_intellect": "к интеллекту",
+                "oblivion_staff_bonus_attack_speed": "к скорости атаки",
+                "oblivion_staff_bonus_damage": "к урону",
+                "oblivion_staff_bonus_mana_regen": "к регенерации маны",
+                "ogre_axe_bonus_strength": "к силе",
+                "orchid_bonus_intellect": "к интеллекту",
+                "orchid_bonus_attack_speed": "к скорости атаки",
+                "orchid_bonus_damage": "к урону",
+                "orchid_bonus_mana_regen": "к регенерации маны",
+                "pers_bonus_damage": "к урону",
+                "pers_bonus_health_regen": "к регенерации здоровья",
+                "pers_bonus_mana_regen": "к регенерации маны",
+                "phase_boots_phase_movement_speed": "УВЕЛИЧЕНИЕ СКОРОСТИ:",
+                "phase_boots_phase_duration": "ДЛИТЕЛЬНОСТЬ ДЕЙСТВИЯ:",
+                "phase_boots_bonus_damage": "к урону",
+                "phase_boots_bonus_movement_speed": "к скорости передвижения",
+                "pipe_health_regen": "к регенерации здоровья",
+                "platemail_bonus_armor": "к броне",
+                "point_booster_bonus_mana": "к мане",
+                "point_booster_bonus_health": "к здоровью",
+                "poor_mans_shield_block_chance": "ШАНС БЛОКА УДАРОВ КРИПОВ:",
+                "poor_mans_shield_damage_block_melee": "БЛОК УРОНА НА ГЕРОЯХ БЛИЖНЕГО БОЯ:",
+                "poor_mans_shield_damage_block_ranged": "БЛОК УРОНА НА ГЕРОЯХ ДАЛЬНЕГО БОЯ:",
+                "poor_mans_shield_bonus_agility": "к ловкости",
+                "power_treads_bonus_movement_speed": "к скорости передвижения",
+                "power_treads_bonus_stat": "к выбранному атрибуту",
+                "power_treads_bonus_attack_speed": "к скорости атаки",
+                "quarterstaff_bonus_damage": "к урону",
+                "quarterstaff_bonus_speed": "к скорости атаки",
+                "quelling_blade_damage_bonus": "ДОП. УРОН В БЛИЖНЕМ БОЮ:",
+                "quelling_blade_damage_bonus_ranged": "ДОП. УРОН В ДАЛЬНЕМ БОЮ:",
+                "radiance_aura_damage": "ПЕРИОДИЧЕСКИЙ УРОН:",
+                "radiance_bonus_damage": "к урону",
+                "rapier_bonus_damage": "к урону",
+                "reaver_bonus_strength": "к силе",
+                "refresher_bonus_health_regen": "к регенерации здоровья",
+                "refresher_bonus_mana_regen": "к регенерации маны",
+                "refresher_bonus_damage": "к урону",
+                "relic_bonus_damage": "к урону",
+                "ring_of_basilius_bonus_damage": "к урону",
+                "ring_of_basilius_bonus_armor": "к броне",
+                "ring_of_basilius_aura_mana_regen": "РЕГЕН МАНЫ В АУРЕ:",
+                "ring_of_basilius_aura_bonus_armor": "АУРА ДОП. БРОНИ:",
+                "ring_of_health_bonus_health_regen": "к регенерации здоровья",
+                "ring_of_protection_bonus_armor": "к броне",
+                "ring_of_regen_bonus_health_regen": "к регенерации здоровья",
+                "robe_bonus_intellect": "к интеллекту",
+                "sange_maim_chance": "ШАНС НАНЕСТИ ТРАВМУ:",
+                "sange_maim_movement_speed": "ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ:",
+                "sange_bonus_damage": "к урону",
+                "sange_bonus_strength": "к силе",
+                "sange_and_yasha_maim_slow_movement": "ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ:",
+                "sange_and_yasha_bonus_damage": "к урону",
+                "sange_and_yasha_bonus_strength": "к силе",
+                "sange_and_yasha_bonus_agility": "к ловкости",
+                "sange_and_yasha_bonus_attack_speed": "к скорости атаки",
+                "sange_and_yasha_movement_speed_percent_bonus": "к скорости передвижения",
+                "satanic_bonus_damage": "к урону",
+                "satanic_bonus_strength": "к силе",
+                "satanic_bonus_armor": "к броне",
+                "satanic_lifesteal_percent": "ВАМПИРИЗМ:",
+                "sheepstick_bonus_strength": "к силе",
+                "sheepstick_bonus_agility": "к ловкости",
+                "sheepstick_bonus_intellect": "к интеллекту",
+                "sheepstick_bonus_mana_regen": "к регенерации маны",
+                "shivas_guard_aura_attack_speed": "ЗАМЕДЛЕНИЕ АТАКИ ОТ АУРЫ:",
+                "shivas_guard_bonus_intellect": "к интеллекту",
+                "shivas_guard_bonus_armor": "к броне",
+                "skadi_cold_movement_speed": "ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ:",
+                "skadi_cold_attack_speed": "ЗАМЕДЛЕНИЕ АТАКИ:",
+                "skadi_bonus_all_stats": "ко всем атрибутам",
+                "skadi_bonus_health": "к здоровью",
+                "skadi_bonus_mana": "к мане",
+                "slippers_bonus_agility": "к ловкости",
+                "sobi_mask_bonus_mana_regen": "к регенерации маны",
+                "soul_booster_bonus_health": "к здоровью",
+                "soul_booster_bonus_mana": "к мане",
+                "soul_booster_bonus_health_regen": "к регенерации здоровья",
+                "soul_booster_bonus_mana_regen": "к регенерации маны",
+                "soul_ring_health_regen": "к регенерации здоровья",
+                "soul_ring_mana_regen": "к регенерации маны",
+                "staff_of_wizardry_bonus_intellect": "к интеллекту",
+                "stout_shield_block_chance": "ШАНС БЛОКА:",
+                "stout_shield_damage_block_melee": "БЛОК УРОНА НА ГЕРОЯХ БЛИЖНЕГО БОЯ:",
+                "stout_shield_damage_block_ranged": "БЛОК УРОНА НА ГЕРОЯХ ДАЛЬНЕГО БОЯ:",
+                "talisman_of_evasion_bonus_evasion": "к уклонению",
+                "tango_total_heal": "ПОПОЛНЯЕТ ЗДОРОВЬЯ ОТ ДЕРЕВЬЕВ:",
+                "tango_buff_duration": "ДЛИТЕЛЬНОСТЬ ЛЕЧЕНИЯ:",
+                "travel_boots_bonus_movement_speed": "к скорости передвижения",
+                "ultimate_orb_bonus_all_stats": "ко всем атрибутам",
+                "ultimate_scepter_bonus_all_stats": "ко всем атрибутам",
+                "ultimate_scepter_bonus_health": "к здоровью",
+                "ultimate_scepter_bonus_mana": "к мане",
+                "urn_of_shadows_mana_regen": "к регенерации маны",
+                "urn_of_shadows_bonus_strength": "к силе",
+                "vanguard_bonus_health": "к здоровью",
+                "vanguard_bonus_health_regen": "к регенерации здоровья",
+                "vitality_booster_bonus_health": "к здоровью",
+                "vladmir_hp_regen": "ВОССТАНОВЛЕНИЕ ЗДОРОВЬЯ В АУРЕ:",
+                "vladmir_vampiric_aura": "ВАМПИРИЗМ В БЛИЖНЕМ БОЮ:",
+                "vladmir_mana_regen_aura": "РЕГЕН МАНЫ В АУРЕ:",
+                "vladmir_damage_aura": "ДОП. УРОН В АУРЕ:",
+                "vladmir_armor_aura": "АУРА ДОП. БРОНИ:",
+                "void_stone_bonus_mana_regen": "к регенерации маны",
+                "wraith_band_bonus_strength": "к силе",
+                "wraith_band_bonus_agility": "к ловкости",
+                "wraith_band_bonus_intellect": "к интеллекту",
+                "wraith_band_bonus_damage": "к урону",
+                "yasha_bonus_agility": "к ловкости",
+                "yasha_bonus_attack_speed": "к скорости атаки",
+                "yasha_movement_speed_percent_bonus": "к скорости передвижения",
+                "arcane_boots_replenish_amount": "ПОПОЛНЯЕТ МАНЫ:",
+                "arcane_boots_bonus_movement": "к скорости передвижения",
+                "arcane_boots_bonus_mana": "к мане",
+                "orb_of_venom_poison_damage": "УРОН ОТ ЯДА В СЕКУНДУ:",
+                "orb_of_venom_poison_movement_speed_melee": "ЗАМЕДЛЕНИЕ ОТ БЛИЖНИХ АТАК:",
+                "orb_of_venom_poison_duration": "ДЛИТЕЛЬНОСТЬ:",
+                "ancient_janggo_bonus_aura_attack_speed_pct": "АУРА СКОРОСТИ АТАКИ:",
+                "ancient_janggo_bonus_aura_movement_speed_pct": "АУРА СКОРОСТИ ПЕРЕДВИЖЕНИЯ:",
+                "ancient_janggo_bonus_stats": "ко всем атрибутам",
+                "ancient_janggo_bonus_damage": "к урону",
+                "medallion_of_courage_bonus_armor": "к броне",
+                "medallion_of_courage_bonus_mana_regen_pct": "к регенерации маны",
+                "smoke_of_deceit_bonus_movement_speed": "ДОП. СКОРОСТЬ:",
+                "smoke_of_deceit_duration": "ДЛИТЕЛЬНОСТЬ:",
+                "veil_of_discord_bonus_health_regen": "к регенерации здоровья",
+                "veil_of_discord_bonus_armor": "к броне",
+                "sange_and_yasha_maim_chance": "ШАНС НАНЕСТИ ТРАВМУ:",
+                "orb_of_venom_poison_movement_speed_range": "ЗАМЕДЛЕНИЕ ОТ ДАЛЬНИХ АТАК:",
+                "abyssal_blade_bash_chance_melee": "ШАНС В БЛИЖНЕМ БОЮ:",
+                "abyssal_blade_bash_chance_ranged": "ШАНС В ДАЛЬНЕМ БОЮ:",
+                "abyssal_blade_bonus_damage": "к урону",
+                "abyssal_blade_bonus_strength": "к силе",
+                "rod_of_atos_bonus_health": "к здоровью",
+                "rod_of_atos_bonus_intellect": "к интеллекту",
+                "heavens_halberd_bonus_evasion": "к уклонению",
+                "heavens_halberd_maim_chance": "ШАНС НАНЕСТИ ТРАВМУ:",
+                "heavens_halberd_maim_movement_speed": "ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ:",
+                "heavens_halberd_bonus_damage": "к урону",
+                "heavens_halberd_bonus_strength": "к силе",
+                "tranquil_boots_bonus_movement_speed": "к скорости передвижения",
+                "tranquil_boots_bonus_armor": "к броне",
+                "tranquil_boots_bonus_health_regen": "к регенерации здоровья",
+                "ring_of_aquila_bonus_agility": "к ловкости",
+                "ring_of_aquila_bonus_damage": "к урону",
+                "ring_of_aquila_bonus_armor": "к броне",
+                "ring_of_aquila_aura_mana_regen": "РЕГЕН МАНЫ В АУРЕ:",
+                "ring_of_aquila_aura_bonus_armor": "АУРА ДОП. БРОНИ:",
+                "sphere_bonus_damage": "к урону",
+                "medallion_of_courage_armor_reduction": "СНИЖЕНИЕ БРОНИ:",
+                "veil_of_discord_debuff_radius": "РАДИУС ДЕЙСТВИЯ:",
+                "veil_of_discord_resist_debuff": "ДОП. МАГИЧЕСКИЙ УРОН:",
+                "rod_of_atos_slow": "ЗАМЕДЛЕНИЕ:",
+                "rod_of_atos_duration": "ДЛИТЕЛЬНОСТЬ:",
+                "shadow_amulet_bonus_attack_speed": "к скорости атаки",
+                "force_staff_bonus_health_regen": "к регенерации здоровья",
+                "greevil_whistle": "Greevil Whistle",
+                "greevil_whistle_toggle": "Greevil Whistle",
+                "winter_stocking": "Xmas Stocking",
+                "winter_cake": "Fruit-bit Cake",
+                "winter_cookie": "Wizard Cookie",
+                "winter_coco": "Cocoa with Marshmallows",
+                "winter_kringle": "Kringle",
+                "winter_ham": "Clove Studded Ham",
+                "winter_skates": "Speed Skates",
+                "winter_greevil_treat": "Greevil Treat",
+                "winter_greevil_garbage": "Greevil Chow",
+                "winter_mushroom": "Snow Mushroom",
+                "winter_greevil_chewy": "Greevil Blink Bone",
+                "dust_movespeed": "ЗАМЕДЛЕНИЕ:",
+                "ethereal_blade_duration_ally": "ДЛИТЕЛЬНОСТЬ НА СОЮЗНИКЕ/СЕБЕ:",
+                "sange_maim_attack_speed": "ЗАМЕДЛЕНИЕ АТАКИ:",
+                "heavens_halberd_maim_attack_speed": "ЗАМЕДЛЕНИЕ АТАКИ:",
+                "sange_and_yasha_maim_slow_attack": "ЗАМЕДЛЕНИЕ АТАКИ:",
+                "shivas_guard_blast_damage": "УРОН ОТ ВЗРЫВА:",
+                "shivas_guard_blast_movement_speed": "ЗАМЕДЛЕНИЕ ОТ ВЗРЫВА:",
+                "shivas_guard_blast_debuff_duration": "ДЛИТЕЛЬНОСТЬ ЗАМЕДЛЕНИЯ:",
+                "dagon_range_tooltip": "ДАЛЬНОСТЬ ПРИМЕНЕНИЯ:",
+                "dagon_2_range_tooltip": "ДАЛЬНОСТЬ ПРИМЕНЕНИЯ:",
+                "dagon_3_range_tooltip": "ДАЛЬНОСТЬ ПРИМЕНЕНИЯ:",
+                "dagon_4_range_tooltip": "ДАЛЬНОСТЬ ПРИМЕНЕНИЯ:",
+                "dagon_5_range_tooltip": "ДАЛЬНОСТЬ ПРИМЕНЕНИЯ:",
+                "mjollnir_static_chance": "ШАНС СРАБАТЫВАНИЯ ЩИТА:",
+                "mjollnir_static_duration": "ВРЕМЯ ДЕЙСТВИЯ ЩИТА:",
+                "mjollnir_static_damage": "УРОН ОТ ЩИТА:",
+                "pipe_aura_health_regen": "ВОССТАНОВЛЕНИЕ ЗДОРОВЬЯ В АУРЕ:",
+                "ethereal_blade_ethereal_damage_bonus": "ДОП. МАГИЧЕСКИЙ УРОН:",
+                "ghost_extra_spell_damage_percent": "ДОП. МАГИЧЕСКИЙ УРОН:",
+                "veil_of_discord_resist_debuff_duration": "ДЛИТЕЛЬНОСТЬ ДЕЙСТВИЯ:",
+                "veil_of_discord_bonus_stats": "ко всем атрибутам",
+                "ring_of_aquila_bonus_strength": "к силе",
+                "ring_of_aquila_bonus_intellect": "к интеллекту",
+                "butterfly_bonus_move_speed": "ДОП. СКОРОСТЬ ПЕРЕДВИЖЕНИЯ ОТ FLUTTER:",
+                "butterfly_duration": "ДЛИТЕЛЬНОСТЬ ДЕЙСТВИЯ FLUTTER:",
+                "cyclone_2_bonus_intellect": "к интеллекту",
+                "cyclone_2_bonus_mana_regen": "к регенерации маны",
+                "cyclone_2_bonus_movement_speed": "к скорости передвижения",
+                "helm_of_the_dominator_bonus_regen": "к регенерации здоровья",
+                "invis_sword_windwalk_duration": "ДЛИТЕЛЬНОСТЬ НЕВИДИМОСТИ:",
+                "invis_sword_windwalk_bonus_damage": "УРОН ИЗ НЕВИДИМОСТИ:",
+                "vanguard_block_chance": "ШАНС БЛОКА:",
+                "vanguard_block_damage_melee": "БЛОК УРОНА ГЕРОЯМИ БЛИЖНЕГО БОЯ:",
+                "vanguard_block_damage_ranged": "БЛОК УРОНА ГЕРОЯМИ ДАЛЬНЕГО БОЯ:",
+                "crimson_guard_bonus_health": "к здоровью",
+                "crimson_guard_bonus_health_regen": "к регенерации здоровья",
+                "crimson_guard_bonus_all_stats": "ко всем атрибутам",
+                "crimson_guard_bonus_armor": "к броне",
+                "crimson_guard_block_chance": "ШАНС БЛОКА:",
+                "crimson_guard_block_damage_melee": "БЛОК УРОНА У ГЕРОЕВ БЛИЖНЕГО БОЯ:",
+                "crimson_guard_block_damage_ranged": "БЛОК УРОНА У ГЕРОЕВ ДАЛЬНЕГО БОЯ:",
+                "crimson_guard_bonus_aoe_armor": "БРОНИ ОТ GUARD:",
+                "crimson_guard_block_damage_melee_active": "БЛОК УРОНА ОТ GUARD:",
+                "crimson_guard_duration": "ДЛИТЕЛЬНОСТЬ GUARD:",
+                "crimson_guard_bonus_aoe_radius": "РАДИУС GUARD:",
+                "manta_images_count": "ЧИСЛО ИЛЛЮЗИЙ:",
+                "manta_tooltip_damage_incoming_melee_total_pct": "УРОН ПО ИЛЛЮЗИЯМ БЛИЖНЕГО БОЯ:",
+                "manta_tooltip_damage_outgoing_melee": "УРОН ИЛЛЮЗИЙ БЛИЖНЕГО БОЯ:",
+                "manta_tooltip_damage_incoming_ranged_total_pct": "УРОН ПО ИЛЛЮЗИЯМ ДАЛЬНЕГО БОЯ:",
+                "manta_tooltip_damage_outgoing_ranged": "УРОН ИЛЛЮЗИЙ ДАЛЬНЕГО БОЯ:",
+                "manta_tooltip_illusion_duration": "ВРЕМЯ ЖИЗНИ ИЛЛЮЗИЙ:",
+                "urn_of_shadows_soul_heal_amount": "СУММАРНОЕ ЛЕЧЕНИЕ:",
+                "urn_of_shadows_soul_damage_amount": "СУММАРНЫЙ УРОН:",
+                "urn_of_shadows_soul_heal_duration": "ДЛИТЕЛЬНОСТЬ:",
+                "tango_single_total_heal": "ПОПОЛНЯЕТ ЗДОРОВЬЯ ОТ ДЕРЕВЬЕВ:",
+                "tango_single_buff_duration": "ДЛИТЕЛЬНОСТЬ ЛЕЧЕНИЯ:",
+                "diffusal_blade_purge_slow_duration": "ДЛИТЕЛЬНОСТЬ ЗАМЕДЛЕНИЯ:",
+                "diffusal_blade_2_purge_slow_duration": "ДЛИТЕЛЬНОСТЬ ЗАМЕДЛЕНИЯ:",
+                "pipe_magic_resistance": "к сопротивлению магии",
+                "pipe_barrier_block": "БЛОКИРУЕТ УРОНА:",
+                "pipe_barrier_duration": "ДЛИТЕЛЬНОСТЬ БАРЬЕРА:",
+                "cny2015_beast_travel_boots": "Boots of Travel",
+                "cny2015_beast_travel_boots_bonus_movement_speed": "к скорости передвижения",
+                "abyssal_blade_bash_duration": "ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:",
+                "abyssal_blade_stun_duration": "ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ ОТ OVERWHELM:",
+                "blade_mail_duration": "ДЛИТЕЛЬНОСТЬ ДЕЙСТВИЯ:",
+                "buckler_bonus_aoe_radius": "РАДИУС СПОСОБНОСТИ:",
+                "cyclone_cyclone_duration": "ДЛИТЕЛЬНОСТЬ ДЕЙСТВИЯ:",
+                "diffusal_blade_cast_range_tooltip": "ДАЛЬНОСТЬ ПРИМЕНЕНИЯ:",
+                "diffusal_blade_2_cast_range_tooltip": "ДАЛЬНОСТЬ ПРИМЕНЕНИЯ:",
+                "ethereal_blade_blast_movement_slow": "ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ:",
+                "gem_radius": "РАДИУС TRUE SIGHT:",
+                "hand_of_midas_transmute_cast_range_tooltip": "ДАЛЬНОСТЬ ПРИМЕНЕНИЯ:",
+                "headdress_aura_radius": "РАДИУС АУРЫ РЕГЕНЕРАЦИИ:",
+                "maelstrom_chain_strikes": "ЦЕЛЕЙ ЦЕПНОЙ МОЛНИИ:",
+                "maelstrom_chain_radius": "РАДИУС СКАЧКОВ МОЛНИИ:",
+                "mask_of_madness_berserk_bonus_attack_speed": "ДОП. СКОРОСТЬ АТАКИ:",
+                "mask_of_madness_berserk_bonus_movement_speed": "ДОП. СКОРОСТЬ ПЕРЕДВИЖЕНИЯ:",
+                "mask_of_madness_berserk_extra_damage": "УВЕЛИЧЕНИЕ ПОЛУЧАЕМОГО УРОНА:",
+                "mask_of_madness_berserk_duration": "ДЛИТЕЛЬНОСТЬ:",
+                "mekansm_heal_amount": "ЛЕЧЕНИЕ ОТ RESTORE:",
+                "mekansm_heal_bonus_armor": "ДОП. БРОНЯ ОТ RESTORE:",
+                "mekansm_heal_armor_duration": "ВРЕМЯ ДЕЙСТВИЯ ДОП. БРОНИ:",
+                "mekansm_heal_radius": "РАДИУС АУРЫ/СПОСОБНОСТИ:",
+                "mjollnir_static_radius": "РАДИУС УДАРА STATIC CHARGE:",
+                "mjollnir_chain_strikes": "ЦЕЛЕЙ ЦЕПНОЙ МОЛНИИ:",
+                "mjollnir_chain_radius": "РАДИУС СКАЧКОВ МОЛНИИ:",
+                "necronomicon_warrior_health_tooltip": "ЗДОРОВЬЕ ВОИНА:",
+                "necronomicon_warrior_damage_tooltip": "УРОН ВОИНА:",
+                "necronomicon_warrior_mana_break_tooltip": "СЖИГАНИЕ МАНЫ ВОИНОМ:",
+                "necronomicon_explosion": "УРОН ОТ УБИЙСТВА ВОИНА:",
+                "necronomicon_archer_health_tooltip": "ЗДОРОВЬЕ ЛУЧНИКА:",
+                "necronomicon_archer_damage_tooltip": "УРОН ЛУЧНИКА:",
+                "necronomicon_archer_mana_burn": "СЖИГАНИЕ МАНЫ ЛУЧНИКОМ:",
+                "necronomicon_archer_attack_speed": "СКОРОСТЬ АТАКИ В АУРЕ ЛУЧНИКА:",
+                "necronomicon_2_warrior_health_tooltip": "ЗДОРОВЬЕ ВОИНА:",
+                "necronomicon_2_warrior_damage_tooltip": "УРОН ВОИНА:",
+                "necronomicon_2_warrior_mana_break_tooltip": "СЖИГАНИЕ МАНЫ ВОИНОМ:",
+                "necronomicon_2_explosion": "УРОН ОТ УБИЙСТВА ВОИНА:",
+                "necronomicon_2_archer_health_tooltip": "ЗДОРОВЬЕ ЛУЧНИКА:",
+                "necronomicon_2_archer_damage_tooltip": "УРОН ЛУЧНИКА:",
+                "necronomicon_2_archer_mana_burn": "СЖИГАНИЕ МАНЫ ЛУЧНИКОМ:",
+                "necronomicon_2_archer_attack_speed": "СКОРОСТЬ АТАКИ В АУРЕ ЛУЧНИКА:",
+                "necronomicon_3_warrior_health_tooltip": "ЗДОРОВЬЕ ВОИНА:",
+                "necronomicon_3_warrior_damage_tooltip": "УРОН ВОИНА:",
+                "necronomicon_3_warrior_mana_break_tooltip": "СЖИГАНИЕ МАНЫ ВОИНОМ:",
+                "necronomicon_3_explosion": "УРОН ОТ УБИЙСТВА ВОИНА:",
+                "necronomicon_3_archer_health_tooltip": "ЗДОРОВЬЕ ЛУЧНИКА:",
+                "necronomicon_3_archer_damage_tooltip": "УРОН ЛУЧНИКА:",
+                "necronomicon_3_archer_mana_burn": "СЖИГАНИЕ МАНЫ ЛУЧНИКОМ:",
+                "necronomicon_3_archer_attack_speed": "СКОРОСТЬ АТАКИ В АУРЕ ЛУЧНИКА:",
+                "orchid_silence_damage_percent": "УВЕЛИЧЕНИЕ УРОНА ОТ SOUL BURN:",
+                "orchid_silence_duration": "ДЛИТЕЛЬНОСТЬ SOUL BURN:",
+                "pipe_aura_radius": "РАДИУС АУРЫ:",
+                "pipe_barrier_radius": "ДАЛЬНОСТЬ ПРИМЕНЕНИЯ:",
+                "quelling_blade_quelling_range_tooltip": "ДАЛЬНОСТЬ ПРИМЕНЕНИЯ:",
+                "sange_maim_duration": "ДЛИТЕЛЬНОСТЬ ТРАВМЫ:",
+                "heavens_halberd_maim_duration": "ДЛИТЕЛЬНОСТЬ ТРАВМЫ:",
+                "heavens_halberd_disarm_range": "ДЛИТЕЛЬНОСТЬ НА ГЕРОЯХ ДАЛЬНЕГО БОЯ:",
+                "heavens_halberd_disarm_melee": "ДЛИТЕЛЬНОСТЬ НА ГЕРОЯХ БЛИЖНЕГО БОЯ:",
+                "heavens_halberd_disarm_cast_range_tooltip": "ДАЛЬНОСТЬ ПРИМЕНЕНИЯ:",
+                "sange_and_yasha_maim_duration": "ДЛИТЕЛЬНОСТЬ ТРАВМЫ:",
+                "satanic_unholy_lifesteal_total_tooltip": "ВАМПИРИЗМ ОТ UNHOLY RAGE:",
+                "satanic_unholy_duration": "ДЛИТЕЛЬНОСТЬ:",
+                "sheepstick_sheep_duration": "ДЛИТЕЛЬНОСТЬ:",
+                "shivas_guard_blast_radius": "РАДИУС:",
+                "skadi_cold_duration_melee": "ЗАМЕДЛЕНИЕ В БЛИЖНЕМ БОЮ:",
+                "skadi_cold_duration_ranged": "ЗАМЕДЛЕНИЕ В ДАЛЬНЕМ БОЮ:",
+                "soul_ring_duration": "ДЛИТЕЛЬНОСТЬ:",
+                "urn_of_shadows_soul_release_range_tooltip": "ДАЛЬНОСТЬ ПРИМЕНЕНИЯ SOUL RELEASE:",
+                "vladmir_aura_radius": "РАДИУС АУРЫ:",
+                "ward_observer_vision_range": "ДАЛЬНОСТЬ ОБЗОРА:",
+                "ward_observer_duration_minutes_tooltip": "ДЛИТЕЛЬНОСТЬ (В МИНУТАХ):",
+                "ward_sentry_true_sight_range": "ДАЛЬНОСТЬ TRUE SIGHT:",
+                "ward_sentry_duration_minutes_tooltip": "ДЛИТЕЛЬНОСТЬ (В МИНУТАХ):",
+                "arcane_boots_replenish_radius": "РАДИУС ДЕЙСТВИЯ:",
+                "ancient_janggo_bonus_attack_speed_pct": "СКОРОСТЬ АТАКИ ОТ ENDURANCE:",
+                "ancient_janggo_bonus_movement_speed_pct": "СКОРОСТЬ ПЕРЕДВИЖЕНИЯ ОТ ENDURANCE:",
+                "ancient_janggo_duration": "ДЛИТЕЛЬНОСТЬ:",
+                "ancient_janggo_radius": "РАДИУС АУРЫ/СПОСОБНОСТИ:",
+                "medallion_of_courage_duration": "ДЛИТЕЛЬНОСТЬ:",
+                "medallion_of_courage_valor_cast_range_tooltip": "ДАЛЬНОСТЬ ПРИМЕНЕНИЯ:",
+                "shadow_amulet_fade_time": "ВРЕМЯ ДО НЕВИДИМОСТИ:",
+                "abyssal_blade_bonus_chance_damage": "ДОП. УРОН ОТ BASH:",
+                "basher_bonus_chance_damage": "ДОП. УРОН ОТ BASH:",
+                "basher_bash_duration": "ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:",
+                "bfury_quelling_bonus": "ДОП. УРОН У ГЕРОЕВ БЛИЖНЕГО БОЯ:",
+                "bfury_quelling_bonus_ranged": "ДОП. УРОН У ГЕРОЕВ ДАЛЬНЕГО БОЯ:",
+                "bfury_cast_range_tooltip": "ДАЛЬНОСТЬ ДЕЙСТВИЯ НА ДЕРЕВО:",
+                "bfury_cast_range_ward": "ДАЛЬНОСТЬ ДЕЙСТВИЯ НА ВАРД:",
+                "moon_shard_bonus_attack_speed": "к скорости атаки",
+                "moon_shard_bonus_night_vision": "ДОПОЛНИТЕЛЬНЫЙ ОБЗОР НОЧЬЮ:",
+                "moon_shard_consumed_bonus": "СКОРОСТЬ АТАКИ ПРИ ПОГЛОЩЕНИИ:",
+                "silver_edge_bonus_damage": "к урону",
+                "silver_edge_bonus_attack_speed": "к скорости атаки",
+                "silver_edge_bonus_strength": "к силе",
+                "silver_edge_maim_chance": "ШАНС НАНЕСТИ ТРАВМУ:",
+                "silver_edge_maim_movement_speed": "ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ:",
+                "silver_edge_maim_attack_speed": "ЗАМЕДЛЕНИЕ АТАКИ:",
+                "silver_edge_maim_duration": "ДЛИТЕЛЬНОСТЬ ТРАВМЫ:",
+                "silver_edge_windwalk_duration": "ДЛИТЕЛЬНОСТЬ НЕВИДИМОСТИ:",
+                "silver_edge_windwalk_bonus_damage": "УРОН ИЗ НЕВИДИМОСТИ:",
+                "silver_edge_backstab_reduction": "СНИЖЕНИЕ УРОНА ЦЕЛИ:",
+                "silver_edge_backstab_duration": "ДЛИТЕЛЬНОСТЬ СНИЖЕНИЯ УРОНА:",
+                "glimmer_cape_bonus_attack_speed": "к скорости атаки",
+                "glimmer_cape_bonus_magical_armor": "к сопротивлению магии",
+                "glimmer_cape_fade_delay": "ЗАДЕРЖКА НЕВИДИМОСТИ:",
+                "glimmer_cape_active_magical_armor": "СОПРОТИВЛЕНИЕ МАГИИ В НЕВИДИМОСТИ:",
+                "glimmer_cape_duration": "ДЛИТЕЛЬНОСТЬ:",
+                "octarine_core_bonus_intelligence": "к интеллекту",
+                "octarine_core_bonus_health": "к здоровью",
+                "octarine_core_bonus_mana": "к мане",
+                "octarine_core_bonus_health_regen": "к регенерации здоровья",
+                "octarine_core_bonus_mana_regen": "к регенерации маны",
+                "octarine_core_bonus_cooldown": "УМЕНЬШЕНИЕ ПЕРЕЗАРЯДКИ:",
+                "octarine_core_hero_lifesteal": "ВАМПИРИЗМ ОТ ГЕРОЕВ:",
+                "octarine_core_creep_lifesteal": "ВАМПИРИЗМ ОТ КРИПОВ:",
+                "enchanted_mango_hp_regen": "к регенерации здоровья",
+                "enchanted_mango_replenish_amount": "ВОССТАНОВЛЕНИЕ МАНЫ:",
+                "lotus_orb_bonus_damage": "к урону",
+                "lotus_orb_bonus_armor": "к броне",
+                "lotus_orb_bonus_health_regen": "к регенерации здоровья",
+                "lotus_orb_bonus_mana_regen": "к регенерации маны",
+                "lotus_orb_active_duration": "ДЛИТЕЛЬНОСТЬ:",
+                "lotus_orb_cast_range_tooltip": "ДАЛЬНОСТЬ ПРИМЕНЕНИЯ:",
+                "guardian_greaves_bonus_movement": "к скорости передвижения",
+                "guardian_greaves_bonus_all_stats": "ко всем атрибутам",
+                "guardian_greaves_bonus_mana": "к мане",
+                "guardian_greaves_bonus_armor": "к броне",
+                "guardian_greaves_aura_health_regen": "ВОССТАНОВЛЕНИЕ ЗДОРОВЬЯ В АУРЕ:",
+                "guardian_greaves_aura_armor": "ДОП. БРОНЯ В АУРЕ:",
+                "guardian_greaves_aura_bonus_threshold": "ПОРОГ УСИЛЕНИЯ АУРЫ:",
+                "guardian_greaves_aura_health_regen_bonus": "ВОССТАНОВЛЕНИЕ ЗДОРОВЬЯ ДЛЯ РАНЕНЫХ:",
+                "guardian_greaves_aura_armor_bonus": "ДОП. БРОНЯ ДЛЯ РАНЕНЫХ:",
+                "guardian_greaves_replenish_health": "ЛЕЧЕНИЕ ОТ СПОСОБНОСТИ:",
+                "guardian_greaves_replenish_mana": "МАНЫ ОТ СПОСОБНОСТИ:",
+                "guardian_greaves_replenish_radius": "РАДИУС ДЕЙСТВИЯ:",
+                "solar_crest_bonus_armor": "к броне",
+                "solar_crest_bonus_mana_regen_pct": "к регенерации маны",
+                "solar_crest_bonus_evasion": "к уклонению",
+                "solar_crest_allied_armor": "ДОП. БРОНЯ СОЮЗНИКАМ:",
+                "solar_crest_allied_evasion": "УКЛОНЕНИЕ СОЮЗНИКАМ:",
+                "solar_crest_armor_reduction": "УМЕНЬШЕНИЕ ВРАЖЕСКОЙ БРОНИ:",
+                "solar_crest_miss_chance": "ШАНС ПРОМАХА У ВРАГА:",
+                "solar_crest_duration": "ДЛИТЕЛЬНОСТЬ:",
+                "solar_crest_valor_cast_range_tooltip": "ДАЛЬНОСТЬ ПРИМЕНЕНИЯ:",
+                "telescope_bonus_strength": "к силе",
+                "telescope_bonus_agility": "к ловкости",
+                "telescope_bonus_intellect": "к интеллекту",
+                "telescope_bonus_damage": "к урону",
+                "whip_bonus_damage": "к урону",
+                "pipe_magic_resistance_aura": "СОПРОТИВЛЕНИЕ МАГИИ В АУРЕ:",
+                "quelling_blade_cast_range_ward": "ДАЛЬНОСТЬ УНИЧТОЖЕНИЯ ВАРДА:",
+                "radiance_blind_pct": "ШАНС ПРОМАХА:",
+                "radiance_aura_radius": "РАДИУС:",
+                "tango_total_heal_ward_tooltip": "ВОССТАНОВЛЕНИЕ ЗДОРОВЬЯ ВАРДОМ:",
+                "tango_cast_range_ward": "ДАЛЬНОСТЬ ПОЕДАНИЯ ВАРДА:",
+                "tango_single_total_heal_ward_tooltip": "ВОССТАНОВЛЕНИЕ ЗДОРОВЬЯ ВАРДОМ:",
+                "tango_single_cast_range_ward": "ДАЛЬНОСТЬ ПОЕДАНИЯ ВАРДА:",
+                "travel_boots_2_bonus_movement_speed": "к скорости передвижения",
+                "vladmir_vampiric_aura_ranged": "ВАМПИРИЗМ В ДАЛЬНЕМ БОЮ:",
+                "ward_dispenser_observer_vision_range_tooltip": "РАДИУС ОБЗОРА OBSERVER WARD:",
+                "ward_dispenser_observer_duration_minutes_tooltip": "ДЛИТЕЛЬНОСТЬ OBSERVER WARD (В МИН.):",
+                "ward_dispenser_true_sight_range": "РАДИУС РАСКРЫТИЯ SENTRY WARD:",
+                "ward_dispenser_sentry_duration_minutes_tooltip": "ДЛИТЕЛЬНОСТЬ SENTRY WARD (В МИН.):",
+                "vladmir_bonus_all_stats": "ко всем атрибутам"
+            },
+            "shops": {
+                "main_shop": "Домашняя лавка",
+                "side_shop": "Боковая лавка",
+                "side_shop_opt": "Боковая лавка (опционально)",
+                "secret_shop": "Потайная лавка",
+                "roshan": "Рошан",
+                "requiring_components": "Собирается из предметов, приобретаемых в",
+                "purchasable_at": "Приобретается в",
+                "aegis": "Нельзя приобрести. Выпадает из Рошана после первой и каждой последующей смерти.",
+                "cheese": "Нельзя приобрести. Выпадает из Рошана после третьей и каждой последующей смерти."
+            }
+        }
+    },
+    "items": {
+        "1": {
+            "lore": "Легендарный кинжал, использовавшийся самым быстрым убийцей, когда-либо ходившим по земле.",
+            "description": "Применение на себя переместит вас в сторону фонтана вашей команды. Если использовать Blink для скачка на дистанцию больше максимальной, его дальность сократится до 80% от максимальной.",
+            "abilities": {
+                "0": "Телепортирует к указанной точке на расстоянии до 1200 единиц. Если вы получите урон, то не сможете использовать blink dagger в течение 3.0 сек."
+            }
+        },
+        "2": {
+            "lore": "Не стоит недооценивать пользу от этих маленьких незаметных клинков."
+        },
+        "3": {
+            "lore": "Будучи классическим оружием рыцарей, этот клинок является прочным и надежным выбором для убийства врагов."
+        },
+        "4": {
+            "lore": "Кольчуга среднего размера."
+        },
+        "5": {
+            "lore": "Меч, способный пробить броню — это обычный выбор начинающих меченосцев."
+        },
+        "6": {
+            "lore": "Шлем легендарного воина, павшего в битве."
+        },
+        "7": {
+            "lore": "На удивление типичное копье, которым иногда можно пробить вражескую броню.",
+            "abilities": {
+                "0": "Дает шанс нанести дополнительный урон при каждой атаке."
+            }
+        },
+        "8": {
+            "lore": "Молот, скованный из чистейшего мифрила."
+        },
+        "9": {
+            "lore": "Толстые металлические пластины, полностью защищающие верхнюю часть тела. Будьте аккуратнее — не уроните на ноги!"
+        },
+        "10": {
+            "lore": "Обычный посох, позволяющий быстро атаковать врагов."
+        },
+        "11": {
+            "lore": "Топор павшего гнома, позволяющий эффективно маневрировать в лесу.",
+            "description": "Можно носить только один экземпляр.",
+            "abilities": {
+                "0": "Уничтожает выбранное дерево или вард. Дальность использования больше, если цель способности — вард.",
+                "1": "Увеличивает урон от атак по юнитам, не являющимися героями, в зависимости от типа атаки владельца. Не увеличивает урон по рошану."
+            }
+        },
+        "12": {
+            "lore": "Мерцающее кольцо, защищающее своего носителя."
+        },
+        "182": {
+            "lore": "Для одного это дно бочки, для другого — щит.",
+            "description": "Блокировка урона от нескольких источников не сочетается.",
+            "abilities": {
+                "0": "Дает шанс заблокировать урон в зависимости от типа атаки вашего героя."
+            }
+        },
+        "246": {},
+        "247": {
+            "lore": "Говорят, что это слеза Селимин — богини Луны.",
+            "abilities": {
+                "0": "Поглощает moon shard и навсегда увеличивает скорость атаки на 60. Повторное использование невозможно.",
+                "1": "Увеличивает радиус обзора ночью на 250."
+            }
+        },
+        "13": {
+            "lore": "Шипованные кожаные перчатки, которые дают грубую силу."
+        },
+        "14": {
+            "lore": "Легкие ботинки, сделанные из кожи паука, обостряют ваши ощущения."
+        },
+        "15": {
+            "lore": "Прекрасная сапфировая мантия, которую королевы носили из поколения в поколение."
+        },
+        "16": {
+            "lore": "Обычная, казалось бы, веточка дарует владельцу полезные качества благодаря свойствам железного дерева, от которого она отрублена."
+        },
+        "17": {
+            "lore": "Ценный аксессуар для улучшения выживаемости."
+        },
+        "18": {
+            "lore": "Эластичная ткань часто используется из-за малого веса и облегчения передвижения."
+        },
+        "19": {
+            "lore": "Это одеяние разлагает душу владельца, но в обмен дарует мудрость."
+        },
+        "20": {
+            "lore": "Элегантный браслет, предназначенный для человеческих принцесс."
+        },
+        "21": {
+            "lore": "Вы становитесь сильнее, просто держа его в руках."
+        },
+        "22": {
+            "lore": "Длинный клинок, наделенный магией времени."
+        },
+        "23": {
+            "lore": "Посох, наделенный магическими силами, переданными от древних магов."
+        },
+        "24": {
+            "lore": "Мистическая сфера, содержащая в себе эссенцию жизни."
+        },
+        "25": {
+            "lore": "Пара магических перчаток, которые, похоже, снижают вес оружия."
+        },
+        "26": {
+            "lore": "Маска, поглощающая энергию тех, кто попался ей на глаза.",
+            "description": "Morbid Mask — уникальный модификатор атаки, он не будет сочетаться с другими уникальными модификаторами атаки.",
+            "abilities": {
+                "0": "Дает владельцу вампиризм, который с каждой атакой восстанавливает его здоровье на часть нанесенного урона."
+            }
+        },
+        "27": {
+            "lore": "Гномы считают, что это кольцо приносит удачу.",
+            "description": "Можно передавать союзникам.\n"
+        },
+        "28": {
+            "lore": "Маска, в основном используемая для проведения разнообразных ритуалов магами и колдунами.",
+            "description": "Можно передавать союзникам.\n"
+        },
+        "29": {
+            "lore": "Удобная обувь, ускоряющая передвижение.",
+            "description": "Основные бонусы к скорости передвижения от нескольких пар ботинок не складываются."
+        },
+        "30": {
+            "lore": "Как не сдается житель моря,\nКак души утонувших моряков,\nКак Маэльрон не ведает покоя,\nСей камень вечно прослужить готов.",
+            "description": "Не действует, пока находится у курьера.\nВыпадает при смерти и не может быть уничтожен.",
+            "abilities": {
+                "0": "Дает носителю и его союзникам возможность видеть невидимых юнитов и варды в определенном радиусе."
+            }
+        },
+        "31": {
+            "lore": "Мантия, созданная из магического материала, который рассеивает любое заклинание.",
+            "description": "Сочетается по закону убывающей полезности с другими источниками сопротивления магии.\n"
+        },
+        "32": {
+            "lore": "Ожерелье, позволяющее предвидеть вражеские атаки.",
+            "description": "Сочетается по закону убывающей полезности с другими источниками уклонения."
+        },
+        "33": {
+            "lore": "Сыр, сделанный из молока по давно утерянным рецептам фурболгов, мгновенно восстанавливает жизненные силы того, кто съест его.",
+            "description": "Можно передавать союзникам.",
+            "abilities": {
+                "0": "Исчезает и мгновенно восстанавливает здоровье и ману."
+            }
+        },
+        "34": {
+            "lore": "Простая волшебная палочка, используемая для концентрации магической энергии как начинающими волшебниками, так и великими колдунами.",
+            "description": "Дает заряды за использование заклинаний видимыми врагами в радиусе 1200 единиц. Некоторые способности и предметы не добавляют зарядов.",
+            "abilities": {
+                "0": "Восстанавливает здоровье и ману в зависимости от количества имеющихся зарядов (максимум: 10). За каждое использование способности врагом, который видим и находится неподалеку, добавляется один заряд."
+            }
+        },
+        "35": {},
+        "36": {
+            "lore": "Простая волшебная палочка, используемая для концентрации магической энергии как начинающими волшебниками, так и великими колдунами.",
+            "description": "Дает заряды за использование заклинаний видимыми врагами в радиусе 1200 единиц. Некоторые способности и предметы не добавляют зарядов.",
+            "abilities": {
+                "0": "Восстанавливает здоровье и ману в зависимости от количества имеющихся зарядов (максимум: 17). За каждое использование способности врагом, который видим и находится неподалеку, добавляется один заряд."
+            }
+        },
+        "37": {
+            "lore": "На время переносит сущность владельца в мир духов, что защищает его от всех физических атак.",
+            "description": "Окончится, если вы станете невосприимчивы к заклинаниям, а также не подействует, если вы уже невосприимчивы к ним. Объединенное время перезарядки с Ethereal Blade.\nИспользование Town Portal Scroll или Boots of Travel не развеивает бесплотную форму.",
+            "abilities": {
+                "0": "Придает бесплотную форму, в которой герой полностью защищен от физического урона, но получает на 40% больше урона от заклинаний и теряет возможность атаковать."
+            }
+        },
+        "38": {
+            "lore": "Чистая вода, повышающая способность к медитации.",
+            "abilities": {
+                "0": "Постепенно восстанавливает ману цели. Если ее атакуют, восстановление прекращается."
+            }
+        },
+        "216": {
+            "lore": "Любимый амфибиями горько-сладкий плод с острова Джиди.",
+            "abilities": {
+                "0": "Съедает манго, мгновенно восстанавливая 150 маны. Можно скормить союзнику."
+            }
+        },
+        "39": {
+            "lore": "Магическая мазь, которая может быстро исцелить даже самые глубокие раны.",
+            "abilities": {
+                "0": "Постепенно восстанавливает здоровье цели. Если ее атакуют, восстановление прекращается."
+            }
+        },
+        "40": {
+            "description": "Осыпает врагов пылью, которая предотвращает их уход в невидимость.",
+            "abilities": {
+                "0": "Делает всех невидимых героев поблизости видимыми и замедляет их."
+            }
+        },
+        "41": {
+            "lore": "Старая бутыль, пережившая много веков. Содержимое, помещенное внутрь, становится зачарованным.",
+            "description": "Можно передавать союзникам.\n\nЧтобы использовать бутыль на союзном герое, удерживайте клавишу Ctrl. Руны не передаются другим героям.",
+            "abilities": {
+                "0": "Теряет один заряд и постепенно восстанавливает цели здоровье и ману. Восстановление прекращается при получении урона. Пустую бутыль можно пополнить возле союзного фонтана. В ней также можете хранить руны для последующего использования. Спустя 2 минуты помещенная в бутыль руна задействуется сама. Если бутыль не полна, то несущий ее курьер передвигается на 30% медленнее."
+            }
+        },
+        "42": {
+            "lore": "Вид частично разумного растения, которое часто разводят начинающие волшебники.",
+            "description": "Чтобы передать один Observer Ward союзному герою, удерживайте клавишу Ctrl.",
+            "abilities": {
+                "0": "Устанавливает observer ward, невидимого стража, который дает обзор близлежащей местности. Действует 7 мин."
+            }
+        },
+        "43": {
+            "lore": "Вид растения, которое когда-то росло в саду трусливого короля.",
+            "description": "Чтобы передать один Sentry Ward союзному герою, удерживайте клавишу Ctrl.",
+            "abilities": {
+                "0": "Устанавливает sentry ward, невидимого стража, который имеет способность true sight, раскрывающую невидимых юнитов в близлежащей местности. Действует 4 мин."
+            }
+        },
+        "217": {},
+        "218": {
+            "lore": "Новая технология хранения предметов сделала перенос вардов легким как никогда.",
+            "description": "Нажмите дважды, чтобы сменить вид выбранного варда.\n",
+            "abilities": {
+                "2": "Способность, раскрывающую невидимых юнитов и варды, если они попадают в обзор любого союзника."
+            }
+        },
+        "44": {
+            "lore": "Натуральная пища для выживания на поле боя.",
+            "description": "Можно использовать 4 раза. Используйте на союзном герое, чтобы дать ему один Tango.",
+            "abilities": {
+                "0": "Съедает дерево или вард, постепенно восстанавливая здоровье."
+            }
+        },
+        "241": {
+            "lore": "Ням-ням.",
+            "abilities": {
+                "0": "Съедает дерево или вард, постепенно восстанавливая здоровье."
+            }
+        },
+        "45": {
+            "lore": "Потеря курьера карается смертью.",
+            "abilities": {
+                "0": "Создает существо, которое переносит вещи на вашу базу и обратно."
+            }
+        },
+        "46": {
+            "description": "Если несколько героев будут телепортироваться в одно место, то длительность телепортации будет возрастать для каждого следующего героя.",
+            "abilities": {
+                "0": "Телепортирует вас к выбранной союзной постройке. Двойное нажатие телепортирует вас к фонтану вашей команды."
+            }
+        },
+        "47": {},
+        "219": {},
+        "48": {
+            "lore": "Крылатые сапоги, дающие вездесущность.",
+            "description": "Объединенное время перезарядки с Town Portal Scroll.\n\nОсновные бонусы к скорости передвижения от нескольких пар ботинок не складываются.",
+            "abilities": {
+                "0": "Телепортирует вас к дружественному юниту, не являющимся героем, или сооружению. Двойное нажатие телепортирует вас к фонтану вашей команды. Улучшение позволяет телепортироваться к союзным героям."
+            }
+        },
+        "220": {
+            "description": "Объединенное время перезарядки с Town Portal Scroll.\n\nОсновные бонусы к скорости передвижения от нескольких пар ботинок не складываются.",
+            "abilities": {
+                "0": "Телепортирует вас к дружественному сооружению или юниту, включая героев. Двойное нажатие телепортирует вас к фонтану вашей команды."
+            }
+        },
+        "49": {},
+        "50": {
+            "lore": "Ботинки, которые позволяют владельцу путешествовать между мирами.",
+            "description": "Основные бонусы к скорости передвижения от нескольких пар ботинок не складываются.",
+            "abilities": {
+                "0": "Увеличивает скорость передвижения и позволяет проходить сквозь юнитов. Эффект снимается преждевременно, если будет использован другой предмет или способность."
+            }
+        },
+        "51": {
+            "lore": "Одно из старейших орудий, скованное кузнецом-демоном Абзидианом, убило своего создателя, когда тот проверял его заточку."
+        },
+        "52": {
+            "lore": "Этот артефакт удерживает в себе зов орла: тот, кто способен слышать его, получает безграничную ловкость."
+        },
+        "53": {
+            "lore": "Массивный топор, способный без труда сокрушать даже горы."
+        },
+        "54": {
+            "lore": "Древнее оружие, способное изменить ход битвы."
+        },
+        "55": {
+            "lore": "Загадочный гравированный камень, который делает носителя усерднее."
+        },
+        "56": {
+            "lore": "Блестящее кольцо, найденное под трупом толстого полурослика.",
+            "description": "Можно передавать союзникам.\n"
+        },
+        "57": {
+            "lore": "Это драгоценное кольцо, источающее энергию, раньше использовали для связи с нижними магическими мирами.",
+            "description": "Можно передавать союзникам.\n"
+        },
+        "58": {
+            "lore": "Загадочный посох, сделанный исключительно из дорогих кристаллов."
+        },
+        "59": {
+            "lore": "Этот ляписовый камень усиливает магический потенциал владельца, позволяя ему дольше сохранять колдовские силы в бою."
+        },
+        "60": {
+            "lore": "Аметист идеальной формы питает и разум, и тело владельца."
+        },
+        "61": {
+            "lore": "Драгоценный рубин, переходящий из поколения в поколение в семьях воинов."
+        },
+        "62": {},
+        "63": {
+            "lore": "Пара сапог, выделанных из жесткой кожи, которая способна изменять свои свойства по желанию владельца.",
+            "description": "Power Treads могут быть собраны с помощью Belt of Strength, Band of Elvenskin или Robe of the Magi. Основные бонусы к скорости передвижения от нескольких пар ботинок не складываются. Бонусы к скорости атаки от нескольких Power Treads не складываются.",
+            "abilities": {
+                "0": "Меняет значение выбранного параметра между силой, ловкостью и интеллектом."
+            }
+        },
+        "64": {},
+        "65": {
+            "lore": "Никому не известно, как этот артефакт сохранился до наших времен. Однако Hand of Midas все еще существует и исправно служит владельцу, превращая в золото любое живое существо, которого он коснется.",
+            "description": "Получаемое золото идет в надежный запас (при этом за убийство крипа стандартная награда не дается). Опыт от превращения не делится с другими героями.",
+            "abilities": {
+                "0": "Мгновенно убивает цель (не героя), давая 190 золота и в 2,5 раза больше опыта. Невозможно использовать на древних крипах."
+            }
+        },
+        "66": {},
+        "67": {
+            "lore": "С первого взгляда — обычный посох, однако Oblivion Staff обладает скрытым могуществом, которым его наделил колдун Элдрич."
+        },
+        "68": {},
+        "69": {
+            "lore": "Камень, способный заменить сердце владельцу.",
+            "description": "Можно передавать союзникам.\n"
+        },
+        "70": {},
+        "71": {
+            "lore": "Потрескавшийся старый щит, который, однако, способен защищать сильнее, чем кажется на первый взгляд.",
+            "description": "Блокировка урона от нескольких источников не сочетается.",
+            "abilities": {
+                "0": "Блокирует некоторое количество урона, наносимого физической атакой, в зависимости от типа атаки вашего героя. Poor man's shield всегда будет блокировать урон, наносимый вражескими героями, но урон от крипов блокируется с вероятностью в 53%."
+            }
+        },
+        "72": {},
+        "73": {
+            "lore": "Наручи — типичный выбор для укрепления защиты и продления жизни в бою."
+        },
+        "74": {},
+        "75": {
+            "lore": "Диадема, от которой доносится легкий шепот."
+        },
+        "76": {},
+        "77": {
+            "lore": "Небольшой драгоценный камень, связанный звеньями."
+        },
+        "78": {},
+        "79": {
+            "lore": "Светящаяся драгоценность, собранная из частей, которые идеально дополняют друг друга.",
+            "description": "Эффект не распространяется на союзников, которые уже получали его в течение последних 25 секунд.\n\nЭффекты от нескольких Mekansm Aura не складываются.",
+            "abilities": {
+                "0": "Восстанавливает 250 здоровья и дает +2 брони в радиусе 900 вокруг владельца.",
+                "1": "Увеличивает скорость восстановления здоровья на 4 у союзников в радиусе 900 вокруг владельца."
+            }
+        },
+        "80": {},
+        "81": {
+            "lore": "Жуткая маска, проклятая злобой павшего вампира.",
+            "description": "Не сочетается с аурами Ring of Basilius, Ring of Aquila или Vladmir's Offering.\n\nЭффекты от нескольких Vladmir's Aura не складываются.",
+            "abilities": {
+                "0": "Дает эффект вампиризма, дополнительный урон и броню, а также усиливает восстановление здоровья и маны у всех союзников в радиусе 900. Эффект вампиризма vladmir's aura зависит от типа атаки героя."
+            }
+        },
+        "84": {
+            "description": "Улучшает вашего обычного курьера до летающего, позволяя ему пролетать над препятствиями и ускоряться, чтобы быстрее переносить ваши предметы.\n\nТребуется обычный курьер."
+        },
+        "85": {},
+        "86": {
+            "lore": "Мощный щит, который напоминает владельцу о прошлых героях, носивших его. Эта незамысловатая вещица способна защищать в бою целые армии.",
+            "abilities": {
+                "0": "Дает +2 к броне всем союзникам в радиусе 900. Действует 25 секунд на героях, 30 секунд на юнитах."
+            }
+        },
+        "87": {},
+        "88": {
+            "lore": "Кольцо, служившее наградой величайшим магам.",
+            "description": "Не сочетается с аурами Ring of Basilius, Ring of Aquila или Vladmir's Offering.\n\nЭффекты от нескольких Basilius Aura не складываются.",
+            "abilities": {
+                "0": "Увеличивает скорость регенерации маны и броню в радиусе 900.",
+                "1": "Переключает действие ауры на юнитов, не являющихся героями."
+            }
+        },
+        "89": {},
+        "90": {
+            "lore": "Могущественный артефакт таинственного происхождения. Он создает барьеры против магических сил.",
+            "description": "Эффект не распространяется на союзников, которые уже получали его в течение последних 50 секунд. Сочетается по закону убывающей полезности с другими источниками сопротивления магии.",
+            "abilities": {
+                "0": "Создает на себе и союзниках, находящихся в радиусе 900, магический барьер, блокирующий 400 магического урона.",
+                "1": "Увеличивает скорость восстановления здоровья на 4 у союзников в радиусе 900 вокруг владельца и увеличивает их сопротивление магии на 10%. Сопротивление магии от ауры не действует на владельца предмета."
+            }
+        },
+        "91": {},
+        "92": {
+            "lore": "Содержит пепел могучих демонов.",
+            "description": "Пустая урна получает 2 заряда. Использование этой способности на противнике, который уже находится под ее действием, обновит длительность ее действия.\nПолучает заряды каждый раз, когда вражеский герой умирает в радиусе 1400. Заряд получит только артефакт, ближайший к умирающему герою.",
+            "abilities": {
+                "0": "Постепенно восстанавливает здоровье дружественным юнитам, либо наносит постепенный урон вражеским юнитам. Лечебный эффект утрачивается при получении юнитом урона от вражеского героя или башни."
+            }
+        },
+        "93": {},
+        "94": {
+            "lore": "Создает успокаивающую ауру, которая восстанавливает здоровье соратников в бою.",
+            "description": "Эффект нескольких одинаковых аур не складывается.",
+            "abilities": {
+                "0": "Постепенно восстанавливает здоровье всем союзникам в радиусе 900."
+            }
+        },
+        "95": {},
+        "96": {
+            "lore": "Наиболее охраняемая реликвия культа Вайз, этот артефакт — самое желанное приобретение для любого мага.",
+            "description": "Основная скорость перемещения цели упадет до 140, но увеличивающие ее бонусы не пропадут.",
+            "abilities": {
+                "0": "Превращает цель в безобидную зверушку на 3.5 сек. Мгновенно уничтожает иллюзии."
+            }
+        },
+        "97": {},
+        "98": {
+            "lore": "В этом посохе, инкрустированном гранатами, заточена душа огненного демона.",
+            "description": "Усиленный урон будет нанесен в конце действия способности в виде магического урона.",
+            "abilities": {
+                "0": "Запрещает выбранной цели колдовать на 5 секунд и увеличивает наносимый ей урон на 30%."
+            }
+        },
+        "99": {},
+        "100": {
+            "lore": "Мистический скипетр, прошедший сквозь века, позволяет призывать на помощь силу ветра, которая может быть использована как с добрыми, так и плохими намерениями.",
+            "description": "Вы не можете поднимать союзников в воздух. Использование предмета на себя проходит сквозь невосприимчивость к заклинаниям. Cyclone может снимать некоторые положительные и отрицательные эффекты.",
+            "abilities": {
+                "0": "Подбрасывает выбранную цель ураганом в небо, делая ее неуязвимой на 2.5 сек. Можно использовать на себя. Если цель — враг, то по приземлении он получит 50 магического урона."
+            }
+        },
+        "101": {},
+        "102": {
+            "lore": "Позволяет вам манипулировать другими ради добра или зла.",
+            "description": "Применение на себя толкнет вас в направлении вашего взгляда. Force Staff не прерывает действия цели. Не действует на юнитов под воздействием способности Chronosphere, Duel или Black Hole.",
+            "abilities": {
+                "0": "Толкает любой выбранный юнит на расстояние в 600 в направлении его взгляда. При двойном нажатии мгновенно применяется на самого себя."
+            }
+        },
+        "103": {},
+        "197": {},
+        "198": {},
+        "199": {},
+        "200": {},
+        "104": {
+            "lore": "Волшебная палочка, которая становится тем сильнее, чем дольше она используется. Позволяет магу срывать с кончиков пальцев волшебный заряд.",
+            "abilities": {
+                "0": "Выпускает мощный всплеск энергии, наносящий урон выбранному вражескому юниту. Улучшаемая."
+            }
+        },
+        "201": {
+            "lore": "Волшебная палочка, которая становится тем сильнее, чем дольше она используется. Позволяет магу срывать с кончиков пальцев волшебный заряд.",
+            "abilities": {
+                "0": "Выпускает мощный всплеск энергии, наносящий урон выбранному вражескому юниту. Улучшаемая."
+            }
+        },
+        "202": {
+            "lore": "Волшебная палочка, которая становится тем сильнее, чем дольше она используется. Позволяет магу срывать с кончиков пальцев волшебный заряд.",
+            "abilities": {
+                "0": "Выпускает мощный всплеск энергии, наносящий урон выбранному вражескому юниту. Улучшаемая."
+            }
+        },
+        "203": {
+            "lore": "Волшебная палочка, которая становится тем сильнее, чем дольше она используется. Позволяет магу срывать с кончиков пальцев волшебный заряд.",
+            "abilities": {
+                "0": "Выпускает мощный всплеск энергии, наносящий урон выбранному вражескому юниту. Улучшаемая."
+            }
+        },
+        "204": {
+            "lore": "Волшебная палочка, которая становится тем сильнее, чем дольше она используется. Позволяет магу срывать с кончиков пальцев волшебный заряд.",
+            "abilities": {
+                "0": "Выпускает мощный всплеск энергии, наносящий урон выбранному вражескому юниту."
+            }
+        },
+        "105": {},
+        "191": {},
+        "192": {},
+        "106": {
+            "lore": "Наиболее полный свод знаний о некромантии и демонологии, скрывающий на своих страницах мощную темную магию.",
+            "abilities": {
+                "0": "Призывает на 40 сек. Воина и лучника, сила и ловкость которых увеличиваются вместе с уровнем necronomicon. Воин третьего уровня способен раскрывать невидимых юнитов. Можно улучшить."
+            }
+        },
+        "193": {
+            "lore": "Наиболее полный свод знаний о некромантии и демонологии, скрывающий на своих страницах мощную темную магию.",
+            "abilities": {
+                "0": "Призывает на 40 сек. Воина и лучника, сила и ловкость которых увеличиваются вместе с уровнем necronomicon. Воин третьего уровня способен раскрывать невидимых юнитов. Можно улучшить."
+            }
+        },
+        "194": {
+            "lore": "Наиболее полный свод знаний о некромантии и демонологии, скрывающий на своих страницах мощную темную магию.",
+            "abilities": {
+                "0": "Призывает на 40 сек. Воина и лучника, сила и ловкость которых увеличиваются вместе с уровнем necronomicon. Воин третьего уровня способен раскрывать невидимых юнитов."
+            }
+        },
+        "107": {},
+        "108": {
+            "lore": "Скипетр колдуна, наделенный силами, присущими полубогам.",
+            "abilities": {
+                "0": "Улучшает ульт, а также некоторые способности части героев."
+            }
+        },
+        "109": {},
+        "110": {
+            "lore": "Могущественный артефакт, созданный для магов.",
+            "abilities": {
+                "0": "Сбрасывает время перезарядки всех ваших предметов и способностей."
+            }
+        },
+        "111": {},
+        "112": {
+            "lore": "Выкованная в кузнях преисподней, эта адская броня обеспечивает владельцу и его союзникам дополнительную броню и скорость атаки.",
+            "description": "Эффект от нескольких Assault of Aura не складывается.",
+            "abilities": {
+                "0": "Увеличивает скорость атаки и броню союзникам, при этом снижая броню вражеским юнитам поблизости."
+            }
+        },
+        "113": {},
+        "114": {
+            "lore": "Сохранившееся сердце вымершего монстра, с которым его владелец становится мужественнее.",
+            "abilities": {
+                "0": "Восстанавливает определенный процент максимального здоровья в секунду. Если владелец получит урон от вражеского героя или рошана, способность отключается на 5 сек. Для героев ближнего боя, или на 7 сек. Для героев дальнего боя."
+            }
+        },
+        "115": {},
+        "116": {
+            "lore": "Мощный посох, наделенный силой гигантов.",
+            "description": "Покупка другого Black King Bar не обновит время его действия. Использование артефакта Black King Bar снимает некоторые положительные эффекты.",
+            "abilities": {
+                "0": "Дает невосприимчивость к заклинаниям и полное сопротивление магическому урону. Продолжительность и время перезарядки уменьшаются с каждым использованием. Некоторые способности могут проходить сквозь невосприимчивость к заклинаниям."
+            }
+        },
+        "117": {
+            "lore": "Легенды гласят, что Бессмертный владел щитом, защищавшим его от самой смерти.",
+            "abilities": {
+                "0": "Возвращает вас к жизни с полными здоровьем и маной через 5.0 секунд после вашей смерти на том же месте, где вы погибли. Должно быть использовано в течение 5 минут, иначе aegis of the immortal исчезнет. Если это случилось, то оно полностью излечит вас в течение 5 секунд (эффект спадает при получении урона)."
+            }
+        },
+        "118": {},
+        "119": {
+            "lore": "Артефакт, раньше принадлежавший богине, до сих пор сохранил часть былого могущества.",
+            "description": "Волна распространяется со скоростью в 350 единиц в секунду до максимального размера в 900 единиц. Замораживающая волна следует за владельцем артефакта.\n\nЭффекты от нескольких Freezing Aura не складываются.",
+            "abilities": {
+                "0": "Выпускает замораживающую волну, которая наносит 200 урона противникам и снижает их скорость передвижения на -40% на 4.0 сек.",
+                "1": "Снижает скорость атаки противников в радиусе 900."
+            }
+        },
+        "120": {},
+        "121": {
+            "lore": "Ярко-рубиновый цвет Bloodstone ни с чем не спутать. Похоже, владелец этого артефакта способен иметь безграничные жизненные и духовные силы.",
+            "description": "Только первый Bloodstone будет получать заряды.\nАктивная: Pocket Deny — мгновенно убивает вас.\n",
+            "abilities": {
+                "2": "Изначально имеет 8 зарядов и получает 1 дополнительный заряд каждый раз, когда в радиусе 1675 единиц умирает вражеский герой. Каждый заряд дополнительно увеличивает регенерацию маны на 1 единицу в секунду, уменьшает потерю золота при смерти на 25, а также уменьшает время возрождения на 4 секунды. Если владелец bloodstone умирает, артефакт восстанавливает 500 здоровья + 30 здоровья за каждый заряд всем союзникам в радиусе 1675 единиц, теряя при этом треть зарядов. На месте смерти владельца появится метка крови, а он продолжит получать опыт, предоставляя обзор в радиусе 1800 вокруг этого места."
+            }
+        },
+        "122": {},
+        "123": {
+            "lore": "Эта магическая сфера однажды защитила одного из самых знаменитых героев в истории.",
+            "abilities": {
+                "0": "Блокирует большинство направленных заклинаний каждые 16.0 сек.",
+                "1": "Временно снимает пассивный эффект с носителя и передает его выбранному союзнику."
+            }
+        },
+        "221": {},
+        "226": {
+            "lore": "Бриллиант в центре всё еще несет блеклое отражение своего создателя.",
+            "abilities": {
+                "0": "Создает вокруг цели щит, отражающий большинство направленных заклинаний обратно во врага. Вражеские заклинания всё равно будут наносить урон. При применении рассеивает все негативные эффекты."
+            }
+        },
+        "124": {},
+        "125": {
+            "lore": "Мощный щит, защищающий своего хозяина даже от самых яростных атак.",
+            "description": "Блокировка урона от нескольких источников не сочетается.",
+            "abilities": {
+                "0": "Дает владельцу шанс отразить часть урона от каждой атаки в зависимости от типа атаки вашего героя."
+            }
+        },
+        "243": {},
+        "242": {
+            "lore": "Кираса, изначально выкованная, чтобы защищать от ужасающего Годня.",
+            "description": "Блокировка урона от нескольких источников не сочетается. Эффект не распространяется на союзников, которые уже получали его в течение последних 70 секунд.",
+            "abilities": {
+                "0": "Дает героям поблизости 2 брони и 100% шанс заблокировать 55 урона от каждой атаки. Длится 10 секунд.",
+                "1": "Дает носителю шанс заблокировать урон от каждой атаки, зависящий от типа атаки владельца."
+            }
+        },
+        "126": {},
+        "127": {
+            "lore": "Острая, как лезвие бритвы, кольчуга. Выбор самоотверженных мучеников.",
+            "description": "Наносит уже просчитанный урон. Не отражает урон от других Blademail и схожих способностей. Урон возвращается в чистом виде, но не проходит сквозь защиту от заклинаний.",
+            "abilities": {
+                "0": "Отражает любой получаемый урон наносящему его врагу в течение 4.5 сек."
+            }
+        },
+        "128": {},
+        "129": {
+            "lore": "Возвращает былую отвагу."
+        },
+        "130": {},
+        "131": {
+            "lore": "Покрытый мехом головной убор, который ограждает владельца от разрушительного воздействия магии.",
+            "description": "Сочетается по закону убывающей полезности с другими источниками сопротивления магии.\n"
+        },
+        "132": {},
+        "133": {
+            "lore": "Настолько могущественное, что у него даже не может быть единственного владельца.",
+            "description": "Если Divine Rapier поднимет враг ее предыдущего владельца, то она выпадет только в случае смерти этого врага.\nВыпадает при смерти. Если союзник подобрал этот артефакт, то он теряет свои свойства, пока его не вернут бывшему владельцу. Если его подберет враг, это правило отменяется, позволяя кому угодно получить бонусы от подобранной Divine Rapier. Курьер не может подобрать этот артефакт, если он выпал при смерти."
+        },
+        "134": {},
+        "135": {
+            "lore": "Могущественный посох, используемый мастерами.",
+            "abilities": {
+                "0": "Дает шанс нанести дополнительный урон и кратковременно оглушить цель при каждой атаке.",
+                "1": "Исключает шанс промаха при атаке, если только целью не является вражеская постройка."
+            }
+        },
+        "136": {},
+        "137": {
+            "lore": "Божественный меч, окружающий владельца ярким сиянием, которое обращает в пепел всех окружающих врагов.",
+            "abilities": {
+                "0": "Когда включено, каждую секунду наносит 50 урона противникам и ослепляет их, вынуждая промахиваться в 17% случаев."
+            }
+        },
+        "138": {},
+        "139": {
+            "lore": "Только самые сильные и опытные воины могут владеть Butterfly, ведь он дает невероятную ловкость в бою.",
+            "description": "Сочетается по закону убывающей полезности с другими источниками уклонения.",
+            "abilities": {
+                "0": "Обменивает шанс уклонения на 25% дополнительной скорости в течение 6 секунд."
+            }
+        },
+        "140": {},
+        "141": {
+            "lore": "Оружие невероятной силы, с которым нелегко управиться даже самому сильному воину.",
+            "abilities": {
+                "0": "Дает шанс нанести дополнительный урон при каждой атаке. Строениям дополнительный урон не наносится."
+            }
+        },
+        "142": {},
+        "143": {
+            "lore": "Устрашающее оружие в умелых руках, этот молот способен уничтожить любую защиту. Не стоит его недооценивать.",
+            "description": "Не сочетается с другими источниками оглушения, кроме мини-оглушения (например, от Monkey King Bar). У Spirit Breaker, Faceless Void, Slardar и Troll Warlord не будет срабатывать Bash.",
+            "abilities": {
+                "0": "Дает каждой атаке шанс оглушить цель на 1.4 сек. И нанести 60 дополнительного урона; шанс зависит от типа атаки владельца."
+            }
+        },
+        "144": {},
+        "145": {
+            "lore": "Владелец этого могучего топора может сокрушать ряды врагов в один миг.",
+            "description": "Урон неосновным целям снижается типом брони, но не ее значением. Урон неосновным целям проходит через иммунитет к заклинаниям. Каждый предмет или способность, дарующий прорубающую атаку, наносит урон отдельно друг от друга.",
+            "abilities": {
+                "0": "Уничтожает выбранное дерево или вард. Дальность использования больше, если цель способности — вард.",
+                "1": "Увеличивает урон от атак по юнитам, не являющимися героями, в зависимости от типа атаки владельца. Не увеличивает урон по рошану.",
+                "2": "Наносит процент от урона всем врагам в радиусе 280 единиц вокруг цели атаки. Не работает на героях с дальней атакой."
+            }
+        },
+        "146": {},
+        "147": {
+            "lore": "Топор, созданный из отражающих материалов, которые вызывают смятение во вражеских рядах.",
+            "description": "Тратит 0,1 секунды на произношение заклинания, во время которого вы неуязвимы. Использование снимает многие эффекты.\n\nИллюзии героев ближнего боя наносят 33%% урона и получают 350%% урона, а иллюзии героев дальнего боя наносят 28%% урона и получают 400%% урона.\n\nБонусы к скорости передвижения от нескольких предметов на основе Yasha не складываются.",
+            "abilities": {
+                "0": "Создает 2 зеркальные копии вашего героя, которые существуют 20 сек. Время перезарядки способности зависит от типа атаки владельца: 35.0 сек. Для героев ближнего боя и 50 сек. Для героев дальнего боя."
+            }
+        },
+        "148": {},
+        "149": {
+            "lore": "Клинок, скованный из редких кристаллов. Он находит слабые места в броне врага.",
+            "abilities": {
+                "0": "Дает шанс нанести дополнительный урон при каждой атаке. Строениям дополнительный урон не наносится."
+            }
+        },
+        "150": {},
+        "151": {
+            "lore": "Это оружие — выбор жестоких безумцев. Armlet дает огромную силу и мощь владельцу, взамен забирая его жизненные силы.",
+            "description": "Изменение силы действует и на текущий, и на максимальный уровень здоровья, но от него нельзя умереть. Изменение силы происходит спустя 0,6 секунды. Включение и выключение Unholy Strength не прерывает чтение заклинаний.",
+            "abilities": {
+                "0": "На время действия увеличивает урон на 31 и силу на 25, но отнимает 40 здоровья в секунду. Вы не можете умереть ни от потери здоровья во время действия способности, ни от спада бонуса к силе после ее отключения."
+            }
+        },
+        "183": {},
+        "152": {
+            "lore": "Клинок павшего короля позволяет вам передвигаться незамеченным и наносить удар из тени.",
+            "description": "Уход в невидимость занимает 0,3 секунды. Если невидимость кончится без атаки, дополнительный урон будет потерян.",
+            "abilities": {
+                "0": "Делает вас невидимым на время действия или до момента вашей атаки или использования заклинания. Пока shadow walk активна, вы движетесь на 20% быстрее и можете проходить сквозь юнитов. Атака, раскрывающая невидимость, нанесет 175 дополнительного урона. Длится 14.0 секунд."
+            }
+        },
+        "248": {},
+        "249": {
+            "lore": "Повергнув несправедливого правителя, этот клинок лишь развязал гражданскую войну.",
+            "abilities": {
+                "0": "Делает вас невидимым на время действия или до момента вашей атаки или использования заклинания. Пока shadow walk активна, вы движетесь на 20% быстрее и можете проходить сквозь юнитов. Атака, раскрывающая невидимость, нанесет 225 дополнительного урона, отключит пассивные способности цели и уменьшит весь наносимый ею урон.",
+                "1": "Каждая атака получает шанс нанести травму, уменьшающую скорость передвижения и атаки врага на 4.0 сек."
+            }
+        },
+        "153": {},
+        "154": {
+            "lore": "Sange и Yasha, собранные вместе и ведомые лунным светом, становятся грозным оружием.",
+            "description": "Процентная прибавка к скорости передвижения от нескольких предметов на основе Yasha не суммируется.",
+            "abilities": {
+                "0": "Каждая атака получает шанс нанести травму, уменьшающую скорость передвижения и атаки врага на 5.0 сек."
+            }
+        },
+        "155": {},
+        "156": {
+            "lore": "Почти безграничная сила в обмен на вашу душу.",
+            "description": "Satanic — уникальный модификатор атаки, он не будет сочетаться с другими уникальными модификаторами атаки.",
+            "abilities": {
+                "0": "Увеличивает эффект lifesteal до 200% на 4 сек.",
+                "1": "Дает владельцу вампиризм, который с каждой атакой восстанавливает его здоровье на часть нанесенного урона."
+            }
+        },
+        "157": {},
+        "158": {
+            "lore": "Магический молот Тора, созданный для него гномами по имени Брок и Эйтри.",
+            "description": "Срабатывает не чаще, чем раз в секунду. Молния от способности Static Charge наносит магический урон целям вокруг героя, на котором находится щит. Расстояние до целей не может превышать 900 единиц. Молнии Static Charge не будут срабатывать на невидимых или скрытых в тумане войны героев.\n\nMjollnir — уникальный модификатор атаки, который сочетается с другими уникальными модификаторами атаки, но будет перекрывать их в момент срабатывания молнии.",
+            "abilities": {
+                "0": "Устанавливает на выбранном юните заряженный щит, который имеет шанс в 20% ударить разрядом атакующего врага и 4 других.",
+                "1": "Дает шанс при атаке создать разряд цепной молнии, которая скакнет по 8 целям и нанесет каждой по 150 магического урона."
+            }
+        },
+        "159": {},
+        "160": {
+            "lore": "Невероятно редкий артефакт, охраняемый лазурными драконами.",
+            "description": "Для героев ближнего боя длится 5 секунд, для героев дальнего боя — 3 секунды.\n\nEye of Skadi — уникальный модификатор атаки, он не будет сочетаться с другими уникальными модификаторами атаки. Eye of Skadi сочетается с модификаторами атаки, дарующими вампиризм.",
+            "abilities": {
+                "0": "Каждая атака замедляет скорость передвижения и атаки цели. Длительность эффекта зависит от типа атаки владельца."
+            }
+        },
+        "161": {},
+        "162": {
+            "lore": "Sange отыскивает слабые места врагов и бьет точно в них.",
+            "abilities": {
+                "0": "Каждая атака получает шанс нанести травму, уменьшающую скорость передвижения и атаки врага на 4.0 сек."
+            }
+        },
+        "163": {},
+        "164": {
+            "lore": "Могучий шлем мертвого некроманта.",
+            "description": "Можно иметь только одно прирученное существо. Если будет приручено новое существо, старое умрет. Продажа или улучшение Helm of the Dominator убьет прирученных юнитов.\n\nHelm of the Dominator — уникальный модификатор атаки, он не будет сочетаться с другими уникальными модификаторами атаки.",
+            "abilities": {
+                "0": "Дает контроль над выбранным существом, не являющимся ни героем, ни древним крипом. Существа под контролем получают 500 дополнительного здоровья.",
+                "1": "Дает владельцу вампиризм, который с каждой атакой восстанавливает его здоровье на часть нанесенного урона."
+            }
+        },
+        "165": {},
+        "166": {
+            "lore": "Молот Maelstrom, будучи кованым самими богами, позволяет своему владельцу подчинить силу молнии.",
+            "description": "Maelstrom — уникальный модификатор атаки, который сочетается с другими уникальными модификаторами атаки, но будет перекрывать их в момент срабатывания молнии.",
+            "abilities": {
+                "0": "Дает шанс при атаке создать разряд цепной молнии, которая скакнет по 4 целям и нанесет каждой по 120 магического урона."
+            }
+        },
+        "167": {},
+        "168": {
+            "lore": "Это проклятое оружие использовалось при пытках особо опасных преступников.",
+            "description": "Снижение брони действует на здания.\n\nDesolator — уникальный модификатор атаки, он не будет сочетаться с другими уникальными модификаторами атаки.",
+            "abilities": {
+                "0": "Ваши атаки уменьшают броню цели на 15 секунд."
+            }
+        },
+        "169": {},
+        "170": {
+            "lore": "Yasha считается самым скоростным оружием из всех когда-либо созданных.",
+            "description": "Процентные бонусы к скорости от нескольких предметов на основе Yasha не складываются."
+        },
+        "171": {},
+        "172": {
+            "lore": "Как только эта маска надета, ее носитель тут же становится безудержной яростной силой.",
+            "description": "Mask of Madness — уникальный модификатор атаки, он не будет сочетаться с другими уникальными модификаторами атаки.",
+            "abilities": {
+                "0": "Дает 100 к скорости атаки и 17% к скорости передвижения, но заставляет получать на 30% больше урона. Длится 12.0 сек.",
+                "1": "Дает владельцу вампиризм, который с каждой атакой восстанавливает его здоровье на часть нанесенного урона."
+            }
+        },
+        "173": {},
+        "195": {},
+        "174": {
+            "lore": "Зачарованный меч, позволяющий разрубить врага и добраться прямо до его души.",
+            "description": "Можно улучшить.",
+            "abilities": {
+                "0": "Снимает положительные эффекты и замедляет противника на 4.0 сек. , или снимает отрицательные эффекты с союзника. Мгновенно убивает призванных юнитов.",
+                "1": "Каждая ваша атака сжигает 25 маны врага и наносит ему такое же количество физического урона. Иллюзии героев дальнего боя сжигают по 12 маны за атаку. Способность не сочетается с другими способностями, сжигающими ману."
+            }
+        },
+        "196": {
+            "lore": "Зачарованный меч, позволяющий разрубить врага и добраться прямо до его души.",
+            "description": "Можно улучшить.",
+            "abilities": {
+                "0": "Снимает положительные эффекты и замедляет противника на 4.0 сек. , или снимает отрицательные эффекты с союзника. Мгновенно убивает призванных юнитов.",
+                "1": "Каждая ваша атака сжигает 25 маны врага и наносит ему такое же количество физического урона. Иллюзии героев дальнего боя сжигают по 12 маны за атаку. Способность не сочетается с другими способностями, сжигающими ману."
+            }
+        },
+        "175": {},
+        "176": {
+            "lore": "Этот мерцающий меч — грозное оружие, способное наносить урон в любом мире, независимо от его физической или магической природы.",
+            "description": "Объединенное время перезарядки с Ghost Scepter. Призрачные юниты получают на 40% больше магического урона. Длится на секунду больше на союзниках и на себе.\nИспользование Town Portal Scroll или Boots of Travel не развеивает бесплотную форму.",
+            "abilities": {
+                "0": "Выпускает снаряд, который придает вашей цели бесплотную форму. В этой форме цель не может атаковать, получает повышенный магический урон, но полностью защищена от физического урона. При применении на противника тот будет замедлен и получит магический урон в размере 2.0х вашего основного атрибута +75 ед."
+            }
+        },
+        "177": {},
+        "178": {
+            "lore": "Кольцо, наполняющееся энергией душ тех, кто его носит.",
+            "description": "Если полученная мана превышает порог ее максимального количества, создается запас маны, не зависящий от основного. Если полученную ману не использовать за время действия артефакта, она исчезнет.",
+            "abilities": {
+                "0": "Переводит 150 ед. Вашего здоровья в 150 ед. Маны. Действует 10 секунд."
+            }
+        },
+        "179": {},
+        "180": {
+            "lore": "В этих ботинках маг становится более ценным в бою.",
+            "description": "Не работает на клонах Meepo.\n\nОсновные бонусы к скорости передвижения от нескольких пар ботинок не складываются.",
+            "abilities": {
+                "0": "Восстанавливает ману всем союзникам в радиусе 900 вокруг героя."
+            }
+        },
+        "228": {},
+        "235": {
+            "lore": "Само сердце колдовства раскрашено цветами, узреть которые способны лишь самые одаренные.",
+            "abilities": {
+                "0": "Уменьшает время перезарядки всех способностей и предметов на 25%.",
+                "1": "Дает магический вампиризм, который восстанавливает здоровье в размере доли от нанесенного способностями урона."
+            }
+        },
+        "181": {
+            "lore": "Орошает ваше оружие змеиным ядом.",
+            "description": "Orb of Venom — уникальный модификатор атаки, он не будет сочетаться с другими уникальными модификаторами атаки. Orb of Venom сочетается с модификаторами атаки, дарующими вампиризм.",
+            "abilities": {
+                "0": "Отравляет цель, нанося периодический урон и снижая скорость передвижения в зависимости от типа атаки вашего героя."
+            }
+        },
+        "184": {},
+        "185": {
+            "lore": "Артефакт, дающий жизненные силы и ускоряющий всех вокруг.",
+            "description": "Покупка рецепта Drum of Endurance восстановит его заряды.\n\nЭффекты нескольких Swiftness Aura не складываются.",
+            "abilities": {
+                "0": "Дает +20 к скорости атаки и +10% к скорости передвижения союзников в радиусе 900.",
+                "1": "Увеличивает скорость атаки и передвижения союзников в радиусе 900."
+            }
+        },
+        "186": {},
+        "187": {
+            "lore": "Его носитель не боится сражений.",
+            "abilities": {
+                "0": "При использовании на союзника увеличивает его броню и снижает вашу. При использовании на противника снижает броню у вас и цели. Длится 7 секунд."
+            }
+        },
+        "227": {},
+        "229": {
+            "lore": "Талисман, выкованный в честь дневного неба.",
+            "abilities": {
+                "0": "Временно убирает у владельца дополнительную броню и шанс уклонения, даруемые этим предметом. При использовании на союзнике увеличивает ему броню на 10 и дает шанс уклонения в 30%. При использовании на противнике уменьшает его броню на 10 и ослепляет, заставляя его промахиваться атаками в 30% случаев."
+            }
+        },
+        "188": {
+            "abilities": {
+                "0": "После активации ваш герой и все союзники, которые находятся поблизости, становятся невидимыми и получают дополнительную скорость передвижения на короткое время. Также ваши иконки не будут отображаться на мини-карте. При атаке или приближении к вражеским героям или башням в радиусе 1025 невидимость теряется."
+            }
+        },
+        "189": {},
+        "190": {
+            "lore": "Головной убор испорченных магов.",
+            "abilities": {
+                "0": "Ослабляет врагов, увеличивая магический урон, наносимый им, в течение 16.0 секунд."
+            }
+        },
+        "230": {},
+        "231": {
+            "lore": "Один из множества священных инструментов, созданных во славу Всезнающего.",
+            "description": "Аура усиливается только на героях.",
+            "abilities": {
+                "0": "Восстанавливает 250 здоровья и 160 маны всем окружающим союзникам, а также рассеивает большинство отрицательных эффектов на владельце.",
+                "1": "Дарует окружающим союзникам +4 к восстановлению здоровья и +2 к броне. Если в радиусе действия есть союзный герой, уровень здоровья которого ниже 20%, то для него восстановление здоровья увеличивается до 15, а броня — до 15."
+            }
+        },
+        "205": {},
+        "206": {
+            "lore": "В этом простом на первый взгляд жезле заключено естество владыки чумы Атоса.",
+            "abilities": {
+                "0": "Снижает скорость передвижения цели."
+            }
+        },
+        "207": {},
+        "208": {
+            "lore": "Острие потерянного клинка Повелителя Хаоса впивается врагу прямо в душу.",
+            "description": "Оглушение наносится на дистанции ближнего боя. Не сочетается с другими оглушениями от ударов. У Spirit Breaker, Faceless Void, Slardar и Troll Warlord не будет срабатывать Bash.",
+            "abilities": {
+                "0": "Оглушает выбранного противника на 2 сек. Проходит сквозь невосприимчивость к заклинаниям.",
+                "1": "Дает каждой атаке шанс оглушить противника на 1.4 сек. И нанести 60 дополнительного урона; шанс зависит от типа атаки владельца."
+            }
+        },
+        "209": {},
+        "210": {
+            "lore": "Эта алебарда движется со скоростью меньшего оружия, позволяя владельцу одержать победу в тех дуэлях, где более тяжелое орудие не справилось бы.",
+            "description": "Разоружение снимается только невосприимчивостью к заклинаниям.\n\nСочетается по закону убывающей полезности с другими источниками уклонения.",
+            "abilities": {
+                "0": "Запрещает цели атаковать. Длится 3.0 сек. При использовании на героях ближнего боя и 4.5 на героях дальнего боя.",
+                "1": "Каждая атака получает шанс нанести травму, уменьшающую скорость передвижения и атаки врага на  4.0 сек."
+            }
+        },
+        "211": {},
+        "212": {
+            "lore": "Кольцо падшего воеводы Акилы продолжает поддерживать армии в бою.",
+            "description": "Не сочетается с аурами Ring of Basilius, Ring of Aquila или Vladmir's Offering.\n\nЭффекты от нескольких Aquila Aura не складываются.",
+            "abilities": {
+                "0": "Увеличивает броню и скорость регенерации маны в радиусе 900.",
+                "1": "Переключает действие ауры на юнитов, не являющихся героями."
+            }
+        },
+        "213": {},
+        "214": {
+            "lore": "Хоть эти сапоги и увеличивают выживаемость обладателя, они не слишком надежны.",
+            "abilities": {
+                "0": "Tranquil boots теряют регенерацию здоровья и 30 скорости передвижения на 13 секунд, если владелец атаковал или атакован."
+            }
+        },
+        "215": {
+            "abilities": {
+                "0": "Делает вас или союзника невидимым спустя 1.5 сек. Передвижение снимает невидимость. Применение на себя не включает перезарядку."
+            }
+        },
+        "253": {},
+        "254": {
+            "lore": "Украденная накидка великого иллюзиониста.",
+            "abilities": {
+                "0": "Делает вас или союзника невидимым спустя 0.4 сек. , а также дает цели 55% к сопротивлению магии. Можно использовать во время произнесения заклинаний."
+            }
+        },
+        "1000": {
+            "lore": "Эта конфета, сделанная из грявольского крема и липучих витаминов, выглядит довольно странно.",
+            "abilities": {
+                "0": "Вы можете положить леденец в свою тыкву, чтобы все герои на карте получили золото и опыт, или можете пожертвовать его разъяренному от голода roshan. Команда, набравшая больше леденцов, получит приз! когда вы несете леденец, ваше максимальное здоровье снижается."
+            }
+        },
+        "1001": {},
+        "1002": {},
+        "1003": {},
+        "1004": {},
+        "1005": {},
+        "1006": {},
+        "1007": {
+            "description": "Используйте свисток, чтобы временно превратиться в вашего грявола!"
+        },
+        "1008": {
+            "description": "Используйте свисток, чтобы переключаться между гряволом и героем!"
+        },
+        "1009": {},
+        "1010": {
+            "abilities": {
+                "0": "Загляните в носок, чтобы получить подарки!"
+            }
+        },
+        "1011": {
+            "description": "Повышают скорость передвижения на 100 единиц. Помогают устоять на льду. Для лучшего результата используйте короткие пути!"
+        },
+        "1012": {
+            "description": "Используйте кекс, чтобы восстановить 400 ед. здоровья и 50 ед. маны за 8 секунд"
+        },
+        "1013": {
+            "description": "Используйте печенье, чтобы восстановить 350 ед. здоровья и 100 ед. маны за 11 секунд"
+        },
+        "1014": {
+            "description": "Используйте какао, чтобы восстановить 300 ед. здоровья и 150 ед. маны за 14 секунд"
+        },
+        "1015": {
+            "description": "Используйте ветчину, чтобы восстановить 300 ед. здоровья и 75 ед. маны за 2 секунды"
+        },
+        "1016": {
+            "description": "Используйте крендель, чтобы восстановить 250 ед. здоровья и 200 ед. маны за 17 секунд"
+        },
+        "1017": {
+            "description": "Обновляет все способности грявола."
+        },
+        "1018": {
+            "lore": "Нет ничего быстрее грявола, пожирающего свое любимое лакомство!",
+            "description": "Ваш грявол передвигается на максимальной скорости в течение 10 секунд."
+        },
+        "1019": {
+            "description": "Используйте лакомство, чтобы восстановить гряволу 400 ед. здоровья и 150 ед. маны за 5 секунд."
+        },
+        "1020": {
+            "description": "Спустя 2 секунды грявол появляется в новом месте."
+        }
+    }
+}

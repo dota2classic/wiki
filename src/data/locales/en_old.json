@@ -1,0 +1,1197 @@
+{
+    "general": {
+        "categories": {
+            "consumables": "Consumables",
+            "attributes": "Attributes",
+            "armaments": "Armaments",
+            "arcane": "Arcane",
+            "common": "Common",
+            "support": "Support",
+            "caster": "Caster",
+            "weapons": "Weapons",
+            "armor": "Armor",
+            "artifact": "Artifact",
+            "secret": "Secret"
+        },
+        "filter": {
+            "no_results": "Items matching the specified criteria were not found.",
+            "hightlight_rel": "Highlight relatives",
+            "search_placeholder": "Search for items...",
+            "reset_button_title": "Reset all filters",
+            "category": {
+
+            }
+        },
+        "itemtree": {
+            "name": "Item tree",
+            "no_recipe": "Not used in any recipe"
+        },
+        "item": {
+            "description": "Description",
+            "shareable": {
+                "full": "Fully shareable",
+                "partial": "Partially shareable"
+            },
+            "abilities": {
+                "active": "Active",
+                "passive": "Passive",
+                "use": "Use",
+                "cooldown": "Cooldown",
+                "mana": "Mana"
+            },
+            "stats": {
+                "damage": "Damage"
+            },
+            "shops": {
+                "main_shop": "Main shop",
+                "side_shop": "Side shop",
+                "side_shop_opt": "Side shop (optional)",
+                "secret_shop": "Secret shop",
+                "roshan": "Roshan",
+                "requiring_components": "Requiring components from",
+                "purchasable_at": "Purchasable at the",
+                "aegis": "Can't be bought. Dropped by Roshan on his first death and onwards.",
+                "cheese": "Can't be bought. Dropped by Roshan on his third death and onwards."
+            }
+        }
+    },
+    "items": {
+        "1": {
+            "lore": "The fabled dagger used by the fastest assassin ever to walk the lands.",
+            "description": "Self-casting will cause you to teleport in the direction of your team's fountain. If you used Blink to teleport to a distance over the maximum range, you'll be teleported 4/5 of the maximum range instead.",
+            "abilities": {
+                "Blink": {
+                    "description": "Teleport to a target point up to 1200 units away. If damage is taken, Blink Dagger cannot be used for 3 seconds."
+                }
+            }
+        },
+        "2": {
+            "lore": "The damage of these small, concealable blades should not be underestimated."
+        },
+        "3": {
+            "lore": "The classic weapon of choice for knights, this blade is sturdy and reliable for slaying enemies."
+        },
+        "4": {
+            "lore": "A medium weave of metal chains."
+        },
+        "5": {
+            "lore": "A sword that can cut through armor, it's a commonly chosen first weapon for budding swordsmen."
+        },
+        "6": {
+            "lore": "The helmet of a legendary warrior who fell in battle."
+        },
+        "7": {
+            "lore": "A rather typical spear that can sometimes pierce through an enemy's armor when used to attack.",
+            "abilities": {
+                "Pierce": {
+                    "description": "Grants each attack a chance to deal bonus damage."
+                }
+            }
+        },
+        "8": {
+            "lore": "A hammer forged of pure mithril."
+        },
+        "9": {
+            "lore": "Thick metal plates that protect the entire upper body. Avoid dropping on feet."
+        },
+        "10": {
+            "lore": "A basic staff that allows you to strike quickly."
+        },
+        "11": {
+            "lore": "The axe of a fallen gnome, it allows you to effectively maneuver the forest.",
+            "abilities": {
+                "Chop Tree/Ward": {
+                    "description": "Destroy a target tree or ward. Chop cast range is increased when targetting wards."
+                },
+                "Quell": {
+                    "description": "Increases attack damage against non-hero units, based on whether the equipped hero is ranged or melee. Does not provide bonus damage against Roshan."
+                }
+            }
+        },
+        "12": {
+            "lore": "A glimmering ring that defends its bearer."
+        },
+        "13": {
+            "lore": "Studded leather gloves that add brute strength."
+        },
+        "14": {
+            "lore": "Light boots made from spider skin that tingles your senses."
+        },
+        "15": {
+            "lore": "A beautiful sapphire mantle worn by generations of queens."
+        },
+        "16": {
+            "lore": "A seemingly ordinary branch, its ironlike qualities are bestowed upon the bearer."
+        },
+        "17": {
+            "lore": "A valued accessory for improving vitality."
+        },
+        "18": {
+            "lore": "A tensile fabric often used for its light weight and ease of movement."
+        },
+        "19": {
+            "lore": "This robe corrupts the soul of the user, but provides wisdom in return."
+        },
+        "20": {
+            "lore": "An elegant circlet designed for human princesses."
+        },
+        "21": {
+            "lore": "You grow stronger just by holding it."
+        },
+        "22": {
+            "lore": "A long blade imbued with time magic."
+        },
+        "23": {
+            "lore": "A staff of magical powers passed down from the eldest mages."
+        },
+        "24": {
+            "lore": "A mystical orb containing the essence of life."
+        },
+        "25": {
+            "lore": "A pair of magical gloves that seems to render weapons weightless."
+        },
+        "26": {
+            "lore": "A mask that drains the energy of those caught in its gaze.",
+            "description": "Morbid Mask is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
+            "abilities": {
+                "Lifesteal": {
+                    "description": "Heals the attacker for a percentage of attack damage dealt."
+                }
+            }
+        },
+        "27": {
+            "lore": "This ring is considered a good luck charm among the Gnomes."
+        },
+        "28": {
+            "lore": "A mask commonly used by mages and warlocks for various rituals."
+        },
+        "29": {
+            "lore": "Fleet footwear, increasing movement.",
+            "description": "Flat movement speed bonuses from multiple pairs of boots do not stack."
+        },
+        "30": {
+            "lore": "Not one thrall creature of the depths,\nNor spirit bound in drowning's keep,\nNor Maelrawn the Tentacular,\nShall rest till seas, gem comes to sleep.",
+            "description": "Dropped on death, and cannot be destroyed.",
+            "abilities": {
+                "True Sight": {
+                    "description": "Adds the ability to see invisible units and wards to any allied vision within its carrier's range."
+                }
+            }
+        },
+        "31": {
+            "lore": "A cloak made of a magical material that works to dispel any magic cast on it."
+        },
+        "32": {
+            "lore": "A necklace that allows you to anticipate enemy attacks.",
+            "description": "Stacks diminishingly with other sources of Evasion."
+        },
+        "33": {
+            "lore": "Made from the milk of a long lost Furbolg vendor, it restores the vitality of those who taste it.",
+            "abilities": {
+                "None": {
+                    "description": "Consume to instantly restore health and mana."
+                }
+            }
+        },
+        "34": {
+            "lore": "A simple wand used to channel magic energies, it is favored by apprentice wizards and great warlocks alike.",
+            "abilities": {
+                "Energy Charge": {
+                    "description": "Instantly restores health and mana based on the number of charges stored. Gains a charge (max 10) whenever a nearby visible enemy uses an ability."
+                }
+            }
+        },
+        "35": {},
+        "36": {
+            "lore": "A simple wand used to channel magic energies, it is favored by apprentice wizards and great warlocks alike.",
+            "abilities": {
+                "Energy Charge": {
+                    "description": "Instantly restores health and mana based on the number of charges stored. Gains a charge (max 17) whenever a nearby visible enemy uses an ability."
+                }
+            }
+        },
+        "37": {
+            "lore": "Imbues the wielder with a ghostly presence, allowing them to evade physical damage.",
+            "description": "Using a Town Portal Scroll or Boots of Travel  will not dispel Ghost Form.",
+            "abilities": {
+                "Ghost Form": {
+                    "description": "Enter ghost form, becoming immune to physical damage, yet unable to attack and taking 40% extra magic damage."
+                }
+            }
+        },
+        "38": {
+            "lore": "Clear water that enhances the ability to meditate.",
+            "abilities": {
+                "None": {
+                    "description": "Restores mana to the target unit over time.  If the unit is attacked, the effect is lost."
+                }
+            }
+        },
+        "39": {
+            "lore": "A magical salve that can quickly mend even the deepest of wounds.",
+            "abilities": {
+                "None": {
+                    "description": "Restores health to the target unit over time.  If the unit is attacked, the effect is lost."
+                }
+            }
+        },
+        "40": {
+            "abilities": {
+                "None": {
+                    "description": "Reveals and slows invisible Heroes in a nearby area."
+                }
+            }
+        },
+        "41": {
+            "lore": "An old bottle that survived the ages, the contents placed inside become enchanted.",
+            "description": "Hold Control to use Regenerate on an allied hero. Stored runes cannot be shared.",
+            "abilities": {
+                "Regenerate": {
+                    "description": "Consumes a charge to restore Health and Mana over time. Healing stops if attacked. Bottle can be refilled at your team's fountain. Runes can be stored in the Bottle for later use, and are activated automatically after 2 minutes. If Bottle does not have full charges and is placed on a courier, the courier will move 30%% slower."
+                }
+            }
+        },
+        "42": {
+            "lore": "A form of half-sentient plant, often cultivated by apprentice wizards.",
+            "description": "Hold Control to give one Observer Ward to an allied hero.",
+            "abilities": {
+                "None": {
+                    "description": "Plants an Observer Ward, an invisible watcher that gives vision of its surrounding area to your team. Lasts 7 minutes."
+                }
+            }
+        },
+        "43": {
+            "lore": "A form of plant originally grown in the garden of a fearful king.",
+            "description": "Hold Control to give one Sentry Ward to an allied hero.",
+            "abilities": {
+                "None": {
+                    "description": "Plants a Sentry Ward, an invisible watcher that grants True Sight, the ability to see invisible enemy units and wards, to any existing allied vision within its range. Lasts 4 minutes."
+                }
+            }
+        },
+        "44": {
+            "lore": "Forage to survive on the battlefield.",
+            "description": "Comes with 4 charges.  Can be used on an allied hero to give them one Tango.",
+            "abilities": {
+                "Eat a Tree or Ward": {
+                    "description": "Consume a target tree or ward to gradually restore health."
+                }
+            }
+        },
+        "45": {
+            "lore": "Losing the courier is punishable by death.",
+            "abilities": {
+                "Deploy Courier": {
+                    "description": "Deploys a creature to carry items to and from your team's base."
+                }
+            }
+        },
+        "46": {
+            "abilities": {
+                "Teleport": {
+                    "description": "Teleports you to a target friendly building. Double-click to teleport to your team's base fountain."
+                }
+            }
+        },
+        "47": {},
+        "48": {
+            "lore": "Winged boots that grant omnipresence.",
+            "description": "Flat movement speed bonuses from multiple pairs of boots do not stack.",
+            "abilities": {
+                "Teleport": {
+                    "description": "Teleports you to an allied non-hero unit or structure. Double-click to teleport to your team's base fountain. Upgradable to allow you to teleport to allied heroes."
+                }
+            }
+        },
+        "49": {},
+        "50": {
+            "lore": "Boots that allow the wearer to travel between the ether.",
+            "description": "Flat movement speed bonuses from multiple pairs of boots do not stack.",
+            "abilities": {
+                "Phase": {
+                    "description": "Gives increased movement speed and lets you move through units.  Phase is cancelled upon using another item or ability."
+                }
+            }
+        },
+        "51": {
+            "lore": "One of the oldest weapons forged by the Demon-Smith Abzidian, it killed its maker when he tested its edge."
+        },
+        "52": {
+            "lore": "Capturing the majestic call of an eagle, this mystical horn brings limitless dexterity to those who hear it."
+        },
+        "53": {
+            "lore": "A massive axe capable of tearing whole mountains down."
+        },
+        "54": {
+            "lore": "An ancient weapon that often turns the tides of war."
+        },
+        "55": {
+            "lore": "A mystical, carved stone that boosts the fervor of the holder."
+        },
+        "56": {
+            "lore": "A shiny ring found beneath a fat halfling's corpse."
+        },
+        "57": {
+            "lore": "Jewelry that was once used to channel nether realm magic, this ring pulses with energy."
+        },
+        "58": {
+            "lore": "Enigmatic staff made of only the most expensive crystals."
+        },
+        "59": {
+            "lore": "This lapis gemstone is commonly added to the collection of wizards seeking to improve their presence in combat."
+        },
+        "60": {
+            "lore": "A perfectly formed amethyst that nourishes body and mind when held."
+        },
+        "61": {
+            "lore": "A ruby gemstone that has been passed down through generations of warrior kin."
+        },
+        "62": {},
+        "63": {
+            "lore": "A pair of tough-skinned boots that change to meet the demands of the wearer.",
+            "description": "Power Treads can be built using a Belt of Strength, Band of Elvenskin, or a Robe of the Magi.  Flat movement speed bonuses from multiple pairs of boots do not stack, nor does the attack speed bonus from multiple Power Treads.",
+            "abilities": {
+                "Switch Attribute": {
+                    "description": "Changes selected attribute between Strength, Agility and Intelligence."
+                }
+            }
+        },
+        "64": {},
+        "65": {
+            "lore": "Preserved through unknown magical means, the Hand of Midas is a weapon of greed, sacrificing animals to line the owner's pockets.",
+            "abilities": {
+                "Transmute": {
+                    "description": "Kills a non-hero target for 190 gold and 2.5x experience.  Cannot be used on Ancient Creeps."
+                }
+            }
+        },
+        "66": {},
+        "67": {
+            "lore": "Deceptively hidden as an ordinary quarterstaff, it is actually very powerful, much like the Eldritch who originally possessed it."
+        },
+        "68": {},
+        "69": {
+            "lore": "A gem that grants heart to the bearer."
+        },
+        "70": {},
+        "71": {
+            "lore": "A busted old shield that seems to block more than it should.",
+            "abilities": {
+                "Damage Block": {
+                    "description": "Blocks physical attack damage based on whether the equipped hero is ranged or melee.  Poor Man's Shield will always block attacks from enemy Heroes, but has a 53% chance to block damage from creeps."
+                }
+            }
+        },
+        "72": {},
+        "73": {
+            "lore": "The bracer is a common choice to toughen up defenses and increase longevity."
+        },
+        "74": {},
+        "75": {
+            "lore": "A circlet with faint whispers echoing about it."
+        },
+        "76": {},
+        "77": {
+            "lore": "A small gemstone attached to several chains."
+        },
+        "78": {},
+        "79": {
+            "lore": "A glowing jewel formed out of assorted parts that somehow fit together perfectly.",
+            "description": "Multiple instances of Mekansm Aura do not stack.",
+            "abilities": {
+                "Restore": {
+                    "description": "Heals 250 health and gives +2 armor to allied units in a 900 radius."
+                },
+                "Mekansm Aura": {
+                    "description": "Grants 4 health regeneration to allied units in a 900 radius."
+                }
+            }
+        },
+        "80": {},
+        "81": {
+            "lore": "An eerie mask that is haunted with the malice of a fallen vampire.",
+            "description": "Multiple instances of Vladmir's Aura do not stack.",
+            "abilities": {
+                "Vladmir's Aura": {
+                    "description": "Grants lifesteal, health regeneration, mana regeneration, bonus attack damage, and armor to allies in a 900 radius.  The lifesteal percentage is based on whether the hero affected by the aura is melee or ranged."
+                }
+            }
+        },
+        "84": {
+            "description": "Upgrades your team's Animal Courier to a Flying Courier, granting it swift, unobstructed movement to carry items to and from your team's base.\n\nRequires a deployed Animal Courier."
+        },
+        "85": {},
+        "86": {
+            "lore": "A powerful shield that imbues the bearer with the strength of heroes past, it is capable of protecting entire armies in battle.",
+            "abilities": {
+                "Armor Bonus": {
+                    "description": "Gives +2 armor to all allied units in a 900 radius.  Lasts 25 seconds on heroes, 30 seconds on units."
+                }
+            }
+        },
+        "87": {},
+        "88": {
+            "lore": "Ring given as a reward to the greatest mages.",
+            "description": "Multiple instances of Basilius Aura do not stack.",
+            "abilities": {
+                "None": {
+                    "description": "Toggle whether the aura affects other non-hero units."
+                }
+            }
+        },
+        "89": {},
+        "90": {
+            "lore": "A powerful artifact of mysterious origin, it creates barriers against magical forces.",
+            "abilities": {
+                "Barrier": {
+                    "description": "Gives a shield that blocks 400 spell damage to all allies in a 900 radius."
+                },
+                "Insight Aura": {
+                    "description": "Gives allied units 4 health regeneration and 10% magic resistance in a 900 radius. The aura's bonus magic resistance is not applied to the equipped hero."
+                }
+            }
+        },
+        "91": {},
+        "92": {
+            "lore": "Contains the ashes of powerful demons.",
+            "description": "Gains charges every time an enemy hero dies within 1400 units.  Only the closest Urn to the dying hero will gain a charge.",
+            "abilities": {
+                "Soul Release": {
+                    "description": "Heals health over time to friendly units, but deals pure damage over time to enemy units.  The healing effect is lost if the affected ally takes damage from an enemy hero or tower."
+                }
+            }
+        },
+        "93": {},
+        "94": {
+            "lore": "Creates a soothing aura that restores allies in battle.",
+            "description": "Multiple instances of Regeneration Aura do not stack.",
+            "abilities": {
+                "Regeneration Aura": {
+                    "description": "Restores health to allies in a 900 unit radius."
+                }
+            }
+        },
+        "95": {},
+        "96": {
+            "lore": "The most guarded relic among the cult of Vyse, it is the most coveted weapon among magi.",
+            "abilities": {
+                "Hex": {
+                    "description": "Turns a target unit into a harmless critter for 3.5 seconds. Instantly destroys illusions."
+                }
+            }
+        },
+        "97": {},
+        "98": {
+            "lore": "A garnet rod constructed from the essence of a fire demon.",
+            "abilities": {
+                "Soul Burn": {
+                    "description": "Silences the target unit for 5 seconds and amplifies the damage it takes by 30%."
+                }
+            }
+        },
+        "99": {},
+        "100": {
+            "lore": "A mysterious scepter passed down through the ages, its disruptive winds can be used for good or evil.",
+            "abilities": {
+                "Cyclone": {
+                    "description": "Sweeps a target unit up into cyclone, making them invulnerable for 2.5 seconds. Cyclone can be cast on yourself. Enemy units take 50 magical damage upon landing."
+                }
+            }
+        },
+        "101": {},
+        "102": {
+            "lore": "Allows you to manipulate others, for good or evil.",
+            "abilities": {
+                "Force": {
+                    "description": "Pushes any target unit 600 units in the direction it is facing.  Double click to instantly cast Force on yourself."
+                }
+            }
+        },
+        "103": {},
+        "104": {
+            "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
+            "abilities": {
+                "Energy Burst": {
+                    "description": "Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable."
+                }
+            }
+        },
+        "105": {},
+        "106": {
+            "lore": "Considered the ultimate in necromancy and demonology, a powerful malefic force is locked within its pages.",
+            "abilities": {
+                "Demonic Summoning": {
+                    "description": "Summons a Warrior and an Archer to fight for you for 40 seconds, whose strength and abilities increase as Necronomicon is upgraded. Warrior gains True Sight at level 3. Upgradable."
+                }
+            }
+        },
+        "107": {},
+        "108": {
+            "lore": "The scepter of a wizard with demigod-like powers.",
+            "abilities": {
+                "Ultimate Upgrade": {
+                    "description": "Upgrades the ultimate, and some abilities, of certain heroes."
+                }
+            }
+        },
+        "109": {},
+        "110": {
+            "lore": "A powerful artifact created for wizards.",
+            "abilities": {
+                "Reset Cooldowns": {
+                    "description": "Resets the cooldowns of all your items and abilities."
+                }
+            }
+        },
+        "111": {},
+        "112": {
+            "lore": "Forged in the depths of the nether reaches, this hellish mail provides an army with increased armor and attack speed.",
+            "description": "Multiple instances of Assault Aura do not stack.",
+            "abilities": {
+                "Assault Aura": {
+                    "description": "Grants attack speed and armor to nearby allied units, and decreases the armor of nearby enemies."
+                }
+            }
+        },
+        "113": {},
+        "114": {
+            "lore": "Preserved heart of an extinct monster, it bolsters the bearer's fortitude.",
+            "abilities": {
+                "Health Regeneration": {
+                    "description": "Restores a percentage of max health per second. If damage is taken from an enemy hero or Roshan, this ability is disabled for 5 seconds for melee heroes, or 7 seconds for ranged heroes."
+                }
+            }
+        },
+        "115": {},
+        "116": {
+            "lore": "A powerful staff imbued with the strength of giants.",
+            "abilities": {
+                "Avatar": {
+                    "description": "Grants Spell Immunity and 100% Magic Damage Resistance.  Duration and cooldown decrease with each use.  Some abilities are able to disable through Avatar."
+                }
+            }
+        },
+        "117": {
+            "lore": "The Immortal was said to own a shield that protected him from death itself.",
+            "abilities": {
+                "Reincarnation": {
+                    "description": "Brings you to life with full health and mana 5 seconds after you die, at the location where you died. Reincarnation must be used within 5 minutes or Aegis of the Immortal disappears. If it expires, it will heal you over 5 seconds (dispels on damage)."
+                }
+            }
+        },
+        "118": {},
+        "119": {
+            "lore": "Said to have belonged to a goddess, today it retains much of its former power.",
+            "description": "Multiple instances of Freezing Aura do not stack.",
+            "abilities": {
+                "Arctic Blast": {
+                    "description": "Emits a freezing wave that deals 200 magical damage to enemies and slows their movement by -40% for 4 seconds."
+                },
+                "Freezing Aura": {
+                    "description": "Reduces the attack speed of all enemies in a 900 radius."
+                }
+            }
+        },
+        "120": {},
+        "121": {
+            "lore": "The Bloodstone's bright ruby color is unmistakable on the battlefield, as the owner seems to have infinite vitality and spirit.",
+            "abilities": {
+                "Pocket Deny": {
+                    "description": "Instantly causes you to die."
+                },
+                "Bloodpact": {
+                    "description": "Begins with 8 charges, and gains a charge each time an enemy hero dies within 1675 range. Each charge grants 1 mana regeneration per second, reduces the gold lost from death by 25, and reduces respawn time by 4 seconds. If the bearer dies, 500 + 30 health per charge is restored to all allies within a 1675 radius, while the Bloodstone loses a third of its charges. A bloodmark is then placed where the bearer died, granting vision over a 1800 radius and allowing the bearer to gain nearby experience while dead."
+                }
+            }
+        },
+        "122": {},
+        "123": {
+            "lore": "This magical sphere once protected one of the most famous heroes in history.",
+            "abilities": {
+                "Transfer Spellblock": {
+                    "description": "Temporarily removes Spellblock from the item's owner and transfers it to an allied unit."
+                }
+            }
+        },
+        "124": {},
+        "125": {
+            "lore": "A powerful shield that defends its wielder from even the most vicious of attacks.",
+            "abilities": {
+                "Damage Block": {
+                    "description": "Gives the wielder a chance to block damage from each incoming attack based on whether the equipped hero is melee or ranged."
+                }
+            }
+        },
+        "126": {},
+        "127": {
+            "lore": "A razor-sharp coat of mail, it is the choice of selfless martyrs in combat.",
+            "abilities": {
+                "Damage Return": {
+                    "description": "Reflects any damage taken back to the unit that dealt the damage.  Lasts 4.5 seconds."
+                }
+            }
+        },
+        "128": {},
+        "129": {
+            "lore": "Regain lost courage."
+        },
+        "130": {},
+        "131": {
+            "lore": "A furred, magic resistant headpiece that is feared by wizards."
+        },
+        "132": {},
+        "133": {
+            "lore": "So powerful, it cannot have a single owner.",
+            "description": "Drops on death.  Becomes unusable if picked up by an ally of its owner until it is returned to its owner. It is immediately usable by anybody if an enemy of the owner picks it up. A dropped Rapier cannot be picked up by a courier."
+        },
+        "134": {},
+        "135": {
+            "lore": "A powerful staff used by a master warrior.",
+            "abilities": {
+                "Mini-Bash": {
+                    "description": "Grants each attack a chance to deal bonus damage and deal a mini-stun."
+                },
+                "True Strike": {
+                    "description": "Prevents your attacks from missing. True Strike does not work when attacking enemy structures."
+                }
+            }
+        },
+        "136": {},
+        "137": {
+            "lore": "A divine weapon that causes damage and a bright burning effect that lays waste to nearby enemies.",
+            "abilities": {
+                "Toggle Burn": {
+                    "description": "When active, scorches nearby enemies for 50 damage per second and blinds them, causing them to miss 17% of their attacks."
+                }
+            }
+        },
+        "138": {},
+        "139": {
+            "lore": "Only the mightiest and most experienced of warriors can wield the Butterfly, but it provides incredible dexterity in combat.",
+            "description": "Stacks diminishingly with other sources of Evasion.",
+            "abilities": {
+                "Flutter": {
+                    "description": "Trade evasion for 25% additional movement speed for 6 seconds."
+                }
+            }
+        },
+        "140": {},
+        "141": {
+            "lore": "A weapon of incredible power that is difficult for even the strongest of warriors to control.",
+            "abilities": {
+                "Critical Strike": {
+                    "description": "Grants each attack a chance to deal additional damage. Critical Strike does not work against buildings."
+                }
+            }
+        },
+        "142": {},
+        "143": {
+            "lore": "A feared weapon in the right hands, this maul's ability to shatter the defenses of its opponents should not be underestimated.",
+            "abilities": {
+                "Bash": {
+                    "description": "Grants each attack a chance to stun the target for 1.4 seconds and deal 60 bonus damage, based on whether the equipped hero is ranged or melee."
+                }
+            }
+        },
+        "144": {},
+        "145": {
+            "lore": "The bearer of this mighty axe gains the ability to cut down swaths of enemies at once.",
+            "abilities": {
+                "Chop Tree/Ward": {
+                    "description": "Destroy a target tree or ward. Chop cast range is increased when targetting wards."
+                },
+                "Quell": {
+                    "description": "Increases attack damage against non-hero units, based on whether the equipped hero is ranged or melee. Does not provide bonus damage against Roshan."
+                },
+                "Cleave": {
+                    "description": "Deals a percent of attack damage in a 280 area around the target. Ranged units cannot Cleave."
+                }
+            }
+        },
+        "146": {},
+        "147": {
+            "lore": "An axe made of reflective materials that causes confusion amongst enemy ranks.",
+            "description": "Melee images deal 33% damage and take 350% damage, while Ranged images deal 28% and take 400% damage.\n\nYasha-based movement speed bonuses from multiple items do not stack.",
+            "abilities": {
+                "Mirror Image": {
+                    "description": "Creates 2 images of your hero that last 20 seconds. Melee heroes have a 35 second cooldown on this ability, while for Ranged heroes the cooldown is 50 seconds."
+                }
+            }
+        },
+        "148": {},
+        "149": {
+            "lore": "A blade forged from rare crystals, it seeks weak points in enemy armor.",
+            "abilities": {
+                "Critical Strike": {
+                    "description": "Grants each attack a chance to deal additional damage. Critical Strike does not work against buildings."
+                }
+            }
+        },
+        "150": {},
+        "151": {
+            "lore": "Weapon of choice among brutes, the bearer sacrifices his life energy to gain immense strength and power.",
+            "abilities": {
+                "Toggle Unholy Strength": {
+                    "description": "When active, Unholy Strength grants +31 damage and +25 strength, but drains 40 health per second.  You cannot die from the health drain when Unholy Strength is activated, nor from the strength loss when Unholy Strength is deactivated."
+                }
+            }
+        },
+        "152": {
+            "lore": "The blade of a fallen king, it allows you to move unseen and strike from the shadows.",
+            "abilities": {
+                "Shadow Walk": {
+                    "description": "Makes you invisible until the duration ends, or until you attack or cast a spell.  While Shadow Walk is active, you move 20% faster and can move through units.  If attacking to end the invisibility, you gain 175 bonus damage on that attack.  Lasts 14 seconds."
+                }
+            }
+        },
+        "153": {},
+        "154": {
+            "lore": "Sange and Yasha, when attuned by the moonlight and used together, become a very powerful combination.",
+            "description": "Yasha-based movement speed bonuses from multiple items do not stack.",
+            "abilities": {
+                "Greater Maim": {
+                    "description": "Each attack has a chance to slow the enemy's movement and attack speed for 5 seconds."
+                }
+            }
+        },
+        "155": {},
+        "156": {
+            "lore": "Immense power at the cost of your soul.",
+            "description": "Satanic is a Unique Attack Modifier, and does not stack with other Unique Attack Modifier.",
+            "abilities": {
+                "Unholy Rage": {
+                    "description": "Increases Lifesteal percentage to 200% for 4 seconds."
+                },
+                "Lifesteal": {
+                    "description": "Heals the attacker for a percentage of attack damage dealt."
+                }
+            }
+        },
+        "157": {},
+        "158": {
+            "lore": "Thor's magical hammer, made for him by the dwarves Brok and Eitri.",
+            "description": "Mjollnir is a Unique Attack Modifier that stacks with other Unique Attack Modifiers, but overrides them when Chain Lightning occurs.",
+            "abilities": {
+                "Static Charge": {
+                    "description": "Places a charged shield on a target unit which has a 20% chance to release a shocking bolt at a nearby attacker and 4 additional enemies."
+                },
+                "Chain Lightning": {
+                    "description": "Grants a chance on attack to release a bolt of electricity that leaps between 8 targets, dealing 150 magical damage to each."
+                }
+            }
+        },
+        "159": {},
+        "160": {
+            "lore": "Extremely rare artifact, guarded by the azure dragons.",
+            "description": "Eye of Skadi is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.  Eye of Skadi can be combined with Lifesteal Attack Modifiers.",
+            "abilities": {
+                "Cold Attack": {
+                    "description": "Each attack slows the movement and attack speed of the target. The duration of the slow is based on whether the equipped hero is melee or ranged."
+                }
+            }
+        },
+        "161": {},
+        "162": {
+            "lore": "Sange is an unusually accurate weapon, seeking weak points automatically.",
+            "abilities": {
+                "Lesser Maim": {
+                    "description": "Each attack has a chance to slow the enemy's movement and attack speed for 4 seconds."
+                }
+            }
+        },
+        "163": {},
+        "164": {
+            "lore": "The powerful headpiece of a dead necromancer.",
+            "description": "Helm of the Dominator is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
+            "abilities": {
+                "Dominate": {
+                    "description": "Take control of a non-hero, non-ancient target unit. Dominated units gain 500 bonus health."
+                },
+                "Lifesteal": {
+                    "description": "Heals the attacker for a percentage of attack damage dealt."
+                }
+            }
+        },
+        "165": {},
+        "166": {
+            "lore": "A hammer forged for the gods themselves, Maelstrom allows its user to harness the power of lightning.",
+            "description": "Maelstrom is a Unique Attack Modifier that stacks with other Unique Attack Modifiers, but overrides them when Chain Lightning occurs.",
+            "abilities": {
+                "Chain Lightning": {
+                    "description": "Grants a chance on attack to release a bolt of electricity that leaps between 4 targets, dealing 120 magical damage to each."
+                }
+            }
+        },
+        "167": {},
+        "168": {
+            "lore": "A wicked weapon, used in torturing political criminals.",
+            "description": "Desolator is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
+            "abilities": {
+                "Corruption": {
+                    "description": "Your attacks reduce target's armor for 15 seconds."
+                }
+            }
+        },
+        "169": {},
+        "170": {
+            "lore": "Yasha is regarded as the swiftest weapon ever created.",
+            "description": "Yasha-based movement speed bonuses from multiple items do not stack."
+        },
+        "171": {},
+        "172": {
+            "lore": "Once this mask is worn, its bearer becomes an uncontrollable aggressive force.",
+            "description": "Mask of Madness is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
+            "abilities": {
+                "Berserk": {
+                    "description": "Gives 100 attack speed and 17% movement speed, but causes you to take extra 30% damage.  Lasts 12 seconds."
+                },
+                "Lifesteal": {
+                    "description": "Heals the attacker for a percentage of attack damage dealt."
+                }
+            }
+        },
+        "173": {},
+        "174": {
+            "lore": "An enchanted blade that allows the user to cut straight into the enemy's soul.",
+            "description": "Upgradable.",
+            "abilities": {
+                "Purge": {
+                    "description": "If cast on an enemy, removes buffs from the target and slows it for 4 seconds. Instantly kills enemy summoned units and illusions. If cast on an ally, Purge removes most debuffs."
+                },
+                "Manabreak": {
+                    "description": "Each attack burns 25 mana from the target, and deals the same amount in physical damage. Burns 12 mana per attack from ranged illusions. Does not stack with other manabreak abilities."
+                }
+            }
+        },
+        "175": {},
+        "176": {
+            "lore": "A flickering blade of a ghastly nature, it is capable of dealing damage in both magical and physical planes.",
+            "description": "Using a Town Portal Scroll or Boots of Travel will not dispel Ethereal Form.",
+            "abilities": {
+                "Ether Blast": {
+                    "description": "Launches a projectile which converts the target to ethereal form, increasing any incoming magic damage they take, while rendering them immune to physical damage and unable to attack.  Can be cast on self.  If the target is an enemy, it is also slowed, and takes 2x your primary attribute + 75 as magical damage."
+                }
+            }
+        },
+        "177": {},
+        "178": {
+            "lore": "A ring that feeds on the souls of those who wear it.",
+            "abilities": {
+                "Sacrifice": {
+                    "description": "Consume 150 health to temporarily gain 150 mana.  Lasts 10 seconds."
+                }
+            }
+        },
+        "179": {},
+        "180": {
+            "lore": "Magi equipped with these boots are valued in battle.",
+            "description": "Flat movement speed bonuses from multiple pairs of boots do not stack.",
+            "abilities": {
+                "Replenish Mana": {
+                    "description": "Restores mana to all allies in a 900 area around the hero."
+                }
+            }
+        },
+        "181": {
+            "lore": "Envenoms your veapon with the venom of a venomous viper.",
+            "description": "Orb of Venom is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.  Orb of Venom can be combined with Lifesteal Attack Modifiers.",
+            "abilities": {
+                "Poison Attack": {
+                    "description": "Poisons the target, dealing damage over time and slowing movement based on whether the equipped hero is melee or ranged."
+                }
+            }
+        },
+        "182": {
+            "lore": "One man's wine barrel bottom is another man's shield.",
+            "abilities": {
+                "Damage Block": {
+                    "description": "Gives a chance to block damage based on whether the equipped hero is melee or ranged."
+                }
+            }
+        },
+        "183": {},
+        "184": {},
+        "185": {
+            "lore": "A relic that enchants the bodies of those around it for swifter movement in times of crisis.",
+            "description": "Multiple instances of Swiftness Aura do not stack.",
+            "abilities": {
+                "Endurance": {
+                    "description": "Gives bonus +20 attack speed and +10% movement speed to allies in a 900 radius."
+                },
+                "Swiftness Aura": {
+                    "description": "Gives bonus attack and movement speed to allies in a 900 radius."
+                }
+            }
+        },
+        "186": {},
+        "187": {
+            "lore": "The bearer has no fear of combat.",
+            "abilities": {
+                "Valor": {
+                    "description": "If cast on an ally, increases their armor while reducing the caster's. If cast on an enemy, reduces the armor of both the enemy and the caster.  Lasts 7 seconds."
+                }
+            }
+        },
+        "188": {
+            "abilities": {
+                "None": {
+                    "description": "Upon activation, the user and all nearby allied player-controlled units gain invisibility and bonus movement speed for a brief time.  Minimap icons will also be hidden.  Attacking, or moving within 1025 range of an enemy hero or tower, will break the invisibility."
+                }
+            }
+        },
+        "189": {},
+        "190": {
+            "lore": "The headwear of corrupt magi.",
+            "abilities": {
+                "Magic Weakness": {
+                    "description": "Emits a weakening blast that increases the magic damage enemies take. Lasts 16 seconds."
+                }
+            }
+        },
+        "191": {},
+        "192": {},
+        "193": {
+            "lore": "Considered the ultimate in necromancy and demonology, a powerful malefic force is locked within its pages.",
+            "abilities": {
+                "Demonic Summoning": {
+                    "description": "Summons a Warrior and an Archer to fight for you for 40 seconds, whose strength and abilities increase as Necronomicon is upgraded. Warrior gains True Sight at level 3. Upgradable."
+                }
+            }
+        },
+        "194": {
+            "lore": "Considered the ultimate in necromancy and demonology, a powerful malefic force is locked within its pages.",
+            "abilities": {
+                "Demonic Summoning": {
+                    "description": "Summons a Warrior and an Archer to fight for you for 40 seconds, whose strength and abilities increase as Necronomicon is upgraded. Warrior gains True Sight at level 3. Upgradable."
+                }
+            }
+        },
+        "195": {},
+        "196": {
+            "lore": "An enchanted blade that allows the user to cut straight into the enemy's soul.",
+            "description": "Upgradable.",
+            "abilities": {
+                "Purge": {
+                    "description": "If cast on an enemy, removes buffs from the target and slows it for 4 seconds. Instantly kills enemy summoned units and illusions. If cast on an ally, Purge removes most debuffs."
+                },
+                "Manabreak": {
+                    "description": "Each attack burns 25 mana from the target, and deals the same amount in physical damage. Burns 12 mana per attack from ranged illusions. Does not stack with other manabreak abilities."
+                }
+            }
+        },
+        "197": {},
+        "198": {},
+        "199": {},
+        "200": {},
+        "201": {
+            "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
+            "abilities": {
+                "Energy Burst": {
+                    "description": "Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable."
+                }
+            }
+        },
+        "202": {
+            "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
+            "abilities": {
+                "Energy Burst": {
+                    "description": "Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable."
+                }
+            }
+        },
+        "203": {
+            "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
+            "abilities": {
+                "Energy Burst": {
+                    "description": "Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable."
+                }
+            }
+        },
+        "204": {
+            "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
+            "abilities": {
+                "Energy Burst": {
+                    "description": "Emits a powerful burst of magical damage upon a targeted enemy unit."
+                }
+            }
+        },
+        "205": {},
+        "206": {
+            "lore": "Atos, the Lord of Blight, has his essence stored in this deceptively simple wand.",
+            "abilities": {
+                "Cripple": {
+                    "description": "Slows the target's movement speed."
+                }
+            }
+        },
+        "207": {},
+        "208": {
+            "lore": "The lost blade of the Commander of the Abyss, this edge cuts into an enemy's soul.",
+            "abilities": {
+                "Overwhelm": {
+                    "description": "Stuns a target enemy unit for 2 seconds. Pierces Spell Immunity."
+                },
+                "Bash": {
+                    "description": "Grants each attack a chance to stun the target for 1.4 seconds and deal 60 bonus damage, based on whether the equipped hero is ranged or melee."
+                }
+            }
+        },
+        "209": {},
+        "210": {
+            "lore": "This halberd moves with the speed of a smaller weapon, allowing the bearer to win duels that a heavy edge would not.",
+            "description": "Stacks diminishingly with other sources of Evasion.",
+            "abilities": {
+                "Disarm": {
+                    "description": "Prevents a target from attacking. Lasts 3 seconds on melee targets, and 4.5 seconds on ranged targets."
+                },
+                "Lesser Maim": {
+                    "description": "Each attack has a chance to slow the enemy's movement and attack speed for 4 seconds."
+                }
+            }
+        },
+        "211": {},
+        "212": {
+            "lore": "The ring of the fallen Warlord Aquila continues to support armies in battle.",
+            "description": "Multiple instances of Aquila Aura do not stack.",
+            "abilities": {
+                "None": {
+                    "description": "Toggle whether the aura affects other non-hero units."
+                }
+            }
+        },
+        "213": {},
+        "214": {
+            "lore": "While they increase the longevity of the wearer, this boot is not particularly reliable.",
+            "abilities": {
+                "Break": {
+                    "description": "Whenever you attack or are attacked, the health regeneration and 30 Movement Speed are lost for 13 seconds."
+                }
+            }
+        },
+        "215": {
+            "abilities": {
+                "Fade": {
+                    "description": "Grants invisibility to you or a target allied hero after a 1.5 second fade time. Moving breaks the invisibility. There is no cooldown when using this item on yourself."
+                }
+            }
+        },
+        "216": {
+            "lore": "The bittersweet flavors of Jidi Isle are irresistible to amphibians.",
+            "abilities": {
+                "None": {
+                    "description": "Consume the mango to instantly restore 150 mana. Can be fed to an ally."
+                }
+            }
+        },
+        "217": {},
+        "218": {
+            "lore": "Advancements in stacking efficiency have made wards easier to carry than ever.",
+            "abilities": {
+                "None": {
+                    "description": "Plant the currently active ward to keep watch over an area. Observer Wards reveal their surrounding area to your team. Sentry Wards grant True Sight, the ability to see invisible enemy units and wards, to any existing allied vision within its range."
+                }
+            }
+        },
+        "219": {},
+        "220": {
+            "description": "Flat movement speed bonuses from multiple pairs of boots do not stack.",
+            "abilities": {
+                "Teleport": {
+                    "description": "Teleports you to any allied structure or unit, including heroes. Double-click to teleport to your team's base fountain."
+                }
+            }
+        },
+        "221": {},
+        "226": {
+            "lore": "The jewel at its center still reflects a pale image of its creator.",
+            "abilities": {
+                "Echo Shell": {
+                    "description": "Applies a shield to the target unit which re-casts most targeted spells back to their caster. The shielded unit will still take damage from the spell. Dispels negative buffs when applied."
+                }
+            }
+        },
+        "227": {},
+        "228": {},
+        "229": {
+            "lore": "A talisman forged to honor the daytime sky.",
+            "abilities": {
+                "Shine": {
+                    "description": "Temporarily removes the armor and evasion from Solar Crest. When cast on an ally it grants them 10 armor and 30% evasion. When cast on an enemy it removes 10 of their armor and blinds them, causing them to miss 30% of their attacks."
+                }
+            }
+        },
+        "230": {},
+        "231": {
+            "lore": "One of many holy instruments constructed to honor the Omniscience.",
+            "abilities": {
+                "Mend": {
+                    "description": "Restores 250 health and 160 mana to nearby allies, and removes most negative buffs from the caster."
+                },
+                "Guardian Aura": {
+                    "description": "Provides nearby allies with 4 health regeneration and 2 bonus armor. If an allied hero's health falls below 20%, they receive 15 health regeneration and 15 armor."
+                }
+            }
+        },
+        "235": {
+            "lore": "At the core of spellcraft are spectrums only the very gifted can sense.",
+            "abilities": {
+                "Cooldown Reduction": {
+                    "description": "Reduces the cooldown time of all spells and items by 25%."
+                },
+                "Spell Lifesteal": {
+                    "description": "A percentage of damage caused by spells is returned to the caster as health."
+                }
+            }
+        },
+        "241": {
+            "lore": "Om nom nom.",
+            "abilities": {
+                "Eat a Tree or Ward": {
+                    "description": "Consume a target tree or ward to gradually restore health."
+                }
+            }
+        },
+        "242": {
+            "lore": "A cuirass originally built to protect against the dreaded Year Beast.",
+            "abilities": {
+                "Guard": {
+                    "description": "Grant nearby allied heroes a 100% chance to block 55 damage from each incoming attack, along with 2 armor. Lasts 10 seconds."
+                },
+                "Damage Block": {
+                    "description": "Gives the wearer a chance to block damage from each incoming attack based on whether the equipped hero is melee or ranged."
+                }
+            }
+        },
+        "243": {},
+        "246": {},
+        "247": {
+            "lore": "Said to be a tear from the lunar goddess Selemene.",
+            "abilities": {
+                "Shade Sight": {
+                    "description": "Grants 250 bonus night vision."
+                }
+            }
+        },
+        "248": {},
+        "249": {
+            "lore": "Once used to slay an unjust king, only to have the kingdom erupt into civil war in the aftermath.",
+            "abilities": {
+                "Shadow Walk": {
+                    "description": "Makes you invisible until the duration ends, or until you attack or cast a spell.  While invisible, you move 20% faster and can move through units.  Attacking to end the invisibility will deal 225 bonus damage to the target, disable their passive abilities, and reduce their damage output."
+                },
+                "Lesser Maim": {
+                    "description": "Each attack has a chance to slow the enemy's movement and attack speed for 4 seconds."
+                }
+            }
+        },
+        "253": {},
+        "254": {
+            "lore": "The stolen cape of a master illusionist.",
+            "abilities": {
+                "Glimmer": {
+                    "description": "After a 0.4 second delay, grants invisibility and 55% magic resistance to you or a target allied unit. Can be cast while channelling."
+                }
+            }
+        }
+    }
+}
