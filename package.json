@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "docker": "docker build . -t dota2classic/matchmaking:wiki"
   },
   "dependencies": {
     "browser-cookies": "^1.2.0",
