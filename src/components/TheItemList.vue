@@ -1,37 +1,41 @@
 <script setup>
-  import { computed } from 'vue'
-  import { RouterLink, useRoute } from 'vue-router'
-  import sourceData from '@/data/items.json'
-  import categoriesData from '@/data/items_categories.json'
-  import TheFilterSection from './TheFilterSection.vue';
-  import { useI18n } from 'vue-i18n';
+import { computed } from "vue";
+import { RouterLink, useRoute } from "vue-router";
+import sourceData from "@/data/items.json";
+import categoriesData from "@/data/items_categories.json";
+import TheFilterSection from "./TheFilterSection.vue";
+import { useI18n } from "vue-i18n";
 
-  const { t } = useI18n();
+const { t } = useI18n();
 
-  const route = useRoute();
-  const items = computed(() => sourceData.items);
-  const itemsCategories = computed(() => categoriesData.items_categories);
+const route = useRoute();
+const items = computed(() => sourceData.items);
+const itemsCategories = computed(() => categoriesData.items_categories);
 
-  const categorizedItems = computed(() => {
+const categorizedItems = computed(() => {
   const activeCategoryFilter = route.query.category;
   const activeShopFilter = route.query.shop?.toLowerCase();
   const searchQuery = route.query.search?.toLowerCase();
 
   const shopCategories = activeShopFilter
     ? categoriesData.filter_categories.shop.find((shop) =>
-        shop.name.toLowerCase().startsWith(activeShopFilter.toLowerCase())
+        shop.name.toLowerCase().startsWith(activeShopFilter.toLowerCase()),
       )?.categories_id
     : null;
 
   const isFilterActive =
-    activeCategoryFilter ||
-    (shopCategories && shopCategories.length > 0);
+    activeCategoryFilter || (shopCategories && shopCategories.length > 0);
 
-  const defaultCategories = categoriesData.filter_categories.mainpage_categories;
+  const defaultCategories =
+    categoriesData.filter_categories.mainpage_categories;
 
   return itemsCategories.value
     .map((category) => {
-      if (!isFilterActive && searchQuery && !defaultCategories.includes(category.id)) {
+      if (
+        !isFilterActive &&
+        searchQuery &&
+        !defaultCategories.includes(category.id)
+      ) {
         return null;
       }
 
@@ -41,7 +45,9 @@
 
       if (
         activeCategoryFilter &&
-        !category.name.toLowerCase().startsWith(activeCategoryFilter.toLowerCase())
+        !category.name
+          .toLowerCase()
+          .startsWith(activeCategoryFilter.toLowerCase())
       ) {
         return null;
       }
@@ -71,12 +77,12 @@
     .filter(Boolean);
 });
 
-  const currentItem = computed(() => {
-    const currentId = Number(route.params.id);
-    return items.value.find((item) => item.id === currentId); 
-  });
+const currentItem = computed(() => {
+  const currentId = Number(route.params.id);
+  return items.value.find((item) => item.id === currentId);
+});
 
-  const hightlightRelativies = computed(() => route.query.hr === 'true');
+const hightlightRelativies = computed(() => route.query.hr === "true");
 </script>
 
 <template>
@@ -86,28 +92,43 @@
       :currentItem="currentItem"
       :data="sourceData.items"
     />
-    <div class="items-container" :class="hightlightRelativies ? 'hightlight-relativies' : ''">
-      <div class="items-category" v-for="category in categorizedItems" :key="category.id">
-        <RouterLink v-for="item in category.items" :key="item.id" :to="{name: 'item.show', params: {id: item.id}, hash: '#top'}" 
-        class="item-link"
-        :class="{
-          current: item.id === currentItem?.id,
-          parent: currentItem?.parents?.includes(item.id),
-          child: currentItem?.children?.includes(item.id)
-        }">
-          <img :src="`/images/${item.image}`" :alt="item.name" :title="item.name">
-          <p>{{item.name}}</p>
+    <div
+      :class="hightlightRelativies ? 'hightlight-relativies' : ''"
+      class="items-container"
+    >
+      <div
+        v-for="category in categorizedItems"
+        :key="category.id"
+        class="items-category"
+      >
+        <RouterLink
+          v-for="item in category.items"
+          :key="item.id"
+          :class="{
+            current: item.id === currentItem?.id,
+            parent: currentItem?.parents?.includes(item.id),
+            child: currentItem?.children?.includes(item.id),
+          }"
+          :to="{ name: 'item.show', params: { id: item.id }, hash: '#top' }"
+          class="item-link"
+        >
+          <img
+            :alt="item.name"
+            :src="`/images/${item.image}`"
+            :title="item.name"
+          />
+          <p>{{ item.name }}</p>
         </RouterLink>
       </div>
       <div v-if="!(categorizedItems.length > 0)" class="no-items-placeholder">
-        {{ t('general.filter.no_results') }}
+        {{ t("general.filter.no_results") }}
       </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-.no-items-placeholder{
+.no-items-placeholder {
   padding: 2rem 0;
 }
 
@@ -115,92 +136,93 @@
   display: none;
 }
 
- .item-link:not(.current):not(.parent):not(.child) > img {
+.item-link:not(.current):not(.parent):not(.child) > img {
   box-shadow: 0 0 10px 2px rgba(24, 24, 24, 1);
- }
+}
 
-  .hightlight-relativies .item-link:not(.current):not(.parent):not(.child) > img {
-    filter: grayscale(75%); 
-    opacity: 0.45;
-  }
+.hightlight-relativies .item-link:not(.current):not(.parent):not(.child) > img {
+  filter: grayscale(75%);
+  opacity: 0.45;
+}
 
+.items-container {
+  scrollbar-width: none;
+  user-select: none;
+  padding: 3px;
+  display: flex;
+  gap: 0.5rem;
+  max-width: fit-content;
+  margin: 0 auto;
+}
+
+.items-category {
+  width: 100%;
+  max-width: 3.6rem;
+}
+
+.items-category img {
+  width: 100%;
+  aspect-ratio: 85/64;
+  border-radius: 3px;
+  transition:
+    opacity 0.35s ease,
+    transform 0.15s ease;
+}
+
+.items-category img:hover {
+  transform: scale(1.1);
+}
+
+.items-category .current img {
+  box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+  outline: 2px solid rgba(255, 215, 0, 0.5);
+}
+
+.items-category p {
+  display: none;
+}
+
+@media (max-width: 750px) {
   .items-container {
-    scrollbar-width: none;
-    user-select: none;
-    padding: 3px;
     display: flex;
-    gap: .5rem;
-    max-width: fit-content;
-    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
   }
 
   .items-category {
-    width: 100%;
-    max-width: 3.6rem; 
+    max-width: none;
+    display: flex;
+    flex-direction: column;
   }
 
-  .items-category img {
-    width: 100%;
-    aspect-ratio: 85/64;
-    border-radius: 3px;
-    transition: opacity 0.35s ease, transform 0.15s ease;
+  .items-category > a {
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    color: inherit;
+    padding: 0.5rem;
   }
 
-  .items-category img:hover {
-    transform: scale(1.1); 
+  .items-category > a.parent,
+  .items-category > a.child {
+    background-color: rgba(24, 44, 64, 0.3);
   }
 
-  .items-category .current img {
-    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.2);
-    transform: scale(1.1); 
-    outline: 2px solid rgba(255, 215, 0, 0.5);
+  .items-category > a:hover,
+  .items-category > a.current {
+    background-color: rgba(24, 44, 64, 0.7);
   }
 
   .items-category p {
-      display: none;
-    }
-
-  @media (max-width: 750px) {
-    .items-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .items-category {
-      max-width: none;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .items-category > a {
-      display: flex;
-      gap: 1rem;
-      text-decoration: none;
-      color: inherit;
-      padding: 0.5rem;
-    }
-
-    .items-category > a.parent,
-    .items-category > a.child {
-      background-color: rgba(24, 44, 64, 0.3);
-    }
-
-    .items-category > a:hover,
-    .items-category > a.current {
-      background-color: rgba(24, 44, 64, 0.7);
-    }
-
-    .items-category p {
-      display: inline;
-      margin: auto 0;
-    }
-
-    .items-category > a > img,
-    .items-category > img {
-      width: 3.2rem;
-    }
+    display: inline;
+    margin: auto 0;
   }
-  
+
+  .items-category > a > img,
+  .items-category > img {
+    width: 3.2rem;
+  }
+}
 </style>

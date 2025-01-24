@@ -1,0 +1,6 @@
+services:
+  wiki:
+    container_name: wiki
+    image: dota2classic/matchmaking:wiki
+    ports:
+      - 8888:3000

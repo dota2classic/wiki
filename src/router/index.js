@@ -1,42 +1,47 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHistory } from "vue-router";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
-      redirect: '/items', // Перенаправление с корня на /items
+      path: "/",
+      redirect: "/items", // Перенаправление с корня на /items
     },
     {
-      path: '/items',
-      redirect: '/items/1', // Перенаправление с /items на /items/1
+      path: "/items",
+      redirect: "/items/1", // Перенаправление с /items на /items/1
     },
     {
-      path: '/items/:id(\\d+)', // Валидный маршрут для числового ID
+      path: "/slim/items/:id(\\d+)", // Валидный маршрут для числового ID
+      name: "item.show-slim",
+      component: () => import("../views/ItemOnlyView.vue"),
+    },
+    {
+      path: "/items/:id(\\d+)", // Валидный маршрут для числового ID
       name: "item.show",
-      component: () => import('../views/ItemView.vue'),
+      component: () => import("../views/ItemView.vue"),
     },
     {
-      path: '/:pathMatch(.*)*', // Перенаправление с любого невалидного пути
-      redirect: '/items/1',
+      path: "/:pathMatch(.*)*", // Перенаправление с любого невалидного пути
+      redirect: "/items/1",
     },
   ],
 
- scrollBehavior(to, from, savedPosition) {
-  if (to.hash) {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
+  scrollBehavior(to, from, savedPosition) {
+    if (to.hash) {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+      return false;
+    }
+
+    if (savedPosition) {
+      return savedPosition;
+    }
+
     return false;
-  }
-
-  if (savedPosition) {
-    return savedPosition; 
-  }
-
-  return false; 
-},
+  },
 });
 
 router.beforeEach((to, from, next) => {

@@ -98,22 +98,22 @@ const updateSearchFilter = () => {
   <div class="items-container-title">
     <div class="items-filter">
       <div class="items-filter-options">
-        <div class="locale-switch">
-          <button
-            v-for="lang in ['ru', 'en']"
-            :key="lang"
-            @click="changeLocale(lang)"
-            :class="['locale', locale === lang ? 'active' : '']"
-          >
-            {{ lang === "ru" ? "Русский" : "English" }}
-          </button>
-          <div
-            class="highlight"
-            :style="{
-              transform: locale === 'ru' ? 'translateX(0)' : 'translateX(100%)',
-            }"
-          ></div>
-        </div>
+        <!--        <div class="locale-switch">-->
+        <!--          <button-->
+        <!--            v-for="lang in ['ru', 'en']"-->
+        <!--            :key="lang"-->
+        <!--            @click="changeLocale(lang)"-->
+        <!--            :class="['locale', locale === lang ? 'active' : '']"-->
+        <!--          >-->
+        <!--            {{ lang === "ru" ? "Русский" : "English" }}-->
+        <!--          </button>-->
+        <!--          <div-->
+        <!--            class="highlight"-->
+        <!--            :style="{-->
+        <!--              transform: locale === 'ru' ? 'translateX(0)' : 'translateX(100%)',-->
+        <!--            }"-->
+        <!--          ></div>-->
+        <!--        </div>-->
 
         <CheckBox
           style="min-width: 11rem"
