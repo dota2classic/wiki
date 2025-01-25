@@ -1,7 +1,7 @@
 @import './base.css';
 
 body {
-  padding: 1rem;
+  /*padding: 1rem;*/
   padding-top: 0;
 }
 
@@ -11,7 +11,7 @@ body {
   flex-direction: column-reverse;
 }
 
-@media (min-width: 1220px) {
+@media (min-width: 1150px) {
   body {
     display: flex;
     justify-content: center;
