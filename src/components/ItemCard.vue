@@ -1,5 +1,5 @@
 <script setup>
-import { computed, inject } from "vue";
+import { computed } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import categories from "@/data/items_categories.json";
 import { useI18n } from "vue-i18n";
@@ -10,8 +10,6 @@ const { t } = useI18n();
 
 const route = useRoute();
 const router = useRouter();
-
-const isSmallScreen = inject("isSmallScreen");
 
 const f_shareable = computed(() => {
   const shareableCategory = categories.filter_categories?.others?.find(

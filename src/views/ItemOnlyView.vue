@@ -15,12 +15,15 @@ const item = computed(() => {
   }
   return foundItem;
 });
+
+const hideTree = computed(() => route.query.hideTree === "true");
 </script>
 
 <template>
   <div class="item-preview">
     <ItemCard :item="item" class="item" />
     <TheItemTree
+      v-if="!hideTree"
       :currentItem="item"
       :data="sourceData.items"
       :tree_id="`tree_2`"

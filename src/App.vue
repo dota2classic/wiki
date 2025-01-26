@@ -1,6 +1,6 @@
 <script setup>
 import { RouterView, useRoute } from "vue-router";
-import { computed, effect, provide, ref } from "vue";
+import { computed, effect, onMounted, ref } from "vue";
 
 const route = useRoute();
 const responsiveChecker = ref(null);
@@ -16,6 +16,25 @@ effect(() => {
     { type: "route-change", itemId: route.params.id },
     "*",
   );
+});
+
+onMounted(() => {
+  const app = document.querySelector("#app");
+  const resizeObserver = new ResizeObserver((entries) => {
+    const elRect = app.getBoundingClientRect();
+    window.parent.postMessage(
+      {
+        type: "resize-iframe",
+        payload: {
+          width: elRect.width,
+          height: elRect.height,
+        },
+      },
+      "*",
+    );
+  });
+
+  resizeObserver.observe(app);
 });
 
 provide("isSmallScreen", isSmallScreen);
