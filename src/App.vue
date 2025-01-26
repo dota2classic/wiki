@@ -1,6 +1,6 @@
 <script setup>
 import { RouterView, useRoute } from "vue-router";
-import { computed, effect, onMounted, ref } from "vue";
+import { computed, effect, onMounted, provide, ref } from "vue";
 
 const route = useRoute();
 const responsiveChecker = ref(null);
