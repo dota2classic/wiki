@@ -31,7 +31,12 @@ const hideTree = computed(() => route.query.hideTree === "true");
     />
   </div>
 </template>
-
+<style>
+body,
+html {
+  overflow: hidden;
+}
+</style>
 <style scoped>
 .item-preview {
   display: grid;
