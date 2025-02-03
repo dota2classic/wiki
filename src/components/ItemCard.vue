@@ -85,7 +85,7 @@ const foundCategory = computed(() => {
           >
             <img
               :alt="t('general.item.shareable.full')"
-              src="/images/F_S.png"
+              src="/images/F_S.webp"
             />
           </a>
           <a
@@ -95,7 +95,7 @@ const foundCategory = computed(() => {
           >
             <img
               :alt="t('general.item.shareable.partial')"
-              src="/images/P_S.png"
+              src="/images/P_S.webp"
             />
           </a>
         </span>
@@ -220,7 +220,7 @@ const foundCategory = computed(() => {
         >
           <img
             :alt="t('general.item.shops.main_shop')"
-            src="/images/icon_main_shop.png"
+            src="/images/icon_main_shop.webp"
           />
         </a>
         <a
@@ -230,7 +230,7 @@ const foundCategory = computed(() => {
         >
           <img
             :alt="t('general.item.shops.side_shop_opt')"
-            src="/images/icon_side_shop_alt.png"
+            src="/images/icon_side_shop_alt.webp"
           />
         </a>
         <a
@@ -240,7 +240,7 @@ const foundCategory = computed(() => {
         >
           <img
             :alt="t('general.item.shops.side_shop')"
-            src="/images/icon_side_shop.png"
+            src="/images/icon_side_shop.webp"
           />
         </a>
         <a
@@ -250,7 +250,7 @@ const foundCategory = computed(() => {
         >
           <img
             :alt="t('general.item.shops.secret_shop')"
-            src="/images/icon_secret_shop.png"
+            src="/images/icon_secret_shop.webp"
           />
         </a>
       </div>
