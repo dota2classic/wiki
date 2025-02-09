@@ -1,9 +1,8 @@
-<template />
+<template></template>
 
 <script setup>
 import { ref, onMounted, onUnmounted, watch } from "vue";
 
-// Принимаем параметр maxWidth
 const props = defineProps({
   maxWidth: {
     type: Number,
@@ -11,26 +10,23 @@ const props = defineProps({
   },
 });
 
-// Реактивное значение для отслеживания состояния
 const isSmallScreen = ref(false);
 
-// Функция для проверки размера окна
 const checkScreenSize = () => {
+  if (import.meta.env.SSR) return;
   isSmallScreen.value = window.matchMedia(`(max-width: ${props.maxWidth}px)`).matches;
 };
 
-// Обновляем состояние при изменении параметра maxWidth
 watch(
   () => props.maxWidth,
   () => {
-    checkScreenSize();
+    if (!import.meta.env.SSR) checkScreenSize();
   },
   { immediate: true }
 );
 
-// Хуки жизненного цикла
 onMounted(() => {
-  checkScreenSize(); // Проверяем размер экрана при загрузке
+  checkScreenSize(); 
   window.addEventListener("resize", checkScreenSize);
 });
 
@@ -38,7 +34,6 @@ onUnmounted(() => {
   window.removeEventListener("resize", checkScreenSize);
 });
 
-// Экспортируем реактивное значение для использования в родительском компоненте
 defineExpose({
   isSmallScreen,
 });

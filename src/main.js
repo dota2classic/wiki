@@ -1,15 +1,53 @@
 import "./assets/main.css";
 
-import { createApp } from "vue";
+import itemsData from '@/data/items.json'
+import { ViteSSG } from 'vite-ssg'
 import App from "./App.vue";
-import router from "./router";
+import { routerOptions } from './router'
 import i18n from "./i18n";
 import { initializeLanguage } from "@/util/lang.js";
 
-const app = createApp(App);
-
-initializeLanguage();
-
-app.use(router);
-app.use(i18n);
-app.mount("#app");
+export const createApp = ViteSSG(
+    App, 
+    routerOptions,
+    ({app, router, initialState}) => {
+      initializeLanguage(router);
+      app.use(i18n);
+  
+      router.beforeEach((to, from, next) => {
+        const mergedQuery = { ...from.query, ...to.query };
+      
+        if (mergedQuery.resetfilters) {
+          if (to.query.resetfilters) {
+            delete mergedQuery.category;
+            delete mergedQuery.shop;
+            delete mergedQuery.search;
+          } else {
+            delete mergedQuery.resetfilters;
+          }
+        }
+      
+        if (mergedQuery.shop && mergedQuery.category) {
+          if (to.query.category) {
+            delete mergedQuery.shop;
+          }
+          else if (to.query.shop) {
+            delete mergedQuery.category;
+          }
+        }
+      
+        if (JSON.stringify(to.query) === JSON.stringify(mergedQuery)) {
+          next(); 
+        } else {
+          next({ ...to, query: mergedQuery }); 
+        }
+      });
+    }
+  );
+  
+  export async function includedRoutes(paths, routes) {
+    const languages = ['en', 'ru'];
+    return languages.flatMap(lang =>
+      itemsData.items.map(item => `/${lang}/items/${item.id}`)
+    );
+  }

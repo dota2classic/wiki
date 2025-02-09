@@ -2,15 +2,22 @@ import i18n from "@/i18n.js";
 import BrowserCookies from "browser-cookies";
 import {getRootDomain} from "@/util/getRootDomain.js";
 
-const supportedLanguages = ["en", "ru"];
-const defaultLang = "ru";
-
 export const COOKIE_LANG_NAME = "d2c_language";
 
-export function initializeLanguage() {
+export function initializeLanguage(router) {
+  if (import.meta.env.SSR) { return; }
+
+  const supportedLanguages = ["en", "ru"];
+  const defaultLang = "ru";
+
+  const routeLang = router.currentRoute.value.params.lang;
   const savedLang = BrowserCookies.get(COOKIE_LANG_NAME);
 
-  const lang = supportedLanguages.includes(savedLang) ? savedLang : defaultLang;
+  const lang = supportedLanguages.includes(routeLang)
+    ? routeLang
+    : supportedLanguages.includes(savedLang)
+    ? savedLang
+    : defaultLang;
 
   setLanguage(lang);
 }

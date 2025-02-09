@@ -7,10 +7,12 @@ import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 
 onMounted(() => {
+  if (import.meta.env.SSR) return;
   window.addEventListener("resize", updateAllLines);
 });
 
 onUnmounted(() => {
+  if (import.meta.env.SSR) return;
   window.removeEventListener("resize", updateAllLines);
 });
 
@@ -68,7 +70,7 @@ const props = defineProps({
   },
 });
 
-console.log("Props render tree", props.currentItem);
+//console.log("Props render tree", props.currentItem);
 const some = computed(() => {
   console.log(props.currentItem, "computed current item treee");
   return 5;
@@ -311,10 +313,10 @@ function drawItemLine(currentItemId, relativeId, top) {
   user-select: none;
 
   border-radius: 3px;
-  //box-shadow:
+  /*box-shadow:
     rgb(13, 13, 13) 3 px 3 px 6 px 0 px inset,
     rgba(0, 0, 0, 0.1) - 3 px - 3 px 6 px 1 px inset;
-  //background-color: rgba(0, 0, 0, 0.06);
+  background-color: rgba(0, 0, 0, 0.06);*/
 }
 
 .item-tree > .tag {

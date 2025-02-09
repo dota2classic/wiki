@@ -1,6 +1,6 @@
 <script setup>
 import { RouterView, useRoute } from "vue-router";
-import { computed, effect, onMounted, provide, ref } from "vue";
+import { computed, effect, onMounted, onUnmounted, provide, ref } from "vue";
 
 const route = useRoute();
 const responsiveChecker = ref(null);
@@ -9,6 +9,7 @@ const isSmallScreen = computed(
 );
 
 effect(() => {
+  if (import.meta.env.SSR) return;
   if (route.params.id === undefined) return;
 
   // Post message to parent frame
@@ -22,6 +23,7 @@ onMounted(() => {
   const app = document.querySelector("#app");
   const resizeObserver = new ResizeObserver((entries) => {
     const elRect = app.getBoundingClientRect();
+    if (import.meta.env.SSR) return;
     window.parent.postMessage(
       {
         type: "resize-iframe",
@@ -36,6 +38,10 @@ onMounted(() => {
 
   resizeObserver.observe(app);
 });
+
+onUnmounted(() => {
+    resizeObserver.disconnect();
+  });
 
 provide("isSmallScreen", isSmallScreen);
 </script>
