@@ -6717,7 +6717,7 @@
             "cost": 275,
             "lore": "items.218.lore",
             "image": "ward_dispenser_lg.webp",
-            "description": "",
+            "description": "items.218.description",
             "abilities": {
                 "active": [],
                 "passive": [],

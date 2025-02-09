@@ -834,7 +834,7 @@
             "lore": "Advancements in stacking efficiency have made wards easier to carry than ever.",
             "description": "Double-Click to switch the currently active ward.\n",
             "abilities": {
-                "2": "Plant the currently active ward to keep watch over an area. Observer Wards reveal their surrounding area to your team. Sentry Wards grant True Sight, the ability to see invisible enemy units and wards, to any existing allied vision within its range."
+                "0": "Plant the currently active ward to keep watch over an area. Observer Wards reveal their surrounding area to your team. Sentry Wards grant True Sight, the ability to see invisible enemy units and wards, to any existing allied vision within its range."
             }
         },
         "44": {
@@ -1172,7 +1172,7 @@
             "description": "Only the first Bloodstone will gain charges.\n",
             "abilities": {
                 "0": "Instantly causes you to die.",
-                "2": "Begins with 8 charges, and gains a charge each time an enemy hero dies within 1675 range. Each charge grants 1 mana regeneration per second, reduces the gold lost from death by 25, and reduces respawn time by 4 seconds. If the bearer dies, 500 + 30 health per charge is restored to all allies within a 1675 radius, while the Bloodstone loses a third of its charges. A bloodmark is then placed where the bearer died, granting vision over a 1800 radius and allowing the bearer to gain nearby experience while dead."
+                "1": "Begins with 8 charges, and gains a charge each time an enemy hero dies within 1675 range. Each charge grants 1 mana regeneration per second, reduces the gold lost from death by 25, and reduces respawn time by 4 seconds. If the bearer dies, 500 + 30 health per charge is restored to all allies within a 1675 radius, while the Bloodstone loses a third of its charges. A bloodmark is then placed where the bearer died, granting vision over a 1800 radius and allowing the bearer to gain nearby experience while dead."
             }
         },
         "122": {},
