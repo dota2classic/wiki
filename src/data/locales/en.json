@@ -623,7 +623,7 @@
             "lore": "The fabled dagger used by the fastest assassin ever to walk the lands.",
             "description": "Self-casting will cause you to teleport in the direction of your team's fountain. If you used Blink to teleport to a distance over the maximum range, you'll be teleported 4/5 of the maximum range instead.",
             "abilities": {
-                "0": "Teleport to a target point up to 1200 units away.  If damage is taken, Blink Dagger cannot be used for 3.0 seconds."
+                "0": "Teleport to a target point up to 1200 units away.  If damage is taken, Blink Dagger cannot be used for 3 seconds."
             }
         },
         "2": {
@@ -1154,7 +1154,7 @@
         "117": {
             "lore": "The Immortal was said to own a shield that protected him from death itself.",
             "abilities": {
-                "0": "Brings you to life with full health and mana 5.0 seconds after you die, at the location where you died. Reincarnation must be used within 5 minutes or Aegis of the Immortal disappears. If it expires, it will heal you over 5 seconds (dispels on damage)."
+                "0": "Brings you to life with full health and mana 5 seconds after you die, at the location where you died. Reincarnation must be used within 5 minutes or Aegis of the Immortal disappears. If it expires, it will heal you over 5 seconds (dispels on damage)."
             }
         },
         "118": {},
@@ -1162,7 +1162,7 @@
             "lore": "Said to have belonged to a goddess, today it retains much of its former power.",
             "description": "The wave extends at a speed of 350 to a max size of 900. The Arctic Blast follows its caster.\n\nMultiple instances of Freezing Aura do not stack.",
             "abilities": {
-                "0": "Emits a freezing wave that deals 200 magical damage to enemies and slows their movement by -40% for 4.0 seconds.",
+                "0": "Emits a freezing wave that deals 200 magical damage to enemies and slows their movement by -40% for 4 seconds.",
                 "1": "Reduces the attack speed of all enemies in a 900 radius."
             }
         },
@@ -1179,7 +1179,7 @@
         "123": {
             "lore": "This magical sphere once protected one of the most famous heroes in history.",
             "abilities": {
-                "0": "Blocks most targeted spells once every 16.0 seconds.",
+                "0": "Blocks most targeted spells once every 16 seconds.",
                 "1": "Temporarily removes Spellblock from the item's owner and transfers it to an allied unit."
             }
         },
@@ -1280,9 +1280,9 @@
         "146": {},
         "147": {
             "lore": "An axe made of reflective materials that causes confusion amongst enemy ranks.",
-            "description": "Has a 0.1 second cast time during which you are invulnerable. Many effects are removed upon using Manta.\n\nMelee images deal 33%% damage and take 350%% damage, while Ranged images deal 28%% and take 400%% damage.\n\nYasha-based movement speed bonuses from multiple items do not stack.",
+            "description": "Has a 0.1 second cast time during which you are invulnerable. Many effects are removed upon using Manta.\n\nMelee images deal 33% damage and take 350% damage, while Ranged images deal 28% and take 400% damage.\n\nYasha-based movement speed bonuses from multiple items do not stack.",
             "abilities": {
-                "0": "Creates 2 images of your hero that last 20 seconds. Melee heroes have a 35.0 second cooldown on this ability, while for Ranged heroes the cooldown is 50 seconds."
+                "0": "Creates 2 images of your hero that last 20 seconds. Melee heroes have a 35 second cooldown on this ability, while for Ranged heroes the cooldown is 50 seconds."
             }
         },
         "148": {},
@@ -1305,7 +1305,7 @@
             "lore": "The blade of a fallen king, it allows you to move unseen and strike from the shadows.",
             "description": "Has a 0.3 second fade time. If the invisibility ends without attacking, the bonus damage is lost.",
             "abilities": {
-                "0": "Makes you invisible until the duration ends, or until you attack or cast a spell.  While Shadow Walk is active, you move 20% faster and can move through units.  If attacking to end the invisibility, you gain 175 bonus damage on that attack.  Lasts 14.0 seconds."
+                "0": "Makes you invisible until the duration ends, or until you attack or cast a spell.  While Shadow Walk is active, you move 20% faster and can move through units.  If attacking to end the invisibility, you gain 175 bonus damage on that attack.  Lasts 14 seconds."
             }
         },
         "248": {},
@@ -1313,7 +1313,7 @@
             "lore": "Once used to slay an unjust king, only to have the kingdom erupt into civil war in the aftermath.",
             "abilities": {
                 "0": "Makes you invisible until the duration ends, or until you attack or cast a spell.  While invisible, you move 20% faster and can move through units.  Attacking to end the invisibility will deal 225 bonus damage to the target, disable their passive abilities, and reduce their damage output.",
-                "1": "Each attack has a chance to slow the enemy's movement and attack speed for 4.0 seconds."
+                "1": "Each attack has a chance to slow the enemy's movement and attack speed for 4 seconds."
             }
         },
         "153": {},
@@ -1321,7 +1321,7 @@
             "lore": "Sange and Yasha, when attuned by the moonlight and used together, become a very powerful combination.",
             "description": "Yasha-based movement speed bonuses from multiple items do not stack.",
             "abilities": {
-                "0": "Each attack has a chance to slow the enemy's movement and attack speed for 5.0 seconds."
+                "0": "Each attack has a chance to slow the enemy's movement and attack speed for 5 seconds."
             }
         },
         "155": {},
@@ -1354,7 +1354,7 @@
         "162": {
             "lore": "Sange is an unusually accurate weapon, seeking weak points automatically.",
             "abilities": {
-                "0": "Each attack has a chance to slow the enemy's movement and attack speed for 4.0 seconds."
+                "0": "Each attack has a chance to slow the enemy's movement and attack speed for 4 seconds."
             }
         },
         "163": {},
@@ -1392,7 +1392,7 @@
             "lore": "Once this mask is worn, its bearer becomes an uncontrollable aggressive force.",
             "description": "Mask of Madness is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
             "abilities": {
-                "0": "Gives 100 attack speed and 17% movement speed, but causes you to take extra 30% damage.  Lasts 12.0 seconds.",
+                "0": "Gives 100 attack speed and 17% movement speed, but causes you to take extra 30% damage.  Lasts 12 seconds.",
                 "1": "Heals the attacker for a percentage of attack damage dealt."
             }
         },
@@ -1402,7 +1402,7 @@
             "lore": "An enchanted blade that allows the user to cut straight into the enemy's soul.",
             "description": "Upgradable.",
             "abilities": {
-                "0": "If cast on an enemy, removes buffs from the target and slows it for 4.0 seconds. Instantly kills enemy summoned units and illusions. If cast on an ally, Purge removes most debuffs.",
+                "0": "If cast on an enemy, removes buffs from the target and slows it for 4 seconds. Instantly kills enemy summoned units and illusions. If cast on an ally, Purge removes most debuffs.",
                 "1": "Each attack burns 25 mana from the target, and deals the same amount in physical damage. Burns 12 mana per attack from ranged illusions. Does not stack with other manabreak abilities."
             }
         },
@@ -1410,7 +1410,7 @@
             "lore": "An enchanted blade that allows the user to cut straight into the enemy's soul.",
             "description": "Upgradable.",
             "abilities": {
-                "0": "If cast on an enemy, removes buffs from the target and slows it for 4.0 seconds. Instantly kills enemy summoned units and illusions. If cast on an ally, Purge removes most debuffs.",
+                "0": "If cast on an enemy, removes buffs from the target and slows it for 4 seconds. Instantly kills enemy summoned units and illusions. If cast on an ally, Purge removes most debuffs.",
                 "1": "Each attack burns 25 mana from the target, and deals the same amount in physical damage. Burns 12 mana per attack from ranged illusions. Does not stack with other manabreak abilities."
             }
         },
@@ -1419,7 +1419,7 @@
             "lore": "A flickering blade of a ghastly nature, it is capable of dealing damage in both magical and physical planes.",
             "description": "Shares cooldown with Ghost Scepter. Ethereal units take 40% bonus magic damage. Lasts an extra second on Self or Allied cast.\nUsing a Town Portal Scroll or Boots of Travel will not dispel Ethereal Form.",
             "abilities": {
-                "0": "Launches a projectile which converts the target to ethereal form, increasing any incoming magic damage they take, while rendering them immune to physical damage and unable to attack.  Can be cast on self.  If the target is an enemy, it is also slowed, and takes 2.0x your primary attribute + 75 as magical damage."
+                "0": "Launches a projectile which converts the target to ethereal form, increasing any incoming magic damage they take, while rendering them immune to physical damage and unable to attack.  Can be cast on self.  If the target is an enemy, it is also slowed, and takes 2x your primary attribute + 75 as magical damage."
             }
         },
         "177": {},
@@ -1485,7 +1485,7 @@
         "190": {
             "lore": "The headwear of corrupt magi.",
             "abilities": {
-                "0": "Emits a weakening blast that increases the magic damage enemies take. Lasts 16.0 seconds."
+                "0": "Emits a weakening blast that increases the magic damage enemies take. Lasts 16 seconds."
             }
         },
         "230": {},
@@ -1518,8 +1518,8 @@
             "lore": "This halberd moves with the speed of a smaller weapon, allowing the bearer to win duels that a heavy edge would not.",
             "description": "Disarm can only be removed with spell immunity.\n\nStacks diminishingly with other sources of Evasion.",
             "abilities": {
-                "0": "Prevents a target from attacking. Lasts 3.0 seconds on melee targets, and 4.5 seconds on ranged targets.",
-                "1": "Each attack has a chance to slow the enemy's movement and attack speed for 4.0 seconds."
+                "0": "Prevents a target from attacking. Lasts 3 seconds on melee targets, and 4.5 seconds on ranged targets.",
+                "1": "Each attack has a chance to slow the enemy's movement and attack speed for 4 seconds."
             }
         },
         "211": {},

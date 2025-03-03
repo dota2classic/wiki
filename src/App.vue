@@ -1,18 +1,14 @@
 <script setup>
 import { RouterView, useRoute } from "vue-router";
-import { computed, effect, onMounted, onUnmounted, provide, ref } from "vue";
+import { effect, onMounted, onUnmounted } from "vue";
 
 const route = useRoute();
-const responsiveChecker = ref(null);
-const isSmallScreen = computed(
-  () => responsiveChecker.value?.isSmallScreen ?? false,
-);
+let resizeObserver;
 
 effect(() => {
   if (import.meta.env.SSR) return;
   if (route.params.id === undefined) return;
 
-  // Post message to parent frame
   window.parent.postMessage(
     { type: "route-change", itemId: route.params.id },
     "*",
@@ -21,9 +17,9 @@ effect(() => {
 
 onMounted(() => {
   const app = document.querySelector("#app");
-  const resizeObserver = new ResizeObserver((entries) => {
-    const elRect = app.getBoundingClientRect();
+  resizeObserver = new ResizeObserver(() => {
     if (import.meta.env.SSR) return;
+    const elRect = app.getBoundingClientRect();
     window.parent.postMessage(
       {
         type: "resize-iframe",
@@ -40,10 +36,11 @@ onMounted(() => {
 });
 
 onUnmounted(() => {
+  if (resizeObserver) {
     resizeObserver.disconnect();
-  });
+  }
+});
 
-provide("isSmallScreen", isSmallScreen);
 </script>
 
 <template>

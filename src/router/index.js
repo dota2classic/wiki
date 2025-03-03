@@ -1,5 +1,9 @@
 export const routes = [
   {
+    path: '/:pathMatch(.*)*',
+    redirect: '/en/items/1'
+  },
+  {
     path: '/',
     redirect: '/en/items/1'
   },
@@ -18,8 +22,9 @@ export const routes = [
     component: () => import('@/views/ItemView.vue')
   },
   {
-    path: '/:pathMatch(.*)*',
-    redirect: '/en/items/1'
+    path: '/heroes',
+    name: 'hero.show',
+    component: () => import('@/views/HeroView.vue')
   }
 ];
 

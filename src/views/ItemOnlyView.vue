@@ -2,8 +2,8 @@
 import { computed } from "vue";
 import sourceData from "@/data/items.json";
 import { useRoute, useRouter } from "vue-router";
-import TheItemTree from "@/components/TheItemTree.vue";
-import ItemCard from "@/components/ItemCard.vue";
+import TheItemTree from "@/components/items/TheItemTree.vue";
+import ItemCard from "@/components/items/ItemCard.vue";
 
 const route = useRoute();
 const router = useRouter();
@@ -41,6 +41,9 @@ html {
 .item-preview {
   display: grid;
   grid-template-columns: 1fr;
+  row-gap: 1rem;
+  /* font-size: 13px;
+  line-height: 1.35em; */
 }
 
 .item {

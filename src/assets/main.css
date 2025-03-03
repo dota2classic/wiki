@@ -1,25 +1,6 @@
 @import './base.css';
 
-body {
-  /*padding: 1rem;*/
-  padding-top: 0;
-}
-
-#app {
-  max-width: 1200px;
-  display: flex;
-  flex-direction: column-reverse;
-}
-
-@media (min-width: 1150px) {
-  body {
-    display: flex;
-    justify-content: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 2rem;
-  }
-}
+/* body {
+  padding: 1rem;
+  background-color: #16181c;
+} */
