@@ -1,6 +1,7 @@
 import "./assets/main.css";
 
 import itemsData from "@/data/items.json";
+import heroesData from "@/data/heroes.json"
 import { ViteSSG } from "vite-ssg";
 import App from "./App.vue";
 import { routerOptions } from "./router";
@@ -46,9 +47,12 @@ export const createApp = ViteSSG(
 
 export async function includedRoutes(paths, routes) {
   const languages = ["en", "ru"];
-  const pages = languages.flatMap((lang) =>
+  const pages_items = languages.flatMap((lang) =>
     itemsData.items.map((item) => `/${lang}/items/${item.id}`),
   );
+  const pages_heroes = languages.flatMap((lang) =>
+    heroesData.heroes.map((hero) => `/${lang}/heroes/${hero.id}`),
+  );
   const slimPreviews = itemsData.items.map((item) => `/slim/items/${item.id}`);
-  return [...pages, ...slimPreviews];
+  return [...pages_items, ...pages_heroes, ...slimPreviews];
 }

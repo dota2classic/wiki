@@ -3,7 +3,7 @@ import { computed } from "vue";
 import sourceData from "@/data/items.json";
 import { useRoute, useRouter } from "vue-router";
 import TheItemTree from "@/components/items/TheItemTree.vue";
-import ItemCard from "@/components/items/ItemCard.vue";
+import ItemCard from "@/components/items/TheItemCard.vue";
 
 const route = useRoute();
 const router = useRouter();

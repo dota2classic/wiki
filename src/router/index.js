@@ -22,7 +22,7 @@ export const routes = [
     component: () => import('@/views/ItemView.vue')
   },
   {
-    path: '/heroes',
+    path: '/:lang/heroes/:id',
     name: 'hero.show',
     component: () => import('@/views/HeroView.vue')
   }

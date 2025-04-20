@@ -5,7 +5,7 @@ import sourceData from "@/data/items.json";
 import categories from "@/data/items_categories.json";
 import TheItemTree from "@/components/items/TheItemTree.vue";
 import TheItemList from "@/components/items/TheItemList.vue";
-import ItemCard from "@/components/items/ItemCard.vue";
+import ItemCard from "@/components/items/TheItemCard.vue";
 import TheFilterSection from "@/components/items/TheFilterSection.vue";
 
 const route = useRoute();
@@ -26,16 +26,15 @@ const hightlightRelativies = computed(() => route.query.hr === "true");
     <div class="wrapper">
       <TheFilterSection
         :hightlightRelativies="hightlightRelativies"
-        :currentItem="item"
-        :data="sourceData.items"
         :categories="categories"
         class="fltr-item"
       />
-      <TheItemList 
-        :data="sourceData.items"
-        :categoriesData="categories"
-        class="list-item"
-      />
+      <div class="list-item grid-item-container">
+        <TheItemList 
+          :data="sourceData.items"
+          :categoriesData="categories"
+        />
+      </div>
       <div class="tree-item grid-item-container">
         <TheItemTree
           v-if="item"
@@ -73,6 +72,7 @@ const hightlightRelativies = computed(() => route.query.hr === "true");
 
 .list-item {
   grid-area: list-item;
+  padding-right: 1rem;
 }
 
 .tree-item {
@@ -81,17 +81,35 @@ const hightlightRelativies = computed(() => route.query.hr === "true");
 
 .card-item {
   grid-area: card-item;
-  padding-left: 1rem;
 }
 
- @media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
+  .fltr-item,
+  .tree-item {
+    position: sticky;
+    top: 0;
+  }
+
+  .list-item {
+    position: sticky;
+    top: 12rem;
+    height: fit-content;
+  }
+}
+
+ @media screen and (max-width: 1199px) {
   .wrapper {
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 10.6rem 1fr;
     grid-template-areas: 
     "   fltr-item   tree-item   "
     "   card-item   card-item   "
     "   list-item   list-item   ";
     row-gap: 1.5rem;
+  }
+
+  .list-item{
+    padding-right: 0;
   }
  }
 
@@ -103,6 +121,12 @@ const hightlightRelativies = computed(() => route.query.hr === "true");
     "   card-item   "
     "   fltr-item   "
     "   list-item   ";
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .wrapper {
+    grid-template-rows: 8rem 1fr;
   }
 }
 </style>
