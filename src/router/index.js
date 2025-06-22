@@ -1,3 +1,5 @@
+import { createMemoryHistory } from 'vue-router';
+
 export const routes = [
   {
     path: '/:pathMatch(.*)*',
@@ -29,20 +31,6 @@ export const routes = [
 ];
 
 export const routerOptions = {
-  routes,
-  scrollBehavior(to, from, savedPosition) {
-    if (to.hash) {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth',
-      });
-      return false;
-    }
-
-    if (savedPosition) {
-      return savedPosition; 
-    }
-
-    return false; 
-  }
+  history: createMemoryHistory(),
+  routes
 };

@@ -21,7 +21,6 @@ const hideTree = computed(() => route.query.hideTree === "true");
 
 <template>
   <div class="item-preview">
-    <ItemCard :item="item" class="item" />
     <TheItemTree
       v-if="!hideTree"
       :currentItem="item"
@@ -29,6 +28,7 @@ const hideTree = computed(() => route.query.hideTree === "true");
       :tree_id="`tree_2`"
       class="item-tree"
     />
+    <ItemCard :item="item" class="item" />
   </div>
 </template>
 <style>
