@@ -50,9 +50,11 @@ export async function includedRoutes(paths, routes) {
   const pages_items = languages.flatMap((lang) =>
     itemsData.items.map((item) => `/${lang}/items/${item.id}`),
   );
-  const pages_heroes = languages.flatMap((lang) =>
-    heroesData.heroes.map((hero) => `/${lang}/heroes/${hero.id}`),
-  );
+  // const pages_heroes = languages.flatMap((lang) =>
+  //   heroesData.heroes.map((hero) => `/${lang}/heroes/${hero.id}`),
+  // );
   const slimPreviews = itemsData.items.map((item) => `/slim/items/${item.id}`);
-  return [...pages_items, ...pages_heroes, ...slimPreviews];
+  return [...pages_items,
+    //  ...pages_heroes,
+      ...slimPreviews];
 }

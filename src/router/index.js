@@ -23,11 +23,11 @@ export const routes = [
     name: 'item.show',
     component: () => import('@/views/ItemView.vue')
   },
-  {
-    path: '/:lang/heroes/:id',
-    name: 'hero.show',
-    component: () => import('@/views/HeroView.vue')
-  }
+  // {
+  //   path: '/:lang/heroes/:id',
+  //   name: 'hero.show',
+  //   component: () => import('@/views/HeroView.vue')
+  // }
 ];
 
 export const routerOptions = {
