@@ -3387,7 +3387,7 @@
                 "active": [],
                 "passive": [
                     {
-                        "name": "ability_variable_hp_regen",
+                        "name": "Health Regeneration",
                         "description": "items.114.abilities.0",
                         "cooldown": 7.0,
                         "mana": 0

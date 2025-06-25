@@ -1,16 +1,23 @@
 <script setup>
 import { computed } from "vue";
 import { RouterLink, useRoute } from "vue-router";
-import sourceData from "@/data/items.json";
-import categoriesData from "@/data/items_categories.json";
-import TheFilterSection from "./TheFilterSection.vue";
 import { useI18n } from "vue-i18n";
+
+const props = defineProps({
+  data: {
+    type: Array,
+    required: true,
+  },
+  categoriesData: {
+    type: Object,
+    required: true,
+  }
+});
 
 const { t } = useI18n();
 
 const route = useRoute();
-const items = computed(() => sourceData.items);
-const itemsCategories = computed(() => categoriesData.items_categories);
+const itemsCategories = computed(() => props.categoriesData.items_categories);
 
 const categorizedItems = computed(() => {
   const activeCategoryFilter = route.query.category;
@@ -18,7 +25,7 @@ const categorizedItems = computed(() => {
   const searchQuery = route.query.search?.toLowerCase();
 
   const shopCategories = activeShopFilter
-    ? categoriesData.filter_categories.shop.find((shop) =>
+    ? props.categoriesData.filter_categories.shop.find((shop) =>
         shop.name.toLowerCase().startsWith(activeShopFilter.toLowerCase()),
       )?.categories_id
     : null;
@@ -27,7 +34,7 @@ const categorizedItems = computed(() => {
     activeCategoryFilter || (shopCategories && shopCategories.length > 0);
 
   const defaultCategories =
-    categoriesData.filter_categories.mainpage_categories;
+    props.categoriesData.filter_categories.mainpage_categories;
 
   return itemsCategories.value
     .map((category) => {
@@ -57,7 +64,7 @@ const categorizedItems = computed(() => {
       }
 
       const filteredItems = category.items
-        .map((itemId) => items.value.find((item) => item.id === itemId))
+        .map((itemId) => props.data.find((item) => item.id === itemId))
         .filter((item) => {
           if (!item) return false;
           return searchQuery
@@ -79,19 +86,14 @@ const categorizedItems = computed(() => {
 
 const currentItem = computed(() => {
   const currentId = Number(route.params.id);
-  return items.value.find((item) => item.id === currentId);
+  return props.data.find((item) => item.id === currentId);
 });
 
 const hightlightRelativies = computed(() => route.query.hr === "true");
 </script>
 
+
 <template>
-  <div class="items-container-outer">
-    <TheFilterSection
-      :hightlightRelativies="hightlightRelativies"
-      :currentItem="currentItem"
-      :data="sourceData.items"
-    />
     <div
       :class="hightlightRelativies ? 'hightlight-relativies' : ''"
       class="items-container"
@@ -114,7 +116,7 @@ const hightlightRelativies = computed(() => route.query.hr === "true");
         >
           <img
             :alt="item.name"
-            :src="`/images/${item.image}`"
+            :src="`/images/items/${item.image}`"
             :title="item.name"
           />
           <p>{{ item.name }}</p>
@@ -124,7 +126,6 @@ const hightlightRelativies = computed(() => route.query.hr === "true");
         {{ t("general.filter.no_results") }}
       </div>
     </div>
-  </div>
 </template>
 
 <style scoped>
@@ -141,8 +142,8 @@ const hightlightRelativies = computed(() => route.query.hr === "true");
 }
 
 .hightlight-relativies .item-link:not(.current):not(.parent):not(.child) > img {
-  filter: grayscale(75%);
-  opacity: 0.45;
+  filter: grayscale(85%);
+  opacity: 0.15;
 }
 
 .items-container {
@@ -203,6 +204,7 @@ const hightlightRelativies = computed(() => route.query.hr === "true");
     text-decoration: none;
     color: inherit;
     padding: 0.5rem;
+    width: 18rem;
   }
 
   .items-category > a.parent,

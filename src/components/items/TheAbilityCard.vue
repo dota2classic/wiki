@@ -1,5 +1,5 @@
 <script setup>
-import TheTag from "./TheTag.vue";
+import TheTag from "../TheTag.vue";
 import { useI18n } from "vue-i18n";
 
 const { t } = useI18n();
@@ -102,13 +102,13 @@ const { abilities, label, tagColor } = defineProps({
 .ability-meta {
   color: gold;
   display: flex;
-  gap: 2rem;
   padding: 0.45rem 0 0 0;
 }
 
 .ability-meta span {
   display: inline-flex;
   align-items: center;
+  width: 50%;
 }
 
 .ability-meta img {

@@ -2,8 +2,8 @@
 import { computed } from "vue";
 import sourceData from "@/data/items.json";
 import { useRoute, useRouter } from "vue-router";
-import TheItemTree from "@/components/TheItemTree.vue";
-import ItemCard from "@/components/ItemCard.vue";
+import TheItemTree from "@/components/items/TheItemTree.vue";
+import ItemCard from "@/components/items/TheItemCard.vue";
 
 const route = useRoute();
 const router = useRouter();
@@ -21,7 +21,6 @@ const hideTree = computed(() => route.query.hideTree === "true");
 
 <template>
   <div class="item-preview">
-    <ItemCard :item="item" class="item" />
     <TheItemTree
       v-if="!hideTree"
       :currentItem="item"
@@ -29,6 +28,7 @@ const hideTree = computed(() => route.query.hideTree === "true");
       :tree_id="`tree_2`"
       class="item-tree"
     />
+    <ItemCard :item="item" class="item" />
   </div>
 </template>
 <style>
@@ -41,6 +41,9 @@ html {
 .item-preview {
   display: grid;
   grid-template-columns: 1fr;
+  row-gap: 1rem;
+  /* font-size: 13px;
+  line-height: 1.35em; */
 }
 
 .item {

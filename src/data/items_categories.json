@@ -4,7 +4,7 @@
         {
             "id": 0,
             "name": "Consumables",
-          "image": "Shop_Consumables_Icon.webp",
+            "image": "Shop_Consumables_Icon.webp",
             "items": [38, 216, 44, 39, 188, 46, 40, 45, 84, 42, 43, 41],
             "purchasable": true,
             "complex": false

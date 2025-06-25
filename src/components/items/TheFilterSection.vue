@@ -1,9 +1,7 @@
 <script setup>
 import { useRoute, useRouter } from "vue-router";
-import { inject, ref, watch } from "vue";
-import categories from "@/data/items_categories.json";
+import { ref, watch } from "vue";
 import CheckBox from "@/components/Checkbox.vue";
-import TheItemTree from "@/components/TheItemTree.vue";
 import TheCircleButton from "./TheCircleButton.vue";
 import { useI18n } from "vue-i18n";
 import { setLanguage } from "@/util/lang.js";
@@ -15,17 +13,14 @@ const changeLocale = (lang) => {
   setLanguage(lang, true);
 };
 
-defineProps({
-  currentItem: Object,
-  data: Array,
+const props = defineProps({
   hightlightRelativies: Boolean,
+  categories: Object
 });
 
 const router = useRouter();
 const route = useRoute();
 const searchQuery = ref("");
-
-const isSmallScreen = inject("isSmallScreen");
 
 watch(
   () => route.query.search,
@@ -44,15 +39,15 @@ const toggleHighlightRelatives = (value) => {
   });
 };
 
-const defaultCategories = categories.items_categories.filter((category) =>
-  categories.filter_categories.default_categories.includes(category.id),
+const defaultCategories = props.categories.items_categories.filter((category) =>
+  props.categories.filter_categories.default_categories.includes(category.id),
 );
 
-const shopCategories = categories.filter_categories.shop.map((shop) => ({
+const shopCategories = props.categories.filter_categories.shop.map((shop) => ({
   ...shop,
   categories: shop.categories_id
     ? shop.categories_id.map((id) =>
-        categories.items_categories.find((category) => category.id === id),
+        props.categories.items_categories.find((category) => category.id === id),
       )
     : [],
 }));
@@ -95,7 +90,6 @@ const updateSearchFilter = () => {
 </script>
 
 <template>
-  <div class="items-container-title">
     <div class="items-filter">
       <div class="items-filter-options">
         <!--        <div class="locale-switch">-->
@@ -117,7 +111,7 @@ const updateSearchFilter = () => {
 
         <CheckBox
           style="min-width: 11rem"
-          :modelValue="hightlightRelativies"
+          :modelValue="props.hightlightRelativies"
           @update:modelValue="toggleHighlightRelatives"
           :trueText="t('general.filter.hightlight_rel')"
           :falseText="t('general.filter.hightlight_rel')"
@@ -141,7 +135,7 @@ const updateSearchFilter = () => {
           @click="updateCategoryFilter(category)"
         >
           <img
-            :src="`/images/${category.image}`"
+            :src="`/images/items/${category.image}`"
             :alt="t(`general.categories.${category.name.toLowerCase()}`)"
             :title="t(`general.categories.${category.name.toLowerCase()}`)"
             :class="
@@ -159,7 +153,7 @@ const updateSearchFilter = () => {
           @click="updateShopFilter(shop)"
         >
           <img
-            :src="`/images/${shop.image}`"
+            :src="`/images/items/${shop.image}`"
             :alt="shop.name"
             :title="
               t(
@@ -175,19 +169,12 @@ const updateSearchFilter = () => {
         </button>
         <TheCircleButton
           @click="resetFilters"
-          :title="t('general.filter.reset_button_title')"
+          aria-label="reset all filters"
+          :inner-title="t('general.filter.reset_button_title')"
           class="reset-filter-button"
         />
       </div>
     </div>
-    <TheItemTree
-      v-if="currentItem"
-      v-show="!isSmallScreen"
-      :currentItem="currentItem"
-      :data="data"
-      :tree_id="`tree_1`"
-    />
-  </div>
 </template>
 
 <style scoped>
@@ -264,16 +251,9 @@ const updateSearchFilter = () => {
   border-color: #666;
 }
 
-.items-container-title {
-  display: flex;
-  padding-bottom: 1rem;
-  min-height: 11rem;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .items-filter {
   display: flex;
+  align-items: center;
   flex-direction: column;
   gap: 1rem;
   max-width: 22rem;
@@ -304,8 +284,8 @@ const updateSearchFilter = () => {
 }
 
 .reset-filter-button {
-  width: 1.85rem !important;
-  height: 1.85rem !important;
+  width: 1.85rem;
+  height: 1.85rem;
 }
 
 .active-category {
@@ -320,24 +300,21 @@ const updateSearchFilter = () => {
 
 .items-filter-options {
   display: flex;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   row-gap: 0.75rem;
   column-gap: 1rem;
 }
 
-@media (max-width: 1219px) {
-  .items-container-title {
-    min-height: 0;
-  }
-
+@media (max-width: 750px) {
   .items-filter-options {
+    width: 100%;
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
-    column-gap: 9rem;
     row-gap: 1rem;
-    justify-content: center;
+    justify-content: space-evenly;
     padding-bottom: 1rem;
   }
 
@@ -358,8 +335,8 @@ const updateSearchFilter = () => {
   }
 
   .reset-filter-button {
-    width: 2.5rem !important;
-    height: 2.5rem !important;
+    width: 2.5rem;
+    height: 2.5rem;
   }
 }
 </style>

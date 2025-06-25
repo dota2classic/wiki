@@ -1,35 +1,31 @@
 <script setup>
 import { computed } from "vue";
-import { useRoute, useRouter } from "vue-router";
 import categories from "@/data/items_categories.json";
 import { useI18n } from "vue-i18n";
-import TheAbilityCard from "@/components/TheAbilityCard.vue";
+import TheAbilityCard from "@/components/items/TheAbilityCard.vue";
 
 const { item } = defineProps(["item"]);
 const { t } = useI18n();
-
-const route = useRoute();
-const router = useRouter();
 
 const f_shareable = computed(() => {
   const shareableCategory = categories.filter_categories?.others?.find(
     (cat) => cat.name === "F_Shareable",
   );
-  return shareableCategory?.items.includes(item.value?.id) || false;
+  return shareableCategory?.items.includes(item.id) || false;
 });
 
 const p_shareable = computed(() => {
   const shareableCategory = categories.filter_categories?.others?.find(
     (cat) => cat.name === "P_Shareable",
   );
-  return shareableCategory?.items.includes(item.value?.id) || false;
+  return shareableCategory?.items.includes(item.id) || false;
 });
 
 const foundCategory = computed(() => {
   return categories.items_categories.find(
     (category) =>
       categories.filter_categories.default_categories.includes(category.id) &&
-      category.items.includes(item.value?.id),
+      category.items.includes(item.id),
   );
 });
 </script>
@@ -40,7 +36,7 @@ const foundCategory = computed(() => {
       <span>
         <img
           :alt="item.name"
-          :src="`/images/${item.image}`"
+          :src="`/images/items/${item.image}`"
           class="item-image"
         />
       </span>
@@ -48,7 +44,7 @@ const foundCategory = computed(() => {
         <h2>{{ item.name }}</h2>
         <div v-if="item.cost || item.level" class="item-shop-info">
           <div v-if="item.cost" class="item-cost">
-            <img alt="item cost" src="/images/icon_gold.png" />
+            <img alt="item cost" src="/images/items/icon_gold.png" />
             <span> {{ item.cost }}</span>
           </div>
           <span v-if="item.level" class="item-level"
@@ -75,7 +71,7 @@ const foundCategory = computed(() => {
           >
             <img
               :alt="t(`general.categories.${foundCategory.name.toLowerCase()}`)"
-              :src="`/images/${foundCategory.image}`"
+              :src="`/images/items/${foundCategory.image}`"
             />
           </a>
           <a
@@ -85,7 +81,7 @@ const foundCategory = computed(() => {
           >
             <img
               :alt="t('general.item.shareable.full')"
-              src="/images/F_S.webp"
+              src="/images/items/F_S.webp"
             />
           </a>
           <a
@@ -95,7 +91,7 @@ const foundCategory = computed(() => {
           >
             <img
               :alt="t('general.item.shareable.partial')"
-              src="/images/P_S.webp"
+              src="/images/items/P_S.webp"
             />
           </a>
         </span>
@@ -131,7 +127,7 @@ const foundCategory = computed(() => {
         ></span>
       </div>
       <div v-if="item.description" class="description-text-container">
-        <p v-html="t(item.description).replace(/\n/g, '<br />')"></p>
+        <p v-html="t(item.description).replace(/\n+/g, '\n').replace(/\n/g, '<br />')"></p>
       </div>
       <div v-if="item.stats" class="stats-container">
         <p v-for="(value, name) in item.stats">
@@ -220,7 +216,7 @@ const foundCategory = computed(() => {
         >
           <img
             :alt="t('general.item.shops.main_shop')"
-            src="/images/icon_main_shop.webp"
+            src="/images/items/icon_main_shop.webp"
           />
         </a>
         <a
@@ -230,7 +226,7 @@ const foundCategory = computed(() => {
         >
           <img
             :alt="t('general.item.shops.side_shop_opt')"
-            src="/images/icon_side_shop_alt.webp"
+            src="/images/items/icon_side_shop_alt.webp"
           />
         </a>
         <a
@@ -240,7 +236,7 @@ const foundCategory = computed(() => {
         >
           <img
             :alt="t('general.item.shops.side_shop')"
-            src="/images/icon_side_shop.webp"
+            src="/images/items/icon_side_shop.webp"
           />
         </a>
         <a
@@ -250,7 +246,7 @@ const foundCategory = computed(() => {
         >
           <img
             :alt="t('general.item.shops.secret_shop')"
-            src="/images/icon_secret_shop.webp"
+            src="/images/items/icon_secret_shop.webp"
           />
         </a>
       </div>
@@ -289,10 +285,6 @@ const foundCategory = computed(() => {
 .descrition-title > span {
   display: flex;
   gap: 0.5rem;
-}
-
-.item-tree-container__item-view {
-  margin: 1rem auto 0 auto;
 }
 
 .main-container {
@@ -346,7 +338,7 @@ span.after {
 }
 
 .item-container {
-  width: 26rem;
+  width: 27rem;
   align-self: start;
   border-radius: 3px;
   background-color: var(--color-card-1);
@@ -419,6 +411,13 @@ span.after {
 
 .item-lore {
   padding-top: 0.5rem;
-  font-size: 14px;
+  font-size: 0.933em;
+}
+
+@media screen and (max-width: 750px) {
+  .item-container {
+    width: 100%;
+    max-width: 27rem;
+  }
 }
 </style>

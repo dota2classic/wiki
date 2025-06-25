@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink, useRoute } from "vue-router";
 import { computed, onMounted, onUnmounted } from "vue";
-import TheTag from "./TheTag.vue";
+import TheTag from "../TheTag.vue";
 import { useI18n } from "vue-i18n";
 
 const { t } = useI18n();
@@ -19,8 +19,8 @@ onUnmounted(() => {
 const isSlim = useRoute().path.includes("slim/");
 
 function animateLineUpdates() {
-  const intervalDuration = 25; // шаг обновления в миллисекундах
-  const totalDuration = 750; // общее время анимации
+  const intervalDuration = 25; 
+  const totalDuration = 750;
   let elapsedTime = 0;
 
   const intervalId = setInterval(() => {
@@ -28,7 +28,7 @@ function animateLineUpdates() {
     elapsedTime += intervalDuration;
 
     if (elapsedTime >= totalDuration) {
-      clearInterval(intervalId); // Остановить обновления
+      clearInterval(intervalId);
     }
   }, intervalDuration);
 }
@@ -70,7 +70,6 @@ const props = defineProps({
   },
 });
 
-//console.log("Props render tree", props.currentItem);
 const some = computed(() => {
   console.log(props.currentItem, "computed current item treee");
   return 5;
@@ -147,7 +146,7 @@ function drawItemLine(currentItemId, relativeId, top) {
           >
             <img
               :alt="child.name"
-              :src="`/images/${child.image}`"
+              :src="`/images/items/${child.image}`"
               :title="child.name"
             />
             <div class="line-container">
@@ -186,7 +185,7 @@ function drawItemLine(currentItemId, relativeId, top) {
     <div :id="`ci-${currentItem.id}`" class="item current-item">
       <img
         :alt="currentItem.name"
-        :src="`/images/${currentItem.image}`"
+        :src="`/images/items/${currentItem.image}`"
         :title="currentItem.name"
       />
     </div>
@@ -211,7 +210,7 @@ function drawItemLine(currentItemId, relativeId, top) {
           >
             <img
               :alt="parent.name"
-              :src="`/images/${parent.image}`"
+              :src="`/images/items/${parent.image}`"
               :title="parent.name"
             />
             <div class="line-container">
@@ -298,6 +297,7 @@ function drawItemLine(currentItemId, relativeId, top) {
 }
 
 .item-tree {
+  margin-top: 1rem;
   position: relative;
   padding: 0.5rem;
   padding-top: 0.9rem;
@@ -313,10 +313,6 @@ function drawItemLine(currentItemId, relativeId, top) {
   user-select: none;
 
   border-radius: 3px;
-  /*box-shadow:
-    rgb(13, 13, 13) 3 px 3 px 6 px 0 px inset,
-    rgba(0, 0, 0, 0.1) - 3 px - 3 px 6 px 1 px inset;
-  background-color: rgba(0, 0, 0, 0.06);*/
 }
 
 .item-tree > .tag {
@@ -357,7 +353,7 @@ function drawItemLine(currentItemId, relativeId, top) {
   height: 45px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 405px) {
   .item-tree {
     width: 19rem;
     height: 8rem;
