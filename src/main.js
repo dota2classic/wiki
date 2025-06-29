@@ -11,9 +11,17 @@ import { initializeLanguage } from "@/util/lang.js";
 export const createApp = ViteSSG(
   App,
   routerOptions,
-  ({ app, router, initialState }) => {
+  ({ app, router, isClient }) => {
     initializeLanguage(router);
     app.use(i18n);
+
+    if (isClient) {
+      const initial = window.location.pathname + window.location.search + window.location.hash
+      router.isReady().then(() => {
+        router.replace(initial).catch(() => {
+        })
+      })
+    }
 
     router.beforeEach((to, from, next) => {
       const mergedQuery = { ...from.query, ...to.query };
@@ -42,6 +50,25 @@ export const createApp = ViteSSG(
         next({ ...to, query: mergedQuery });
       }
     });
+
+    if (typeof window !== 'undefined') {
+      const handleMessage = (e) => {
+        if (e.data?.type === "sync-route") {
+          // console.log(e.data);
+          // console.log("Текущий путь:", router.currentRoute.value.fullPath);
+          // console.log("Желаемый:", e.data.route);
+          router.replace(e.data.route).catch(() => {});
+        }
+      };
+
+      window.addEventListener("message", handleMessage);
+
+      if (import.meta.hot) {
+        import.meta.hot.dispose(() => {
+          window.removeEventListener("message", handleMessage);
+        });
+      }
+    }
   },
 );
 
