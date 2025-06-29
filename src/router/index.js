@@ -17,6 +17,7 @@ export const routes = [
     path: "/slim/items/:id(\\d+)", 
     name: "item.show-slim",
     component: () => import("../views/ItemOnlyView.vue"),
+    meta: { disableObserveResize: true }
   },
   {
     path: '/:lang/items/:id',
