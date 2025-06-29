@@ -105,7 +105,7 @@
                     }
                 }
             },
-            "image": "antimage.png"
+            "image": "antimage.webp"
         },
         {
             "name": "npc_dota_hero_axe",
@@ -267,7 +267,7 @@
                     }
                 }
             },
-            "image": "axe.png"
+            "image": "axe.webp"
         },
         {
             "name": "npc_dota_hero_bane",
@@ -430,7 +430,7 @@
                     "MaxLevel": "1"
                 }
             },
-            "image": "bane.png"
+            "image": "bane.webp"
         },
         {
             "name": "npc_dota_hero_bloodseeker",
@@ -593,7 +593,7 @@
                     }
                 }
             },
-            "image": "bloodseeker.png"
+            "image": "bloodseeker.webp"
         },
         {
             "name": "npc_dota_hero_crystal_maiden",
@@ -787,7 +787,7 @@
                     }
                 }
             },
-            "image": "crystal_maiden.png"
+            "image": "crystal_maiden.webp"
         },
         {
             "name": "npc_dota_hero_drow_ranger",
@@ -919,7 +919,7 @@
                     }
                 }
             },
-            "image": "drow_ranger.png"
+            "image": "drow_ranger.webp"
         },
         {
             "name": "npc_dota_hero_earthshaker",
@@ -1055,7 +1055,7 @@
                     }
                 }
             },
-            "image": "earthshaker.png"
+            "image": "earthshaker.webp"
         },
         {
             "name": "npc_dota_hero_juggernaut",
@@ -1195,7 +1195,7 @@
                     }
                 }
             },
-            "image": "juggernaut.png"
+            "image": "juggernaut.webp"
         },
         {
             "name": "npc_dota_hero_mirana",
@@ -1353,7 +1353,7 @@
                     }
                 }
             },
-            "image": "mirana.png"
+            "image": "mirana.webp"
         },
         {
             "name": "npc_dota_hero_nevermore",
@@ -1573,7 +1573,7 @@
                     }
                 }
             },
-            "image": "nevermore.png"
+            "image": "nevermore.webp"
         },
         {
             "name": "npc_dota_hero_morphling",
@@ -1834,7 +1834,7 @@
                     "AbilityCastPoint": "0.25"
                 }
             },
-            "image": "morphling.png"
+            "image": "morphling.webp"
         },
         {
             "name": "npc_dota_hero_phantom_lancer",
@@ -2025,7 +2025,7 @@
                     }
                 }
             },
-            "image": "phantom_lancer.png"
+            "image": "phantom_lancer.webp"
         },
         {
             "name": "npc_dota_hero_puck",
@@ -2190,7 +2190,7 @@
                     }
                 }
             },
-            "image": "puck.png"
+            "image": "puck.webp"
         },
         {
             "name": "npc_dota_hero_pudge",
@@ -2324,7 +2324,7 @@
                     }
                 }
             },
-            "image": "pudge.png"
+            "image": "pudge.webp"
         },
         {
             "name": "npc_dota_hero_razor",
@@ -2499,7 +2499,7 @@
                     }
                 }
             },
-            "image": "razor.png"
+            "image": "razor.webp"
         },
         {
             "name": "npc_dota_hero_sand_king",
@@ -2680,7 +2680,7 @@
                     }
                 }
             },
-            "image": "sand_king.png"
+            "image": "sand_king.webp"
         },
         {
             "name": "npc_dota_hero_storm_spirit",
@@ -2852,7 +2852,7 @@
                     }
                 }
             },
-            "image": "storm_spirit.png"
+            "image": "storm_spirit.webp"
         },
         {
             "name": "npc_dota_hero_sven",
@@ -2982,7 +2982,7 @@
                     }
                 }
             },
-            "image": "sven.png"
+            "image": "sven.webp"
         },
         {
             "name": "npc_dota_hero_tiny",
@@ -3161,7 +3161,7 @@
                     }
                 }
             },
-            "image": "tiny.png"
+            "image": "tiny.webp"
         },
         {
             "name": "npc_dota_hero_vengefulspirit",
@@ -3296,7 +3296,7 @@
                     }
                 }
             },
-            "image": "vengefulspirit.png"
+            "image": "vengefulspirit.webp"
         },
         {
             "name": "npc_dota_hero_windrunner",
@@ -3480,7 +3480,7 @@
                     }
                 }
             },
-            "image": "windrunner.png"
+            "image": "windrunner.webp"
         },
         {
             "name": "npc_dota_hero_zuus",
@@ -3635,7 +3635,7 @@
                     }
                 }
             },
-            "image": "zuus.png"
+            "image": "zuus.webp"
         },
         {
             "name": "npc_dota_hero_kunkka",
@@ -3809,7 +3809,7 @@
                     "AbilityManaCost": "0"
                 }
             },
-            "image": "kunkka.png"
+            "image": "kunkka.webp"
         },
         {
             "name": "npc_dota_hero_lina",
@@ -3956,7 +3956,7 @@
                     }
                 }
             },
-            "image": "lina.png"
+            "image": "lina.webp"
         },
         {
             "name": "npc_dota_hero_lich",
@@ -4129,7 +4129,7 @@
                     }
                 }
             },
-            "image": "lich.png"
+            "image": "lich.webp"
         },
         {
             "name": "npc_dota_hero_lion",
@@ -4289,7 +4289,7 @@
                     }
                 }
             },
-            "image": "lion.png"
+            "image": "lion.webp"
         },
         {
             "name": "npc_dota_hero_shadow_shaman",
@@ -4459,7 +4459,7 @@
                     }
                 }
             },
-            "image": "shadow_shaman.png"
+            "image": "shadow_shaman.webp"
         },
         {
             "name": "npc_dota_hero_slardar",
@@ -4599,7 +4599,7 @@
                     }
                 }
             },
-            "image": "slardar.png"
+            "image": "slardar.webp"
         },
         {
             "name": "npc_dota_hero_tidehunter",
@@ -4731,7 +4731,7 @@
                     }
                 }
             },
-            "image": "tidehunter.png"
+            "image": "tidehunter.webp"
         },
         {
             "name": "npc_dota_hero_witch_doctor",
@@ -4910,7 +4910,7 @@
                     }
                 }
             },
-            "image": "witch_doctor.png"
+            "image": "witch_doctor.webp"
         },
         {
             "name": "npc_dota_hero_riki",
@@ -5042,7 +5042,7 @@
                     }
                 }
             },
-            "image": "riki.png"
+            "image": "riki.webp"
         },
         {
             "name": "npc_dota_hero_enigma",
@@ -5226,7 +5226,7 @@
                     }
                 }
             },
-            "image": "enigma.png"
+            "image": "enigma.webp"
         },
         {
             "name": "npc_dota_hero_tinker",
@@ -5381,7 +5381,7 @@
                     }
                 }
             },
-            "image": "tinker.png"
+            "image": "tinker.webp"
         },
         {
             "name": "npc_dota_hero_sniper",
@@ -5525,7 +5525,7 @@
                     }
                 }
             },
-            "image": "sniper.png"
+            "image": "sniper.webp"
         },
         {
             "name": "npc_dota_hero_necrolyte",
@@ -5669,7 +5669,7 @@
                     }
                 }
             },
-            "image": "necrolyte.png"
+            "image": "necrolyte.webp"
         },
         {
             "name": "npc_dota_hero_warlock",
@@ -5851,7 +5851,7 @@
                     }
                 }
             },
-            "image": "warlock.png"
+            "image": "warlock.webp"
         },
         {
             "name": "npc_dota_hero_beastmaster",
@@ -6062,7 +6062,7 @@
                     }
                 }
             },
-            "image": "beastmaster.png"
+            "image": "beastmaster.webp"
         },
         {
             "name": "npc_dota_hero_queenofpain",
@@ -6217,7 +6217,7 @@
                     }
                 }
             },
-            "image": "queenofpain.png"
+            "image": "queenofpain.webp"
         },
         {
             "name": "npc_dota_hero_venomancer",
@@ -6384,7 +6384,7 @@
                     }
                 }
             },
-            "image": "venomancer.png"
+            "image": "venomancer.webp"
         },
         {
             "name": "npc_dota_hero_faceless_void",
@@ -6520,7 +6520,7 @@
                     }
                 }
             },
-            "image": "faceless_void.png"
+            "image": "faceless_void.webp"
         },
         {
             "name": "npc_dota_hero_skeleton_king",
@@ -6688,7 +6688,7 @@
                     }
                 }
             },
-            "image": "skeleton_king.png"
+            "image": "skeleton_king.webp"
         },
         {
             "name": "npc_dota_hero_death_prophet",
@@ -6863,7 +6863,7 @@
                     }
                 }
             },
-            "image": "death_prophet.png"
+            "image": "death_prophet.webp"
         },
         {
             "name": "npc_dota_hero_phantom_assassin",
@@ -6984,7 +6984,7 @@
                     }
                 }
             },
-            "image": "phantom_assassin.png"
+            "image": "phantom_assassin.webp"
         },
         {
             "name": "npc_dota_hero_pugna",
@@ -7149,7 +7149,7 @@
                     }
                 }
             },
-            "image": "pugna.png"
+            "image": "pugna.webp"
         },
         {
             "name": "npc_dota_hero_templar_assassin",
@@ -7315,7 +7315,7 @@
                     }
                 }
             },
-            "image": "templar_assassin.png"
+            "image": "templar_assassin.webp"
         },
         {
             "name": "npc_dota_hero_viper",
@@ -7481,7 +7481,7 @@
                     }
                 }
             },
-            "image": "viper.png"
+            "image": "viper.webp"
         },
         {
             "name": "npc_dota_hero_luna",
@@ -7624,7 +7624,7 @@
                     }
                 }
             },
-            "image": "luna.png"
+            "image": "luna.webp"
         },
         {
             "name": "npc_dota_hero_dragon_knight",
@@ -7793,7 +7793,7 @@
                     }
                 }
             },
-            "image": "dragon_knight.png"
+            "image": "dragon_knight.webp"
         },
         {
             "name": "npc_dota_hero_dazzle",
@@ -7975,7 +7975,7 @@
                     }
                 }
             },
-            "image": "dazzle.png"
+            "image": "dazzle.webp"
         },
         {
             "name": "npc_dota_hero_rattletrap",
@@ -8145,7 +8145,7 @@
                     }
                 }
             },
-            "image": "rattletrap.png"
+            "image": "rattletrap.webp"
         },
         {
             "name": "npc_dota_hero_leshrac",
@@ -8307,7 +8307,7 @@
                     }
                 }
             },
-            "image": "leshrac.png"
+            "image": "leshrac.webp"
         },
         {
             "name": "npc_dota_hero_furion",
@@ -8450,7 +8450,7 @@
                     }
                 }
             },
-            "image": "furion.png"
+            "image": "furion.webp"
         },
         {
             "name": "npc_dota_hero_life_stealer",
@@ -8652,7 +8652,7 @@
                     "AbilityCastPoint": "0.0"
                 }
             },
-            "image": "life_stealer.png"
+            "image": "life_stealer.webp"
         },
         {
             "name": "npc_dota_hero_dark_seer",
@@ -8819,7 +8819,7 @@
                     }
                 }
             },
-            "image": "dark_seer.png"
+            "image": "dark_seer.webp"
         },
         {
             "name": "npc_dota_hero_clinkz",
@@ -8936,7 +8936,7 @@
                     }
                 }
             },
-            "image": "clinkz.png"
+            "image": "clinkz.webp"
         },
         {
             "name": "npc_dota_hero_omniknight",
@@ -9056,7 +9056,7 @@
                     }
                 }
             },
-            "image": "omniknight.png"
+            "image": "omniknight.webp"
         },
         {
             "name": "npc_dota_hero_enchantress",
@@ -9188,7 +9188,7 @@
                     }
                 }
             },
-            "image": "enchantress.png"
+            "image": "enchantress.webp"
         },
         {
             "name": "npc_dota_hero_huskar",
@@ -9351,7 +9351,7 @@
                     }
                 }
             },
-            "image": "huskar.png"
+            "image": "huskar.webp"
         },
         {
             "name": "npc_dota_hero_night_stalker",
@@ -9485,7 +9485,7 @@
                     }
                 }
             },
-            "image": "night_stalker.png"
+            "image": "night_stalker.webp"
         },
         {
             "name": "npc_dota_hero_broodmother",
@@ -9643,7 +9643,7 @@
                     }
                 }
             },
-            "image": "broodmother.png"
+            "image": "broodmother.webp"
         },
         {
             "name": "npc_dota_hero_bounty_hunter",
@@ -9800,7 +9800,7 @@
                     }
                 }
             },
-            "image": "bounty_hunter.png"
+            "image": "bounty_hunter.webp"
         },
         {
             "name": "npc_dota_hero_weaver",
@@ -9945,7 +9945,7 @@
                     }
                 }
             },
-            "image": "weaver.png"
+            "image": "weaver.webp"
         },
         {
             "name": "npc_dota_hero_jakiro",
@@ -10153,7 +10153,7 @@
                     }
                 }
             },
-            "image": "jakiro.png"
+            "image": "jakiro.webp"
         },
         {
             "name": "npc_dota_hero_batrider",
@@ -10338,7 +10338,7 @@
                     }
                 }
             },
-            "image": "batrider.png"
+            "image": "batrider.webp"
         },
         {
             "name": "npc_dota_hero_chen",
@@ -10486,7 +10486,7 @@
                     }
                 }
             },
-            "image": "chen.png"
+            "image": "chen.webp"
         },
         {
             "name": "npc_dota_hero_spectre",
@@ -10657,7 +10657,7 @@
                     }
                 }
             },
-            "image": "spectre.png"
+            "image": "spectre.webp"
         },
         {
             "name": "npc_dota_hero_doom_bringer",
@@ -10818,7 +10818,7 @@
                     }
                 }
             },
-            "image": "doom_bringer.png"
+            "image": "doom_bringer.webp"
         },
         {
             "name": "npc_dota_hero_ancient_apparition",
@@ -11004,7 +11004,7 @@
                     "AbilityCooldown": "1.0 1.0 1.0"
                 }
             },
-            "image": "ancient_apparition.png"
+            "image": "ancient_apparition.webp"
         },
         {
             "name": "npc_dota_hero_ursa",
@@ -11127,7 +11127,7 @@
                     }
                 }
             },
-            "image": "ursa.png"
+            "image": "ursa.webp"
         },
         {
             "name": "npc_dota_hero_spirit_breaker",
@@ -11305,7 +11305,7 @@
                     }
                 }
             },
-            "image": "spirit_breaker.png"
+            "image": "spirit_breaker.webp"
         },
         {
             "name": "npc_dota_hero_gyrocopter",
@@ -11497,7 +11497,7 @@
                     }
                 }
             },
-            "image": "gyrocopter.png"
+            "image": "gyrocopter.webp"
         },
         {
             "name": "npc_dota_hero_alchemist",
@@ -11714,7 +11714,7 @@
                     }
                 }
             },
-            "image": "alchemist.png"
+            "image": "alchemist.webp"
         },
         {
             "name": "npc_dota_hero_invoker",
@@ -12273,7 +12273,7 @@
                     }
                 }
             },
-            "image": "invoker.png"
+            "image": "invoker.webp"
         },
         {
             "name": "npc_dota_hero_silencer",
@@ -12416,7 +12416,7 @@
                     }
                 }
             },
-            "image": "silencer.png"
+            "image": "silencer.webp"
         },
         {
             "name": "npc_dota_hero_obsidian_destroyer",
@@ -12561,7 +12561,7 @@
                     }
                 }
             },
-            "image": "obsidian_destroyer.png"
+            "image": "obsidian_destroyer.webp"
         },
         {
             "name": "npc_dota_hero_lycan",
@@ -12698,7 +12698,7 @@
                     }
                 }
             },
-            "image": "lycan.png"
+            "image": "lycan.webp"
         },
         {
             "name": "npc_dota_hero_brewmaster",
@@ -12843,7 +12843,7 @@
                     }
                 }
             },
-            "image": "brewmaster.png"
+            "image": "brewmaster.webp"
         },
         {
             "name": "npc_dota_hero_shadow_demon",
@@ -13034,7 +13034,7 @@
                     }
                 }
             },
-            "image": "shadow_demon.png"
+            "image": "shadow_demon.webp"
         },
         {
             "name": "npc_dota_hero_lone_druid",
@@ -13222,7 +13222,7 @@
                     }
                 }
             },
-            "image": "lone_druid.png"
+            "image": "lone_druid.webp"
         },
         {
             "name": "npc_dota_hero_chaos_knight",
@@ -13377,7 +13377,7 @@
                     }
                 }
             },
-            "image": "chaos_knight.png"
+            "image": "chaos_knight.webp"
         },
         {
             "name": "npc_dota_hero_meepo",
@@ -13510,7 +13510,7 @@
                     }
                 }
             },
-            "image": "meepo.png"
+            "image": "meepo.webp"
         },
         {
             "name": "npc_dota_hero_treant",
@@ -13705,7 +13705,7 @@
                     }
                 }
             },
-            "image": "treant.png"
+            "image": "treant.webp"
         },
         {
             "name": "npc_dota_hero_ogre_magi",
@@ -13914,7 +13914,7 @@
                     }
                 }
             },
-            "image": "ogre_magi.png"
+            "image": "ogre_magi.webp"
         },
         {
             "name": "npc_dota_hero_undying",
@@ -14110,7 +14110,7 @@
                     }
                 }
             },
-            "image": "undying.png"
+            "image": "undying.webp"
         },
         {
             "name": "npc_dota_hero_rubick",
@@ -14318,7 +14318,7 @@
                     "MaxLevel": "0"
                 }
             },
-            "image": "rubick.png"
+            "image": "rubick.webp"
         },
         {
             "name": "npc_dota_hero_disruptor",
@@ -14471,7 +14471,7 @@
                     }
                 }
             },
-            "image": "disruptor.png"
+            "image": "disruptor.webp"
         },
         {
             "name": "npc_dota_hero_nyx_assassin",
@@ -14694,7 +14694,7 @@
                     }
                 }
             },
-            "image": "nyx_assassin.png"
+            "image": "nyx_assassin.webp"
         },
         {
             "name": "npc_dota_hero_naga_siren",
@@ -14864,7 +14864,7 @@
                     "AbilityCooldown": "1.0 1.0 1.0"
                 }
             },
-            "image": "naga_siren.png"
+            "image": "naga_siren.webp"
         },
         {
             "name": "npc_dota_hero_keeper_of_the_light",
@@ -15154,7 +15154,7 @@
                     "AbilityCastPoint": "0.0 0.0 0.0 0.0"
                 }
             },
-            "image": "keeper_of_the_light.png"
+            "image": "keeper_of_the_light.webp"
         },
         {
             "name": "npc_dota_hero_wisp",
@@ -15376,7 +15376,7 @@
                     "AbilityCastPoint": "0 0 0 0"
                 }
             },
-            "image": "wisp.png"
+            "image": "wisp.webp"
         },
         {
             "name": "npc_dota_hero_visage",
@@ -15553,7 +15553,7 @@
                     }
                 }
             },
-            "image": "visage.png"
+            "image": "visage.webp"
         },
         {
             "name": "npc_dota_hero_slark",
@@ -15719,7 +15719,7 @@
                     }
                 }
             },
-            "image": "slark.png"
+            "image": "slark.webp"
         },
         {
             "name": "npc_dota_hero_medusa",
@@ -15892,7 +15892,7 @@
                     }
                 }
             },
-            "image": "medusa.png"
+            "image": "medusa.webp"
         },
         {
             "name": "npc_dota_hero_troll_warlord",
@@ -16094,7 +16094,7 @@
                     }
                 }
             },
-            "image": "troll_warlord.png"
+            "image": "troll_warlord.webp"
         },
         {
             "name": "npc_dota_hero_centaur",
@@ -16241,7 +16241,7 @@
                     }
                 }
             },
-            "image": "centaur.png"
+            "image": "centaur.webp"
         },
         {
             "name": "npc_dota_hero_magnataur",
@@ -16414,7 +16414,7 @@
                     }
                 }
             },
-            "image": "magnataur.png"
+            "image": "magnataur.webp"
         },
         {
             "name": "npc_dota_hero_shredder",
@@ -16654,7 +16654,7 @@
                     "AbilityCooldown": "0.0 0.0 0.0"
                 }
             },
-            "image": "shredder.png"
+            "image": "shredder.webp"
         },
         {
             "name": "npc_dota_hero_bristleback",
@@ -16821,7 +16821,7 @@
                     }
                 }
             },
-            "image": "bristleback.png"
+            "image": "bristleback.webp"
         },
         {
             "name": "npc_dota_hero_tusk",
@@ -17068,7 +17068,7 @@
                     }
                 }
             },
-            "image": "tusk.png"
+            "image": "tusk.webp"
         },
         {
             "name": "npc_dota_hero_skywrath_mage",
@@ -17237,7 +17237,7 @@
                     }
                 }
             },
-            "image": "skywrath_mage.png"
+            "image": "skywrath_mage.webp"
         },
         {
             "name": "npc_dota_hero_abaddon",
@@ -17390,7 +17390,7 @@
                     }
                 }
             },
-            "image": "abaddon.png"
+            "image": "abaddon.webp"
         },
         {
             "name": "npc_dota_hero_elder_titan",
@@ -17607,7 +17607,7 @@
                     }
                 }
             },
-            "image": "elder_titan.png"
+            "image": "elder_titan.webp"
         },
         {
             "name": "npc_dota_hero_legion_commander",
@@ -17758,7 +17758,7 @@
                     }
                 }
             },
-            "image": "legion_commander.png"
+            "image": "legion_commander.webp"
         },
         {
             "name": "npc_dota_hero_ember_spirit",
@@ -17981,7 +17981,7 @@
                     }
                 }
             },
-            "image": "ember_spirit.png"
+            "image": "ember_spirit.webp"
         },
         {
             "name": "npc_dota_hero_earth_spirit",
@@ -18267,7 +18267,7 @@
                     }
                 }
             },
-            "image": "earth_spirit.png"
+            "image": "earth_spirit.webp"
         },
         {
             "name": "npc_dota_hero_terrorblade",
@@ -18423,7 +18423,7 @@
                     }
                 }
             },
-            "image": "terrorblade.png"
+            "image": "terrorblade.webp"
         },
         {
             "name": "npc_dota_hero_phoenix",
@@ -18727,7 +18727,7 @@
                     "AbilityCastPoint": "0.0 0.0 0.0 0.0"
                 }
             },
-            "image": "phoenix.png"
+            "image": "phoenix.webp"
         },
         {
             "name": "npc_dota_hero_oracle",
@@ -18883,7 +18883,7 @@
                     }
                 }
             },
-            "image": "oracle.png"
+            "image": "oracle.webp"
         },
         {
             "name": "npc_dota_hero_techies",
@@ -19144,7 +19144,7 @@
                     }
                 }
             },
-            "image": "techies.png"
+            "image": "techies.webp"
         },
         {
             "name": "npc_dota_hero_winter_wyvern",
@@ -19341,7 +19341,7 @@
                     }
                 }
             },
-            "image": "winter_wyvern.png"
+            "image": "winter_wyvern.webp"
         }
     ]
 }
